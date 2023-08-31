@@ -1,0 +1,106 @@
+.logo{
+    background-color: #221E1B;
+}
+.user img {
+    border: 3px solid #221E1B;
+}
+.dashboardbox b{
+    color:#2FCB15;
+}
+.frontCalendar .calendarItem .date{
+    background-color:#49ad38;
+}
+.x-window-header-default,.x-window-header-default-top,body.x-border-layout-ct, div.x-border-layout-ct,.x-window-default{
+    background-color:#49ad38;
+    border-color: #49ad38;
+}
+.x-panel-default{
+    border-color: #3d8b30;
+}
+.x-panel-header-default{
+    background-color:#3d8b30;
+    border-color: #3d8b30;
+}
+.x-tab-bar-default, .x-tab-default-top{
+    background-color: #3d8b30;
+}
+.x-tab-default{
+    border-color: #7abc6f;
+    background-color:#64a958;
+}
+.x-tab.x-tab-active.x-tab-default,.x-tab-bar-strip-default{
+    background-color: #221E1B;
+    border-color: #221E1B;
+}
+.x-tab.x-tab-active.x-tab-default .x-tab-inner-default{
+    color:#ffffff;
+}
+.x-tab.x-tab-disabled.x-tab-default{
+    background-color:#64a958;
+    border-color: #7abc6f;
+}
+.x-tab-over.x-tab-default{
+    border-color: #7abc6f;
+    background-color: #3b3331;
+}
+.x-tab-focus.x-tab-active.x-tab-default{
+    border-color: #7abc6f;
+    background-color: #3b3331;
+}
+.addbtn{
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%, #d1201f),color-stop(50%, #ff1c1c),color-stop(51%, #d1201f),color-stop(100%, #d1201f));
+}
+.x-btn.x-btn-menu-active.x-btn-default-toolbar-large, .x-btn.x-btn-pressed.x-btn-default-toolbar-large{
+    background-image:none;
+    background-color:#221E1B;
+}
+.x-btn.x-btn-menu-active.x-btn-default-toolbar-small, .x-btn.x-btn-pressed.x-btn-default-toolbar-small{
+    background-image:none;
+    background-color:#221E1B;
+}
+.x-btn-focus.x-btn-default-toolbar-small{
+    background-image:none;
+    background-color:#221E1B;
+}
+
+.x-window-header-default .x-tool-img,.x-panel-header-default .x-tool-img{
+    background-color:inherit;
+}
+.x-tab-default-top.x-tab-focus.x-tab-active{
+    border-color: #221E1B;
+    background-color: #221E1B;
+    box-shadow: none;
+}
+.x-tab-focus.x-tab-over.x-tab-default {
+    border-color: #221E1B;
+    background-color: #221E1B;
+}
+.error-window{
+    border-color: red;
+    background-color: red;    
+}
+.error-window .x-panel-header-default{
+    border-color: red;
+    background-color: red; 
+}
+.error-window .x-window-header-default-top{
+     border-color: red;
+    background-color: red;    
+}
+.list-tag{
+    font-size:10px;
+    padding:2px 5px;
+    display: inline-block;
+}
+.list-tag-com{
+    background-color:#E95437;
+    color:#ffffff;
+}
+.list-tag-gdn{
+    background-color:#A2F200;
+    color:#000000;
+}
+.list-tag-key{
+    background-color:#4FAE3B;
+    color:#ffffff;
+}

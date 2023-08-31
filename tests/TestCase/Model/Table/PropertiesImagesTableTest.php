@@ -1,0 +1,90 @@
+<?php
+namespace App\Test\TestCase\Model\Table;
+
+use App\Model\Table\PropertiesImagesTable;
+use Cake\ORM\TableRegistry;
+use Cake\TestSuite\TestCase;
+
+/**
+ * App\Model\Table\PropertiesImagesTable Test Case
+ */
+class PropertiesImagesTableTest extends TestCase
+{
+
+    /**
+     * Fixtures
+     *
+     * @var array
+     */
+    public $fixtures = [
+        'app.properties_images',
+        'app.properties',
+        'app.cities',
+        'app.cityparts',
+        'app.districts',
+        'app.streets',
+        'app.users',
+        'app.roles',
+        'app.properties_users',
+        'app.contacts',
+        'app.companies',
+        'app.contacts_users',
+        'app.properties_contacts',
+        'app.rentvar',
+        'app.sellvar'
+    ];
+
+    /**
+     * setUp method
+     *
+     * @return void
+     */
+    public function setUp()
+    {
+        parent::setUp();
+        $config = TableRegistry::exists('PropertiesImages') ? [] : ['className' => 'App\Model\Table\PropertiesImagesTable'];
+        $this->PropertiesImages = TableRegistry::get('PropertiesImages', $config);
+    }
+
+    /**
+     * tearDown method
+     *
+     * @return void
+     */
+    public function tearDown()
+    {
+        unset($this->PropertiesImages);
+
+        parent::tearDown();
+    }
+
+    /**
+     * Test initialize method
+     *
+     * @return void
+     */
+    public function testInitialize()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test validationDefault method
+     *
+     * @return void
+     */
+    public function testValidationDefault()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test buildRules method
+     *
+     * @return void
+     */
+    public function testBuildRules()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+}

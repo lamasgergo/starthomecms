@@ -1,0 +1,96 @@
+<?php
+namespace App\Model\Table;
+
+use App\Model\Entity\User;
+use Cake\ORM\Query;
+use Cake\ORM\RulesChecker;
+use Cake\ORM\Table;
+use Cake\Validation\Validator;
+use Search\Manager;
+use SoftDelete\Model\Table\SoftDeleteTrait;
+
+/**
+ * Users Model
+ */
+class UsersTable extends Table
+{
+     use SoftDeleteTrait;
+     
+    /**
+     * Initialize method
+     *
+     * @param array $config The configuration for the Table.
+     * @return void
+     */
+    public function initialize(array $config)
+    {
+        $this->table('users');
+        $this->displayField('id');
+       
+        $this->addBehavior('Timestamp');
+        $this->addBehavior('Search.Search');
+        $this->belongsTo('Roles', [
+            'foreignKey' => 'role_id',
+            'joinType' => 'INNER'
+        ]);
+    }
+
+    /**
+     * Default validation rules.
+     *
+     * @param \Cake\Validation\Validator $validator Validator instance.
+     * @return \Cake\Validation\Validator
+     */
+    public function validationDefault(Validator $validator)
+    {
+        
+        $validator
+            ->add('id', 'valid', ['rule' => 'numeric'])
+            ->allowEmpty('id', 'create')
+            ->notEmpty('role_id')
+            ->add('email', 'valid', ['rule' => 'email'])
+            ->allowEmpty('email')
+            ->requirePresence('username', 'create')
+            ->notEmpty('username')
+            ->requirePresence('password', 'create')
+            ->allowEmpty('password', 'update')
+            ->allowEmpty('lastname')
+            ->allowEmpty('firstname')
+            ->allowEmpty('picture');
+
+        
+        return $validator;
+    }
+
+    /**
+     * Returns a rules checker object that will be used for validating
+     * application integrity.
+     *
+     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
+     * @return \Cake\ORM\RulesChecker
+     */
+    public function buildRules(RulesChecker $rules)
+    {
+        $rules->add($rules->isUnique(['username']));
+        $rules->add($rules->existsIn(['role_id'], 'Roles'));
+        return $rules;
+    }
+    
+    /*
+        search configs
+    */
+    public function searchConfiguration()
+    {
+        $search = new Manager($this);
+        $search
+        ->value('id', [
+            'field' => $this->alias() . '.id'
+        ])
+        ->like('email', [
+            'before' => true,
+            'after' => true,
+            'field' => [$this->alias() . '.email']
+        ]);
+        return $search;
+    }    
+}

@@ -1,0 +1,81 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-12-06 00:02+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: _v1/vendor/cakephp/acl/src/Model/Behavior/AclBehavior.php:87
+#: _v2/vendor/cakephp/acl/src/Model/Behavior/AclBehavior.php:87
+#: vendor/cakephp/acl/src/Model/Behavior/AclBehavior.php:87
+msgid "Callback {0} not defined in {1}"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Model/Behavior/AclBehavior.php:105
+#: _v2/vendor/cakephp/acl/src/Model/Behavior/AclBehavior.php:105
+#: vendor/cakephp/acl/src/Model/Behavior/AclBehavior.php:105
+msgid "AclBehavior is setup with more then one type, please specify type parameter for node()"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Model/Behavior/AclBehavior.php:110
+#: _v2/vendor/cakephp/acl/src/Model/Behavior/AclBehavior.php:110
+#: vendor/cakephp/acl/src/Model/Behavior/AclBehavior.php:110
+msgid "ref parameter must be a string or an Entity"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Model/Table/AclNodesTable.php:129
+#: _v2/vendor/cakephp/acl/src/Model/Table/AclNodesTable.php:130
+#: vendor/cakephp/acl/src/Model/Table/AclNodesTable.php:130
+msgid "Entity class {0} not found in AclNode::node() when trying to bind {1} object"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Model/Table/AclNodesTable.php:178
+#: _v2/vendor/cakephp/acl/src/Model/Table/AclNodesTable.php:179
+#: vendor/cakephp/acl/src/Model/Table/AclNodesTable.php:179
+msgid "AclNode::node() - Couldn't find {0} node identified by \"{1}\""
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:69
+#: _v2/vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:69
+#: vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:69
+msgid "{0} - Failed ARO node lookup in permissions check. Node references:\nAro: {1}\nAco: {2}"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:83
+#: _v2/vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:83
+#: vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:83
+msgid "{0} - Failed ACO node lookup in permissions check. Node references:\nAro: {1}\nAco: {2}"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:96
+#: _v2/vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:96
+#: vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:96
+msgid "ACO permissions key {0} does not exist in {1}"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:169
+#: _v2/vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:169
+#: vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:169
+msgid "{0} - Invalid node"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:187
+#: _v2/vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:187
+#: vendor/cakephp/acl/src/Model/Table/PermissionsTable.php:187
+msgid "Invalid permission key \"{0}\""
+msgstr ""
+
+#: _v2/vendor/cakephp/acl/src/Adapter/CachedDbAcl.php:112
+#: vendor/cakephp/acl/src/Adapter/CachedDbAcl.php:112
+msgid "Entity class {0} not found in CachedDbAcl::_getNodeCacheKey() when trying to bind {1} object"
+msgstr ""
+

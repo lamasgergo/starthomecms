@@ -1,0 +1,1527 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-10-10 15:37+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/ArticlesController.php:29;31
+msgid "Your row has been saved."
+msgstr ""
+
+#: Controller/ArticlesController.php:38;41
+msgid "Unable to add your article."
+msgstr ""
+
+#: Controller/Admin/CalendarsController.php:114
+msgid "Calendars save success!"
+msgstr ""
+
+#: Controller/Admin/CalendarsController.php:114
+msgid "Calendars save failed!"
+msgstr ""
+
+#: Controller/Admin/CalendarsController.php:145
+msgid "Calendars módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/CalendarsController.php:145
+msgid "Calendars módosítás!"
+msgstr ""
+
+#: Controller/Admin/CalendarsController.php:179
+msgid "Calendar delete success!"
+msgstr ""
+
+#: Controller/Admin/CalendarsController.php:179
+msgid "Calendar delete failed!"
+msgstr ""
+
+#: Controller/Admin/CitiesController.php:73
+msgid "Cities save success!"
+msgstr ""
+
+#: Controller/Admin/CitiesController.php:73
+msgid "Cities save failed!"
+msgstr ""
+
+#: Controller/Admin/CitiesController.php:97
+msgid "Település módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/CitiesController.php:97
+msgid "Település módosítása sikertelen!"
+msgstr ""
+
+#: Controller/Admin/CitiesController.php:125
+msgid "Cities delete success!"
+msgstr ""
+
+#: Controller/Admin/CitiesController.php:125
+msgid "Cities delete failed!"
+msgstr ""
+
+#: Controller/Admin/CitypartsController.php:82
+msgid "Városrész sikeresen hozzáadva!"
+msgstr ""
+
+#: Controller/Admin/CitypartsController.php:82
+msgid "Városrész létrehozás sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/CitypartsController.php:108
+msgid "Városrész módosítás sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/CitypartsController.php:108
+msgid "Városrész módosítás sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/CitypartsController.php:138
+msgid "Cityparts delete success!"
+msgstr ""
+
+#: Controller/Admin/CitypartsController.php:138
+msgid "Cityparts delete failed!"
+msgstr ""
+
+#: Controller/Admin/CompaniesController.php:72
+msgid "Companies save success!"
+msgstr ""
+
+#: Controller/Admin/CompaniesController.php:72
+msgid "Companies save failed!"
+msgstr ""
+
+#: Controller/Admin/CompaniesController.php:96
+msgid "Companies m�dos�t�sa sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/CompaniesController.php:96
+msgid "Companies m�dos�t�s!"
+msgstr ""
+
+#: Controller/Admin/CompaniesController.php:124
+msgid "Companies delete success!"
+msgstr ""
+
+#: Controller/Admin/CompaniesController.php:124
+msgid "Companies delete failed!"
+msgstr ""
+
+#: Controller/Admin/ContactsController.php:127
+msgid "Az ügyfél létrehozás sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/ContactsController.php:127
+msgid "Az ügyfél létrehozás sikeretelen volt!"
+msgstr ""
+
+#: Controller/Admin/ContactsController.php:213
+msgid "Az ügyfél módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/ContactsController.php:213
+msgid "Az ügyfél módosítás sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/ContactsController.php:294
+msgid "Az ügyfél sikeresen törölve!"
+msgstr ""
+
+#: Controller/Admin/ContactsController.php:294
+msgid "Az ügyfél törlése sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/ContactsSearchesController.php:129
+msgid "Keresési igény mentése sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/ContactsSearchesController.php:129
+msgid "Keresési igény létrehozása sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/ContactsSearchesController.php:214
+msgid "Keresési igény módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/ContactsSearchesController.php:214
+msgid "Keresési igény módosítás sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/ContactsSearchesController.php:244
+msgid "Keresési igény törlése sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/ContactsSearchesController.php:244
+msgid "Keresési igény törlése sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/DistrictsController.php:81
+msgid "Districts save success!"
+msgstr ""
+
+#: Controller/Admin/DistrictsController.php:81
+msgid "Districts save failed!"
+msgstr ""
+
+#: Controller/Admin/DistrictsController.php:106
+msgid "Districts m�dos�t�sa sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/DistrictsController.php:106
+msgid "Districts m�dos�t�s!"
+msgstr ""
+
+#: Controller/Admin/DistrictsController.php:135
+msgid "Districts delete success!"
+msgstr ""
+
+#: Controller/Admin/DistrictsController.php:135
+msgid "Districts delete failed!"
+msgstr ""
+
+#: Controller/Admin/EventsController.php:107
+msgid "Az esemény mentése sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/EventsController.php:107
+msgid "Az esemény mentése nem sikerült!"
+msgstr ""
+
+#: Controller/Admin/InterestPropertiesContactsController.php:156
+#: Controller/Admin/ShowedPropertiesContactsController.php:147
+msgid "Érdeklődés mentése sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/InterestPropertiesContactsController.php:156
+#: Controller/Admin/ShowedPropertiesContactsController.php:147
+msgid "Érdeklődés létrehozása sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesContactsController.php:76
+msgid "PropertiesContacts save success!"
+msgstr ""
+
+#: Controller/Admin/PropertiesContactsController.php:76
+msgid "PropertiesContacts save failed!"
+msgstr ""
+
+#: Controller/Admin/PropertiesContactsController.php:102
+msgid "PropertiesContacts m�dos�t�sa sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesContactsController.php:102
+msgid "PropertiesContacts m�dos�t�s!"
+msgstr ""
+
+#: Controller/Admin/PropertiesContactsController.php:134
+msgid "Properties Contact delete success!"
+msgstr ""
+
+#: Controller/Admin/PropertiesContactsController.php:134
+msgid "Properties Contact delete failed!"
+msgstr ""
+
+#: Controller/Admin/PropertiesController.php:420
+msgid "Ingatlan létrehozása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesController.php:420
+msgid "Ingatlan létrehozás sikertelen!"
+msgstr ""
+
+#: Controller/Admin/PropertiesController.php:511
+msgid "Ingatlan módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesController.php:511
+msgid "Ingatlan módosítás sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesController.php:703
+msgid "Ingatlan törlése sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesController.php:703
+msgid "Ingatlan törlése sikertelen!"
+msgstr ""
+
+#: Controller/Admin/PropertiesDocumentsController.php:159
+msgid "Dokumentumok feltöltése sikeres"
+msgstr ""
+
+#: Controller/Admin/PropertiesDocumentsController.php:168
+msgid "Dokumentumok feltöltése sikertelen"
+msgstr ""
+
+#: Controller/Admin/PropertiesDocumentsController.php:190
+msgid "Dokumentumok módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesDocumentsController.php:190
+msgid "Dokumentumok módosítás sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesDocumentsController.php:219
+msgid "Dokumentum sikeresen törölve!"
+msgstr ""
+
+#: Controller/Admin/PropertiesDocumentsController.php:219
+msgid "Dokumentum törlés sikertelen!"
+msgstr ""
+
+#: Controller/Admin/PropertiesImagesController.php:259
+msgid "Képek feltöltése sikeres"
+msgstr ""
+
+#: Controller/Admin/PropertiesImagesController.php:268
+msgid "Képek feltöltése sikertelen"
+msgstr ""
+
+#: Controller/Admin/PropertiesImagesController.php:290
+msgid "PropertiesImages módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesImagesController.php:290
+msgid "PropertiesImages módosítás!"
+msgstr ""
+
+#: Controller/Admin/PropertiesImagesController.php:355;397
+msgid "PropertiesImages delete success!"
+msgstr ""
+
+#: Controller/Admin/PropertiesImagesController.php:355;397
+msgid "PropertiesImages delete failed!"
+msgstr ""
+
+#: Controller/Admin/PropertiesLayoutsController.php:85
+msgid "Elrendezés sikeresen létrehozva!"
+msgstr ""
+
+#: Controller/Admin/PropertiesLayoutsController.php:85
+msgid "Elrendezés létrehozása sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesLayoutsController.php:122
+msgid "Az elrendezés módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesLayoutsController.php:122
+msgid "Az elrendezés módosítása sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesLayoutsController.php:151
+msgid "Elrendezés sikeresen törölve!"
+msgstr ""
+
+#: Controller/Admin/PropertiesLayoutsController.php:151
+msgid "Elrendezés tölése sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesVariationsController.php:80
+msgid "PropertiesVariations save success!"
+msgstr ""
+
+#: Controller/Admin/PropertiesVariationsController.php:80
+msgid "PropertiesVariations save failed!"
+msgstr ""
+
+#: Controller/Admin/PropertiesVariationsController.php:105
+msgid "PropertiesVariations módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/PropertiesVariationsController.php:105
+msgid "PropertiesVariations módosítás!"
+msgstr ""
+
+#: Controller/Admin/PropertiesVariationsController.php:134
+msgid "PropertiesVariations delete success!"
+msgstr ""
+
+#: Controller/Admin/PropertiesVariationsController.php:134
+msgid "PropertiesVariations delete failed!"
+msgstr ""
+
+#: Controller/Admin/RolesController.php:63
+msgid "Csoport létrehozása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/RolesController.php:63
+msgid "Sikertelen létrehozás!"
+msgstr ""
+
+#: Controller/Admin/RolesController.php:86
+msgid "Csoport módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/RolesController.php:86
+msgid "Sikertelen módosítás!"
+msgstr ""
+
+#: Controller/Admin/RolesController.php:114
+msgid "Csoport törlés sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/RolesController.php:114
+msgid "Csoportot nem sikerült törölni!"
+msgstr ""
+
+#: Controller/Admin/SentPropertiesContactsController.php:189
+msgid "Kiajánlás elmentve"
+msgstr ""
+
+#: Controller/Admin/SentPropertiesContactsController.php:194
+msgid "Nincs kiválasztott ingatlan!"
+msgstr ""
+
+#: Controller/Admin/SentPropertiesContactsController.php:201
+msgid "Nem sikerült a kapcsolattartó létrehozása!"
+msgstr ""
+
+#: Controller/Admin/StreetsController.php:81;107
+msgid "Az utca mentés sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/StreetsController.php:81;107
+msgid "Az utca mentés sikeretelen volt!"
+msgstr ""
+
+#: Controller/Admin/StreetsController.php:137
+msgid "Streets delete success!"
+msgstr ""
+
+#: Controller/Admin/StreetsController.php:137
+msgid "Streets delete failed!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:88
+msgid "Felhasználó mentés sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:88
+msgid "Felhasználó mentése sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:113
+msgid "Felhasználó módosítása sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:113
+msgid "Felhasználó módosítás!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:144
+msgid "Felhasználó törlése sikeres volt!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:144
+msgid "Felhasználó törlése sikertelen volt!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:186
+msgid "Sikeresen bejelentkezett a {0} felhasználóval!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:201
+msgid "Sikertelen bejelentkezés"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:206
+msgid "Hibás felhasználónév vagy jelszó!"
+msgstr ""
+
+#: Controller/Component/UploadComponent.php:68
+msgid "Upload failed"
+msgstr ""
+
+#: Controller/Component/UploadComponent.php:72
+msgid "Empty file"
+msgstr ""
+
+#: Model/Entity/Property.php:107;150
+msgid "kerület"
+msgstr ""
+
+#: Model/Table/InterestPropertiesContactsTable.php:64
+msgid "A mező nem lehet üres!"
+msgstr ""
+
+#: Model/Table/PropertiesTable.php:172;174;175
+msgid "Kötelező mező"
+msgstr ""
+
+#: Model/Table/ShowedPropertiesContactsTable.php:64
+msgid "A mez� nem lehet �res!"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:2
+#: Template/Admin/Contacts/edit.ctp:2
+#: Template/Admin/Contacts/index.ctp:2;24
+#: Template/Admin/Contacts/view.ctp:2;152;239
+#: Template/Admin/Properties/add.ctp:2
+#: Template/Admin/Properties/edit.ctp:2
+#: Template/Admin/Properties/index.ctp:2;30
+#: Template/Admin/Properties/view.ctp:2;154;237
+#: Template/Admin/PropertiesDocuments/add.ctp:2
+#: Template/Admin/PropertiesDocuments/edit.ctp:2
+#: Template/Admin/PropertiesDocuments/index.ctp:2;20
+#: Template/Admin/PropertiesDocuments/view.ctp:2
+#: Template/Admin/PropertiesVariations/add.ctp:2
+#: Template/Admin/PropertiesVariations/edit.ctp:2
+#: Template/Admin/PropertiesVariations/index.ctp:2;20
+#: Template/Admin/PropertiesVariations/view.ctp:2
+#: Template/Admin/Roles/add.ctp:2
+#: Template/Admin/Roles/edit.ctp:2
+#: Template/Admin/Roles/index.ctp:2;18
+#: Template/Admin/Roles/view.ctp:2;52
+#: Template/Admin/Users/add.ctp:2
+#: Template/Admin/Users/edit.ctp:2
+#: Template/Admin/Users/index.ctp:2;20
+#: Template/Admin/Users/view.ctp:2
+#: Template/Users/add.ctp:2
+#: Template/Users/edit.ctp:2
+#: Template/Users/index.ctp:2;20
+#: Template/Users/view.ctp:2
+msgid "Actions"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:4
+#: Template/Admin/Contacts/edit.ctp:10
+#: Template/Admin/Contacts/view.ctp:6
+#: Template/Admin/Properties/add.ctp:15
+#: Template/Admin/Properties/edit.ctp:21
+#: Template/Admin/Properties/index.ctp:15
+#: Template/Admin/Properties/view.ctp:18
+msgid "List Contacts"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:5
+#: Template/Admin/Contacts/edit.ctp:11
+#: Template/Admin/Contacts/index.ctp:5
+#: Template/Admin/Contacts/view.ctp:8
+msgid "List Companies"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:6
+#: Template/Admin/Contacts/edit.ctp:12
+#: Template/Admin/Contacts/index.ctp:6
+#: Template/Admin/Contacts/view.ctp:9
+msgid "New Company"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:7
+#: Template/Admin/Contacts/edit.ctp:13
+#: Template/Admin/Contacts/index.ctp:7
+#: Template/Admin/Contacts/view.ctp:10
+#: Template/Admin/Properties/add.ctp:13
+#: Template/Admin/Properties/edit.ctp:19
+#: Template/Admin/Properties/index.ctp:13
+#: Template/Admin/Properties/view.ctp:16
+#: Template/Admin/Roles/add.ctp:5
+#: Template/Admin/Roles/edit.ctp:11
+#: Template/Admin/Roles/index.ctp:5
+#: Template/Admin/Roles/view.ctp:8
+#: Template/Admin/Users/add.ctp:4
+#: Template/Admin/Users/edit.ctp:10
+#: Template/Admin/Users/view.ctp:6
+#: Template/Users/add.ctp:4
+#: Template/Users/edit.ctp:10
+#: Template/Users/view.ctp:6
+msgid "List Users"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:8
+#: Template/Admin/Contacts/edit.ctp:14
+#: Template/Admin/Contacts/index.ctp:8
+#: Template/Admin/Contacts/view.ctp:11
+#: Template/Admin/Properties/add.ctp:14
+#: Template/Admin/Properties/edit.ctp:20
+#: Template/Admin/Properties/index.ctp:14
+#: Template/Admin/Properties/view.ctp:17
+#: Template/Admin/Roles/add.ctp:6
+#: Template/Admin/Roles/edit.ctp:12
+#: Template/Admin/Roles/index.ctp:6
+#: Template/Admin/Roles/view.ctp:9
+#: Template/Admin/Users/index.ctp:4
+#: Template/Admin/Users/view.ctp:7
+#: Template/Users/index.ctp:4
+#: Template/Users/view.ctp:7
+msgid "New User"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:9
+#: Template/Admin/Contacts/edit.ctp:15
+#: Template/Admin/Contacts/index.ctp:9
+#: Template/Admin/Contacts/view.ctp:12
+#: Template/Admin/Properties/add.ctp:4
+#: Template/Admin/Properties/edit.ctp:10
+#: Template/Admin/Properties/view.ctp:6
+#: Template/Admin/PropertiesDocuments/add.ctp:5
+#: Template/Admin/PropertiesDocuments/edit.ctp:11
+#: Template/Admin/PropertiesDocuments/index.ctp:5
+#: Template/Admin/PropertiesDocuments/view.ctp:8
+#: Template/Admin/PropertiesVariations/add.ctp:5
+#: Template/Admin/PropertiesVariations/edit.ctp:11
+#: Template/Admin/PropertiesVariations/index.ctp:5
+#: Template/Admin/PropertiesVariations/view.ctp:8
+msgid "List Properties"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:10
+#: Template/Admin/Contacts/edit.ctp:16
+#: Template/Admin/Contacts/index.ctp:10
+#: Template/Admin/Contacts/view.ctp:13
+#: Template/Admin/Properties/index.ctp:4
+#: Template/Admin/Properties/view.ctp:7
+#: Template/Admin/PropertiesDocuments/add.ctp:6
+#: Template/Admin/PropertiesDocuments/edit.ctp:12
+#: Template/Admin/PropertiesDocuments/index.ctp:6
+#: Template/Admin/PropertiesDocuments/view.ctp:9
+#: Template/Admin/PropertiesVariations/add.ctp:6
+#: Template/Admin/PropertiesVariations/edit.ctp:12
+#: Template/Admin/PropertiesVariations/index.ctp:6
+#: Template/Admin/PropertiesVariations/view.ctp:9
+msgid "New Property"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:16
+msgid "Add Contact"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:59
+#: Template/Admin/Contacts/edit.ctp:71
+#: Template/Admin/Properties/add.ctp:70
+#: Template/Admin/Properties/edit.ctp:77
+#: Template/Admin/PropertiesDocuments/add.ctp:20
+#: Template/Admin/PropertiesDocuments/edit.ctp:31
+#: Template/Admin/PropertiesVariations/add.ctp:33
+#: Template/Admin/PropertiesVariations/edit.ctp:39
+#: Template/Admin/Roles/add.ctp:18
+#: Template/Admin/Roles/edit.ctp:24
+#: Template/Admin/Users/add.ctp:27
+#: Template/Admin/Users/edit.ctp:33
+#: Template/Users/add.ctp:25
+#: Template/Users/edit.ctp:31
+msgid "Submit"
+msgstr ""
+
+#: Template/Admin/Contacts/edit.ctp:5
+#: Template/Admin/Contacts/index.ctp:42
+#: Template/Admin/Contacts/view.ctp:177;295
+#: Template/Admin/Properties/edit.ctp:5
+#: Template/Admin/Properties/index.ctp:54
+#: Template/Admin/Properties/view.ctp:179;289
+#: Template/Admin/PropertiesDocuments/edit.ctp:5
+#: Template/Admin/PropertiesDocuments/index.ctp:38
+#: Template/Admin/PropertiesVariations/edit.ctp:5
+#: Template/Admin/PropertiesVariations/index.ctp:38
+#: Template/Admin/Roles/edit.ctp:5
+#: Template/Admin/Roles/index.ctp:32
+#: Template/Admin/Roles/view.ctp:75
+#: Template/Admin/Users/edit.ctp:5
+#: Template/Admin/Users/index.ctp:38
+#: Template/Users/edit.ctp:5
+#: Template/Users/index.ctp:38
+msgid "Delete"
+msgstr ""
+
+#: Template/Admin/Contacts/edit.ctp:7
+#: Template/Admin/Contacts/index.ctp:42
+#: Template/Admin/Contacts/view.ctp:5;177;295
+#: Template/Admin/Properties/edit.ctp:7
+#: Template/Admin/Properties/index.ctp:54
+#: Template/Admin/Properties/view.ctp:5;179;289
+#: Template/Admin/PropertiesDocuments/edit.ctp:7
+#: Template/Admin/PropertiesDocuments/index.ctp:38
+#: Template/Admin/PropertiesDocuments/view.ctp:5
+#: Template/Admin/PropertiesVariations/edit.ctp:7
+#: Template/Admin/PropertiesVariations/index.ctp:38
+#: Template/Admin/PropertiesVariations/view.ctp:5
+#: Template/Admin/Roles/edit.ctp:7
+#: Template/Admin/Roles/index.ctp:32
+#: Template/Admin/Roles/view.ctp:5;75
+#: Template/Admin/Users/edit.ctp:7
+#: Template/Admin/Users/index.ctp:38
+#: Template/Admin/Users/view.ctp:5
+#: Template/Users/edit.ctp:7
+#: Template/Users/index.ctp:38
+#: Template/Users/view.ctp:5
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Admin/Contacts/edit.ctp:22
+#: Template/Admin/Contacts/view.ctp:4
+msgid "Edit Contact"
+msgstr ""
+
+#: Template/Admin/Contacts/index.ctp:4
+#: Template/Admin/Contacts/view.ctp:7
+#: Template/Admin/Properties/add.ctp:16
+#: Template/Admin/Properties/edit.ctp:22
+#: Template/Admin/Properties/index.ctp:16
+#: Template/Admin/Properties/view.ctp:19
+msgid "New Contact"
+msgstr ""
+
+#: Template/Admin/Contacts/index.ctp:40
+#: Template/Admin/Contacts/view.ctp:173;291
+#: Template/Admin/Properties/index.ctp:52
+#: Template/Admin/Properties/view.ctp:175;285
+#: Template/Admin/PropertiesDocuments/index.ctp:36
+#: Template/Admin/PropertiesVariations/index.ctp:36
+#: Template/Admin/Roles/index.ctp:30
+#: Template/Admin/Roles/view.ctp:71
+#: Template/Admin/Users/index.ctp:36
+#: Template/Users/index.ctp:36
+msgid "View"
+msgstr ""
+
+#: Template/Admin/Contacts/index.ctp:41
+#: Template/Admin/Contacts/view.ctp:175;293
+#: Template/Admin/Properties/index.ctp:53
+#: Template/Admin/Properties/view.ctp:177;287
+#: Template/Admin/PropertiesDocuments/index.ctp:37
+#: Template/Admin/PropertiesVariations/index.ctp:37
+#: Template/Admin/Roles/index.ctp:31
+#: Template/Admin/Roles/view.ctp:73
+#: Template/Admin/Users/index.ctp:37
+#: Template/Users/index.ctp:37
+msgid "Edit"
+msgstr ""
+
+#: Template/Admin/Contacts/index.ctp:51
+#: Template/Admin/Properties/index.ctp:63
+#: Template/Admin/PropertiesDocuments/index.ctp:47
+#: Template/Admin/PropertiesVariations/index.ctp:47
+#: Template/Admin/Roles/index.ctp:41
+#: Template/Admin/Users/index.ctp:47
+#: Template/Users/index.ctp:47
+msgid "previous"
+msgstr ""
+
+#: Template/Admin/Contacts/index.ctp:53
+#: Template/Admin/Properties/index.ctp:65
+#: Template/Admin/PropertiesDocuments/index.ctp:49
+#: Template/Admin/PropertiesVariations/index.ctp:49
+#: Template/Admin/Roles/index.ctp:43
+#: Template/Admin/Users/index.ctp:49
+#: Template/Users/index.ctp:49
+msgid "next"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:5
+msgid "Delete Contact"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:20
+msgid "Company"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:22
+#: Template/Admin/Properties/view.ctp:197
+msgid "Prename"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:24;143
+#: Template/Admin/Properties/view.ctp:145;198
+#: Template/Admin/Roles/view.ctp:44
+#: Template/Admin/Users/view.ctp:26
+#: Template/Users/view.ctp:24
+msgid "Lastname"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:26;144
+#: Template/Admin/Properties/view.ctp:146;199
+#: Template/Admin/Roles/view.ctp:45
+#: Template/Admin/Users/view.ctp:28
+#: Template/Users/view.ctp:26
+msgid "Firstname"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:28
+#: Template/Admin/Properties/view.ctp:201
+msgid "Phone1"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:30
+#: Template/Admin/Properties/view.ctp:204
+msgid "Phone2"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:32
+#: Template/Admin/Properties/view.ctp:207
+msgid "Phone3"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:34
+#: Template/Admin/Properties/view.ctp:210
+msgid "Phone4"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:36
+#: Template/Admin/Properties/view.ctp:212
+msgid "Email1"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:38
+#: Template/Admin/Properties/view.ctp:213
+msgid "Email2"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:40
+#: Template/Admin/Properties/view.ctp:214
+#: Template/Admin/PropertiesDocuments/view.ctp:18
+msgid "Title"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:42
+#: Template/Admin/Properties/view.ctp:215
+msgid "Job"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:44
+#: Template/Admin/Properties/view.ctp:216
+msgid "Marial Status"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:46
+#: Template/Admin/Properties/view.ctp:221
+msgid "Billing Name"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:48
+#: Template/Admin/Properties/view.ctp:222
+msgid "Billing Zip"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:50
+#: Template/Admin/Properties/view.ctp:223
+msgid "Billing City"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:52
+#: Template/Admin/Properties/view.ctp:224
+msgid "Billing Street"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:54
+#: Template/Admin/Properties/view.ctp:225
+msgid "Billing Taxnumber"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:56
+#: Template/Admin/Properties/view.ctp:226
+msgid "Postal Name"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:58
+#: Template/Admin/Properties/view.ctp:227
+msgid "Postal Zip"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:60
+#: Template/Admin/Properties/view.ctp:228
+msgid "Postal City"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:62
+#: Template/Admin/Properties/view.ctp:229
+msgid "Postal Street"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:64
+msgid "Internal Company"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:66
+#: Template/Admin/Properties/view.ctp:231
+msgid "Internal Agent"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:70;137;193
+#: Template/Admin/Properties/view.ctp:54;139;195
+#: Template/Admin/PropertiesDocuments/view.ctp:30
+#: Template/Admin/PropertiesVariations/view.ctp:24
+#: Template/Admin/Roles/view.ctp:22;39
+#: Template/Admin/Users/view.ctp:36
+#: Template/Users/view.ctp:32
+msgid "Id"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:72
+#: Template/Admin/Properties/view.ctp:200
+msgid "Phone1type"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:74
+#: Template/Admin/Properties/view.ctp:203
+msgid "Phone2type"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:76
+#: Template/Admin/Properties/view.ctp:206
+msgid "Phone3type"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:78
+#: Template/Admin/Properties/view.ctp:209
+msgid "Phone4type"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:80
+#: Template/Admin/Properties/view.ctp:217
+msgid "Kids"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:82
+#: Template/Admin/Properties/view.ctp:218
+msgid "Nationality"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:84
+#: Template/Admin/Properties/view.ctp:219
+msgid "Pet"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:86;200
+#: Template/Admin/Properties/view.ctp:60;232
+msgid "User Id"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:88;147;235
+#: Template/Admin/Properties/view.ctp:104;149;233
+#: Template/Admin/PropertiesDocuments/view.ctp:34
+#: Template/Admin/PropertiesVariations/view.ctp:46
+#: Template/Admin/Roles/view.ctp:47
+#: Template/Admin/Users/view.ctp:38
+#: Template/Users/view.ctp:34
+msgid "Active"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:92;148;236
+#: Template/Admin/Properties/view.ctp:110;150;234
+#: Template/Admin/PropertiesDocuments/view.ctp:38
+#: Template/Admin/PropertiesVariations/view.ctp:52
+#: Template/Admin/Roles/view.ctp:48
+#: Template/Admin/Users/view.ctp:40
+#: Template/Users/view.ctp:36
+msgid "Deleted"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:94;150;237
+#: Template/Admin/Properties/view.ctp:112;152;235
+#: Template/Admin/PropertiesDocuments/view.ctp:40
+#: Template/Admin/PropertiesVariations/view.ctp:54
+#: Template/Admin/Roles/view.ctp:26;50
+#: Template/Admin/Users/view.ctp:46
+#: Template/Users/view.ctp:42
+msgid "Created"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:96;151;238
+#: Template/Admin/Properties/view.ctp:114;153;236
+#: Template/Admin/PropertiesDocuments/view.ctp:42
+#: Template/Admin/PropertiesVariations/view.ctp:56
+#: Template/Admin/Roles/view.ctp:28;51
+#: Template/Admin/Users/view.ctp:48
+#: Template/Users/view.ctp:44
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:102
+#: Template/Admin/Properties/view.ctp:202
+msgid "Phone1note"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:108
+#: Template/Admin/Properties/view.ctp:205
+msgid "Phone2note"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:114
+#: Template/Admin/Properties/view.ctp:208
+msgid "Phone3note"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:120
+#: Template/Admin/Properties/view.ctp:211
+msgid "Phone4note"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:126;214
+#: Template/Admin/Properties/view.ctp:127;220
+msgid "Note"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:133
+#: Template/Admin/Properties/view.ctp:135
+#: Template/Admin/Roles/view.ctp:35
+msgid "Related Users"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:138
+#: Template/Admin/Properties/view.ctp:140
+#: Template/Admin/Roles/view.ctp:40
+msgid "Role Id"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:139
+#: Template/Admin/Properties/view.ctp:141
+#: Template/Admin/Users/view.ctp:18
+msgid "Username"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:140
+#: Template/Admin/Properties/view.ctp:142
+#: Template/Admin/Roles/view.ctp:41
+#: Template/Admin/Users/view.ctp:20
+#: Template/Users/view.ctp:18
+msgid "Email"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:141
+#: Template/Admin/Properties/view.ctp:143
+#: Template/Admin/Roles/view.ctp:42
+#: Template/Admin/Users/view.ctp:22
+#: Template/Users/view.ctp:20
+msgid "Activation Key"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:142
+#: Template/Admin/Properties/view.ctp:144
+#: Template/Admin/Roles/view.ctp:43
+#: Template/Admin/Users/view.ctp:24
+#: Template/Users/view.ctp:22
+msgid "Password"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:145
+#: Template/Admin/Properties/view.ctp:147
+#: Template/Admin/PropertiesDocuments/view.ctp:26
+#: Template/Admin/Users/view.ctp:30
+msgid "Hash"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:146
+#: Template/Admin/Properties/view.ctp:148
+#: Template/Admin/Roles/view.ctp:46
+#: Template/Admin/Users/view.ctp:32
+#: Template/Users/view.ctp:28
+msgid "Picture"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:149
+#: Template/Admin/Properties/view.ctp:151
+#: Template/Admin/Roles/view.ctp:49
+#: Template/Admin/Users/view.ctp:44
+#: Template/Users/view.ctp:40
+msgid "Deleted Date"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:189
+msgid "Related Properties"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:194
+#: Template/Admin/Properties/view.ctp:56
+msgid "Sell"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:195
+#: Template/Admin/Properties/view.ctp:58
+msgid "Rent"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:196
+msgid "City Id"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:197
+msgid "District Id"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:198
+msgid "Street Id"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:199
+msgid "Citypart Id"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:201
+#: Template/Admin/Properties/view.ctp:34
+msgid "Streetnum"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:202
+#: Template/Admin/Properties/view.ctp:62
+msgid "Street Hidden"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:203
+#: Template/Admin/Properties/view.ctp:36
+msgid "Building"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:204
+#: Template/Admin/Properties/view.ctp:38
+msgid "Building Park"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:205
+#: Template/Admin/Properties/view.ctp:40
+msgid "Floor"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:206
+#: Template/Admin/Properties/view.ctp:42
+msgid "Door"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:207
+#: Template/Admin/Properties/view.ctp:120
+msgid "Address Note"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:208
+#: Template/Admin/Properties/view.ctp:44
+msgid "Zip"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:209
+#: Template/Admin/Properties/view.ctp:46
+msgid "Localident"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:210
+#: Template/Admin/Properties/view.ctp:64
+msgid "Building Type"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:211
+#: Template/Admin/Properties/view.ctp:66
+msgid "Size Net"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:212
+#: Template/Admin/Properties/view.ctp:68
+msgid "Size Gross"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:213
+#: Template/Admin/Properties/view.ctp:48
+msgid "Heat Type"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:215
+#: Template/Admin/Properties/view.ctp:50
+msgid "Propertiescol"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:216
+#: Template/Admin/Properties/view.ctp:70
+msgid "Cooffice"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:217
+#: Template/Admin/Properties/view.ctp:72
+msgid "Upperlevel"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:218
+msgid "Lowerlevel"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:219
+#: Template/Admin/Properties/view.ctp:74
+msgid "Atticlevel"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:220
+#: Template/Admin/Properties/view.ctp:76
+msgid "Newlybuilt"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:221
+#: Template/Admin/Properties/view.ctp:78
+msgid "Elevator"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:222
+#: Template/Admin/Properties/view.ctp:80
+msgid "Gardencontact"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:223
+#: Template/Admin/Properties/view.ctp:82
+msgid "Petallowed"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:224
+#: Template/Admin/Properties/view.ctp:84
+msgid "Outlook"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:225
+#: Template/Admin/Properties/view.ctp:86
+msgid "Terrace"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:226
+#: Template/Admin/Properties/view.ctp:88
+msgid "Energy Rating"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:227
+#: Template/Admin/Properties/view.ctp:90
+msgid "Lotsize"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:228
+#: Template/Admin/Properties/view.ctp:108
+msgid "Builddate"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:229
+#: Template/Admin/Properties/view.ctp:92
+msgid "Building Levels"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:230
+#: Template/Admin/Properties/view.ctp:94
+msgid "Rate"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:231
+#: Template/Admin/Properties/view.ctp:96
+msgid "Pool"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:232
+#: Template/Admin/Properties/view.ctp:98
+msgid "Conveniences"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:233
+msgid "Building Condition"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:234
+#: Template/Admin/Properties/view.ctp:102
+msgid "Parking"
+msgstr ""
+
+#: Template/Admin/Properties/add.ctp:5
+#: Template/Admin/Properties/edit.ctp:11
+#: Template/Admin/Properties/index.ctp:5
+#: Template/Admin/Properties/view.ctp:8
+msgid "List Cities"
+msgstr ""
+
+#: Template/Admin/Properties/add.ctp:6
+#: Template/Admin/Properties/edit.ctp:12
+#: Template/Admin/Properties/index.ctp:6
+#: Template/Admin/Properties/view.ctp:9
+msgid "New City"
+msgstr ""
+
+#: Template/Admin/Properties/add.ctp:7
+#: Template/Admin/Properties/edit.ctp:13
+#: Template/Admin/Properties/index.ctp:7
+#: Template/Admin/Properties/view.ctp:10
+msgid "List Districts"
+msgstr ""
+
+#: Template/Admin/Properties/add.ctp:8
+#: Template/Admin/Properties/edit.ctp:14
+#: Template/Admin/Properties/index.ctp:8
+#: Template/Admin/Properties/view.ctp:11
+msgid "New District"
+msgstr ""
+
+#: Template/Admin/Properties/add.ctp:9
+#: Template/Admin/Properties/edit.ctp:15
+#: Template/Admin/Properties/index.ctp:9
+#: Template/Admin/Properties/view.ctp:12
+msgid "List Streets"
+msgstr ""
+
+#: Template/Admin/Properties/add.ctp:10
+#: Template/Admin/Properties/edit.ctp:16
+#: Template/Admin/Properties/index.ctp:10
+#: Template/Admin/Properties/view.ctp:13
+msgid "New Street"
+msgstr ""
+
+#: Template/Admin/Properties/add.ctp:11
+#: Template/Admin/Properties/edit.ctp:17
+#: Template/Admin/Properties/index.ctp:11
+#: Template/Admin/Properties/view.ctp:14
+msgid "List Cityparts"
+msgstr ""
+
+#: Template/Admin/Properties/add.ctp:12
+#: Template/Admin/Properties/edit.ctp:18
+#: Template/Admin/Properties/index.ctp:12
+#: Template/Admin/Properties/view.ctp:15
+msgid "New Citypart"
+msgstr ""
+
+#: Template/Admin/Properties/add.ctp:22
+msgid "Add Property"
+msgstr ""
+
+#: Template/Admin/Properties/edit.ctp:28
+#: Template/Admin/Properties/view.ctp:4
+msgid "Edit Property"
+msgstr ""
+
+#: Template/Admin/Properties/view.ctp:5
+msgid "Delete Property"
+msgstr ""
+
+#: Template/Admin/Properties/view.ctp:26
+msgid "City"
+msgstr ""
+
+#: Template/Admin/Properties/view.ctp:28
+msgid "District"
+msgstr ""
+
+#: Template/Admin/Properties/view.ctp:30
+msgid "Street"
+msgstr ""
+
+#: Template/Admin/Properties/view.ctp:32
+msgid "Citypart"
+msgstr ""
+
+#: Template/Admin/Properties/view.ctp:100
+msgid "Condition"
+msgstr ""
+
+#: Template/Admin/Properties/view.ctp:191
+msgid "Related Contacts"
+msgstr ""
+
+#: Template/Admin/Properties/view.ctp:196
+msgid "Company Id"
+msgstr ""
+
+#: Template/Admin/Properties/view.ctp:230
+msgid "Internal Company Id"
+msgstr ""
+
+#: Template/Admin/PropertiesDocuments/add.ctp:4
+#: Template/Admin/PropertiesDocuments/edit.ctp:10
+#: Template/Admin/PropertiesDocuments/view.ctp:6
+msgid "List Properties Documents"
+msgstr ""
+
+#: Template/Admin/PropertiesDocuments/add.ctp:12
+msgid "Add Properties Document"
+msgstr ""
+
+#: Template/Admin/PropertiesDocuments/edit.ctp:18
+#: Template/Admin/PropertiesDocuments/view.ctp:4
+msgid "Edit Properties Document"
+msgstr ""
+
+#: Template/Admin/PropertiesDocuments/index.ctp:4
+#: Template/Admin/PropertiesDocuments/view.ctp:7
+msgid "New Properties Document"
+msgstr ""
+
+#: Template/Admin/PropertiesDocuments/view.ctp:5
+msgid "Delete Properties Document"
+msgstr ""
+
+#: Template/Admin/PropertiesDocuments/view.ctp:16
+#: Template/Admin/PropertiesVariations/view.ctp:16
+msgid "Property"
+msgstr ""
+
+#: Template/Admin/PropertiesDocuments/view.ctp:20
+msgid "File"
+msgstr ""
+
+#: Template/Admin/PropertiesDocuments/view.ctp:22
+msgid "Originalname"
+msgstr ""
+
+#: Template/Admin/PropertiesDocuments/view.ctp:24
+msgid "Filetype"
+msgstr ""
+
+#: Template/Admin/PropertiesDocuments/view.ctp:32
+msgid "Size"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/add.ctp:4
+#: Template/Admin/PropertiesVariations/edit.ctp:10
+#: Template/Admin/PropertiesVariations/view.ctp:6
+msgid "List Properties Variations"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/add.ctp:12
+msgid "Add Properties Variation"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/edit.ctp:18
+#: Template/Admin/PropertiesVariations/view.ctp:4
+msgid "Edit Properties Variation"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/index.ctp:4
+#: Template/Admin/PropertiesVariations/view.ctp:7
+msgid "New Properties Variation"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:5
+msgid "Delete Properties Variation"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:18
+msgid "Price Dev"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:20
+msgid "Common Cost Dev"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:26
+msgid "Type"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:28
+msgid "Price"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:30
+msgid "Common Cost"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:32
+msgid "Caution Type"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:34
+msgid "Furniture Type"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:36
+msgid "Comission"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:38
+msgid "Shortterm"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:40
+msgid "Offer"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:42
+msgid "Ing Com"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:44
+msgid "Gdn"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:50
+msgid "Enddate"
+msgstr ""
+
+#: Template/Admin/PropertiesVariations/view.ctp:62
+msgid "Description"
+msgstr ""
+
+#: Template/Admin/Roles/add.ctp:4
+#: Template/Admin/Roles/edit.ctp:10
+#: Template/Admin/Roles/view.ctp:6
+#: Template/Admin/Users/add.ctp:5
+#: Template/Admin/Users/edit.ctp:11
+#: Template/Admin/Users/index.ctp:5
+#: Template/Admin/Users/view.ctp:8
+#: Template/Users/add.ctp:5
+#: Template/Users/edit.ctp:11
+#: Template/Users/index.ctp:5
+#: Template/Users/view.ctp:8
+msgid "List Roles"
+msgstr ""
+
+#: Template/Admin/Roles/add.ctp:12
+msgid "Add Role"
+msgstr ""
+
+#: Template/Admin/Roles/edit.ctp:18
+#: Template/Admin/Roles/view.ctp:4
+msgid "Edit Role"
+msgstr ""
+
+#: Template/Admin/Roles/index.ctp:4
+#: Template/Admin/Roles/view.ctp:7
+#: Template/Admin/Users/add.ctp:6
+#: Template/Admin/Users/edit.ctp:12
+#: Template/Admin/Users/index.ctp:6
+#: Template/Admin/Users/view.ctp:9
+#: Template/Users/add.ctp:6
+#: Template/Users/edit.ctp:12
+#: Template/Users/index.ctp:6
+#: Template/Users/view.ctp:9
+msgid "New Role"
+msgstr ""
+
+#: Template/Admin/Roles/view.ctp:5
+msgid "Delete Role"
+msgstr ""
+
+#: Template/Admin/Roles/view.ctp:16
+msgid "Name"
+msgstr ""
+
+#: Template/Admin/Roles/view.ctp:18
+msgid "Login Redirect"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:12
+#: Template/Users/add.ctp:12
+msgid "Add User"
+msgstr ""
+
+#: Template/Admin/Users/edit.ctp:18
+#: Template/Admin/Users/view.ctp:4
+#: Template/Users/edit.ctp:18
+#: Template/Users/view.ctp:4
+msgid "Edit User"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:5
+#: Template/Users/view.ctp:5
+msgid "Delete User"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:16
+#: Template/Users/view.ctp:16
+msgid "Role"
+msgstr ""
+
+#: Template/Articles/add.ctp:5
+msgid "Save Article"
+msgstr ""
+
+#: Template/Users/login.ctp:5;9
+msgid "Login"
+msgstr ""
+

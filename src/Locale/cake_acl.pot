@@ -1,0 +1,475 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-12-06 00:02+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: _v1/vendor/cakephp/acl/src/AclExtras.php:147
+#: _v2/vendor/cakephp/acl/src/AclExtras.php:147
+#: vendor/cakephp/acl/src/AclExtras.php:147
+msgid "<error>Plugin {0} not found or not activated.</error>"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/AclExtras.php:158
+#: _v2/vendor/cakephp/acl/src/AclExtras.php:158
+#: vendor/cakephp/acl/src/AclExtras.php:158
+msgid "<success>Aco Update Complete</success>"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/AclExtras.php:203
+#: _v2/vendor/cakephp/acl/src/AclExtras.php:203
+#: vendor/cakephp/acl/src/AclExtras.php:203
+msgid "Deleted <warning>{0}</warning> and all children"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/AclExtras.php:256
+#: _v2/vendor/cakephp/acl/src/AclExtras.php:256
+#: vendor/cakephp/acl/src/AclExtras.php:256
+msgid "Created Aco node: <success>{0}</success>"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/AclExtras.php:319
+#: _v2/vendor/cakephp/acl/src/AclExtras.php:326
+#: vendor/cakephp/acl/src/AclExtras.php:326
+msgid "Unable to get methods for {0}"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/AclExtras.php:340
+#: _v2/vendor/cakephp/acl/src/AclExtras.php:347
+#: vendor/cakephp/acl/src/AclExtras.php:347
+msgid "Deleted Aco node: <warning>{0}</warning>"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclExtrasShell.php:67
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:98
+#: _v2/vendor/cakephp/acl/src/Shell/AclExtrasShell.php:67
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:98
+#: vendor/cakephp/acl/src/Shell/AclExtrasShell.php:67
+#: vendor/cakephp/acl/src/Shell/AclShell.php:102
+msgid "Acl database tables not found. To create them, run:"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:78
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:78
+#: vendor/cakephp/acl/src/Shell/AclShell.php:82
+msgid "Error: Your current CakePHP configuration is set to an ACL implementation other than DB."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:79
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:79
+#: vendor/cakephp/acl/src/Shell/AclShell.php:83
+msgid "Please change your core config to reflect your decision to use DbAcl before attempting to use this script"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:81
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:81
+#: vendor/cakephp/acl/src/Shell/AclShell.php:85
+msgid "Current ACL Classname: {0}"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:89
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:89
+#: vendor/cakephp/acl/src/Shell/AclShell.php:93
+msgid "Your database configuration was not found. Take a moment to create one."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:143
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:143
+#: vendor/cakephp/acl/src/Shell/AclShell.php:147
+msgid "/ can not be used as an alias!"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:143
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:143
+#: vendor/cakephp/acl/src/Shell/AclShell.php:147
+msgid "\t/ is the root, please supply a sub alias"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:149
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:149
+#: vendor/cakephp/acl/src/Shell/AclShell.php:153
+msgid "<success>New {0}</success> {1} created."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:151
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:151
+#: vendor/cakephp/acl/src/Shell/AclShell.php:155
+msgid "There was a problem creating a new {0} {1}."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:169
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:170
+#: vendor/cakephp/acl/src/Shell/AclShell.php:174
+msgid "Node Not Deleted"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:169
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:170
+#: vendor/cakephp/acl/src/Shell/AclShell.php:174
+msgid "There was an error deleting the {0}. Check that the node exists."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:171
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:172
+#: vendor/cakephp/acl/src/Shell/AclShell.php:176
+msgid "<success>{0} deleted.</success>"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:193
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:192
+#: vendor/cakephp/acl/src/Shell/AclShell.php:196
+msgid "Error in setting new parent. Please make sure the parent node exists, and is not a descendant of the node specified."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:195
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:194
+#: vendor/cakephp/acl/src/Shell/AclShell.php:198
+msgid "Node parent set to {0}"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:214
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:213
+#: vendor/cakephp/acl/src/Shell/AclShell.php:217
+msgid "Supplied Node {0} not found"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:215;338;340;541
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:214;337;339;540
+#: vendor/cakephp/acl/src/Shell/AclShell.php:218;341;343;544
+msgid "No tree returned."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:218
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:217
+#: vendor/cakephp/acl/src/Shell/AclShell.php:221
+msgid "Path:"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:254
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:253
+#: vendor/cakephp/acl/src/Shell/AclShell.php:257
+msgid "{0} is <success>allowed</success>."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:256
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:255
+#: vendor/cakephp/acl/src/Shell/AclShell.php:259
+msgid "{0} is <error>not allowed</error>."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:270
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:269
+#: vendor/cakephp/acl/src/Shell/AclShell.php:273
+msgid "Permission <success>granted</success>."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:272
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:271
+#: vendor/cakephp/acl/src/Shell/AclShell.php:275
+msgid "Permission was <error>not granted</error>."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:286
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:285
+#: vendor/cakephp/acl/src/Shell/AclShell.php:289
+msgid "Permission denied."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:288
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:287
+#: vendor/cakephp/acl/src/Shell/AclShell.php:291
+msgid "Permission was not denied."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:302
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:301
+#: vendor/cakephp/acl/src/Shell/AclShell.php:305
+msgid "Permission inherited."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:304
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:303
+#: vendor/cakephp/acl/src/Shell/AclShell.php:307
+msgid "Permission was not inherited."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:338;340;541
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:337;339;540
+#: vendor/cakephp/acl/src/Shell/AclShell.php:341;343;544
+msgid "{0} not found"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:383
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:382
+#: vendor/cakephp/acl/src/Shell/AclShell.php:386
+msgid "Type of node to create."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:387
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:386
+#: vendor/cakephp/acl/src/Shell/AclShell.php:390
+msgid "A console tool for managing the DbAcl"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:389
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:388
+#: vendor/cakephp/acl/src/Shell/AclShell.php:392
+msgid "Create a new ACL node"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:391
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:390
+#: vendor/cakephp/acl/src/Shell/AclShell.php:394
+msgid "Creates a new ACL object <node> under the parent"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:392
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:391
+#: vendor/cakephp/acl/src/Shell/AclShell.php:395
+msgid "You can use `root` as the parent when creating nodes to create top level nodes."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:396
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:395
+#: vendor/cakephp/acl/src/Shell/AclShell.php:399
+msgid "The node selector for the parent."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:400
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:399
+#: vendor/cakephp/acl/src/Shell/AclShell.php:403
+msgid "The alias to use for the newly created node."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:406
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:405
+#: vendor/cakephp/acl/src/Shell/AclShell.php:409
+msgid "Deletes the ACL object with the given <node> reference"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:408
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:407
+#: vendor/cakephp/acl/src/Shell/AclShell.php:411
+msgid "Delete an ACL node."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:412
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:411
+#: vendor/cakephp/acl/src/Shell/AclShell.php:415
+msgid "The node identifier to delete."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:418
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:417
+#: vendor/cakephp/acl/src/Shell/AclShell.php:421
+msgid "Moves the ACL node under a new parent."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:420
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:419
+#: vendor/cakephp/acl/src/Shell/AclShell.php:423
+msgid "Moves the ACL object specified by <node> beneath <parent>"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:424
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:423
+#: vendor/cakephp/acl/src/Shell/AclShell.php:427
+msgid "The node to move"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:428
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:427
+#: vendor/cakephp/acl/src/Shell/AclShell.php:431
+msgid "The new parent for <node>."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:434
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:433
+#: vendor/cakephp/acl/src/Shell/AclShell.php:437
+msgid "Print out the path to an ACL node."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:437
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:436
+#: vendor/cakephp/acl/src/Shell/AclShell.php:440
+msgid "Returns the path to the ACL object specified by <node>."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:438
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:437
+#: vendor/cakephp/acl/src/Shell/AclShell.php:441
+msgid "This command is useful in determining the inheritance of permissions for a certain object in the tree."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:443
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:442
+#: vendor/cakephp/acl/src/Shell/AclShell.php:446
+msgid "The node to get the path of"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:449
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:448
+#: vendor/cakephp/acl/src/Shell/AclShell.php:452
+msgid "Check the permissions between an ACO and ARO."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:452
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:451
+#: vendor/cakephp/acl/src/Shell/AclShell.php:455
+msgid "Use this command to check ACL permissions."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:455
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:454
+#: vendor/cakephp/acl/src/Shell/AclShell.php:458
+msgid "ARO to check."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:456
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:455
+#: vendor/cakephp/acl/src/Shell/AclShell.php:459
+msgid "ACO to check."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:457
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:456
+#: vendor/cakephp/acl/src/Shell/AclShell.php:460
+msgid "Action to check"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:461
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:460
+#: vendor/cakephp/acl/src/Shell/AclShell.php:464
+msgid "Grant an ARO permissions to an ACO."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:464
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:463
+#: vendor/cakephp/acl/src/Shell/AclShell.php:467
+msgid "Use this command to grant ACL permissions. Once executed, the ARO specified (and its children, if any) will have ALLOW access to the specified ACO action (and the ACO's children, if any)."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:467
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:466
+#: vendor/cakephp/acl/src/Shell/AclShell.php:470
+msgid "ARO to grant permission to."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:468
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:467
+#: vendor/cakephp/acl/src/Shell/AclShell.php:471
+msgid "ACO to grant access to."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:469
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:468
+#: vendor/cakephp/acl/src/Shell/AclShell.php:472
+msgid "Action to grant"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:473
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:472
+#: vendor/cakephp/acl/src/Shell/AclShell.php:476
+msgid "Deny an ARO permissions to an ACO."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:476
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:475
+#: vendor/cakephp/acl/src/Shell/AclShell.php:479
+msgid "Use this command to deny ACL permissions. Once executed, the ARO specified (and its children, if any) will have DENY access to the specified ACO action (and the ACO's children, if any)."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:479
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:478
+#: vendor/cakephp/acl/src/Shell/AclShell.php:482
+msgid "ARO to deny."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:480
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:479
+#: vendor/cakephp/acl/src/Shell/AclShell.php:483
+msgid "ACO to deny."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:481
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:480
+#: vendor/cakephp/acl/src/Shell/AclShell.php:484
+msgid "Action to deny"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:485
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:484
+#: vendor/cakephp/acl/src/Shell/AclShell.php:488
+msgid "Inherit an ARO's parent permissions."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:488
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:487
+#: vendor/cakephp/acl/src/Shell/AclShell.php:491
+msgid "Use this command to force a child ARO object to inherit its permissions settings from its parent."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:491
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:490
+#: vendor/cakephp/acl/src/Shell/AclShell.php:494
+msgid "ARO to have permissions inherit."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:492
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:491
+#: vendor/cakephp/acl/src/Shell/AclShell.php:495
+msgid "ACO to inherit permissions on."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:493
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:492
+#: vendor/cakephp/acl/src/Shell/AclShell.php:496
+msgid "Action to inherit"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:497
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:496
+#: vendor/cakephp/acl/src/Shell/AclShell.php:500
+msgid "View a tree or a single node's subtree."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:500
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:499
+#: vendor/cakephp/acl/src/Shell/AclShell.php:503
+msgid "The view command will return the ARO or ACO tree."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:501
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:500
+#: vendor/cakephp/acl/src/Shell/AclShell.php:504
+msgid "The optional node parameter allows you to return"
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:502
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:501
+#: vendor/cakephp/acl/src/Shell/AclShell.php:505
+msgid "only a portion of the requested tree."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:506
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:505
+#: vendor/cakephp/acl/src/Shell/AclShell.php:509
+msgid "The optional node to view the subtree of."
+msgstr ""
+
+#: _v1/vendor/cakephp/acl/src/Shell/AclShell.php:579
+#: _v2/vendor/cakephp/acl/src/Shell/AclShell.php:578
+#: vendor/cakephp/acl/src/Shell/AclShell.php:582
+msgid "Could not find node using reference \"{0}\""
+msgstr ""
+

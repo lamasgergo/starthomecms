@@ -1,0 +1,61 @@
+body.login-content:before{
+    background-color: #2b96ff;
+}
+.startLogo{
+    margin-top:-220px;
+}
+#top-search-wrap{
+    top: -500px;
+    height: 501px!important;
+    overflow-y: scroll;
+}
+#top-search-wrap input[type=text] {
+    width: 100%!important;
+    background-image: none!important;
+    padding: 0 10px!important;
+    color: #ffffff;
+    margin: 12px 0!important;
+}
+#top-search-wrap select, #top-search-wrap .bootstrap-select {
+    width: 100%!important;
+    background: none!important;
+    padding: 0 10px!important;
+    background-color: rgba(255, 255, 255, 0.26)!important;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 2px;
+    border:none;
+    height:40px;
+    line-height:40px;
+  margin: 12px 0!important;
+}
+.select:before, .selectpicker:before{
+    display:none;
+
+}
+#top-search-wrap select option{
+    background-color: #4285F4!important;
+}
+#top-search-wrap input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255,255,255,0.6);
+    opacity: 1; /* Firefox */
+}
+
+#top-search-wrap input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255,255,255,0.6);
+}
+
+#top-search-wrap input::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255,255,255,0.6);
+}
+.bootstrap-select > .selectpicker{
+    border-bottom: 0!important;
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: initial!important;
+
+}
+.bootstrap-select > .selectpicker:hover{
+    color: #ffffff;
+}

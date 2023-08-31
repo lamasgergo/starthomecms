@@ -1,0 +1,598 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-10-10 15:37+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: static.php:5
+msgid "Villa"
+msgstr ""
+
+#: static.php:6
+msgid "Családi ház"
+msgstr ""
+
+#: static.php:7
+msgid "Ikerház"
+msgstr ""
+
+#: static.php:8
+msgid "Sorház"
+msgstr ""
+
+#: static.php:9
+msgid "Társasházi lakás"
+msgstr ""
+
+#: static.php:10
+msgid "Iroda"
+msgstr ""
+
+#: static.php:11
+msgid "Építési telek"
+msgstr ""
+
+#: static.php:12
+msgid "Telek"
+msgstr ""
+
+#: static.php:13
+msgid "Egyéb telek"
+msgstr ""
+
+#: static.php:14
+msgid "Üzlethelyiség"
+msgstr ""
+
+#: static.php:15
+msgid "Házrész"
+msgstr ""
+
+#: static.php:16
+msgid "Panel"
+msgstr ""
+
+#: static.php:17
+msgid "Ipari telep"
+msgstr ""
+
+#: static.php:18
+msgid "Vendéglő"
+msgstr ""
+
+#: static.php:19
+msgid "Hotel stb.."
+msgstr ""
+
+#: static.php:20
+msgid "Ker. obj"
+msgstr ""
+
+#: static.php:21
+msgid "Kastély kúria"
+msgstr ""
+
+#: static.php:22
+msgid "Egyéb ingatlan"
+msgstr ""
+
+#: static.php:26
+msgid "Központi fűtés"
+msgstr ""
+
+#: static.php:27
+msgid "Távfűtés"
+msgstr ""
+
+#: static.php:28
+msgid "Tömbfűtés"
+msgstr ""
+
+#: static.php:29
+msgid "Egyedi gáz"
+msgstr ""
+
+#: static.php:30
+msgid "Cirkó"
+msgstr ""
+
+#: static.php:31
+msgid "Vegyes"
+msgstr ""
+
+#: static.php:32
+msgid "Villany"
+msgstr ""
+
+#: static.php:33
+msgid "Energia takarékos"
+msgstr ""
+
+#: static.php:34;135
+msgid "Egyéb"
+msgstr ""
+
+#: static.php:35
+msgid "Központi egyedi mérő"
+msgstr ""
+
+#: static.php:36
+msgid "Egyedi kazán"
+msgstr ""
+
+#: static.php:37
+msgid "Táv. egyedi mérő"
+msgstr ""
+
+#: static.php:38
+msgid "Fan coil"
+msgstr ""
+
+#: static.php:39
+msgid "Alternatív"
+msgstr ""
+
+#: static.php:40
+msgid "Geotermikus"
+msgstr ""
+
+#: static.php:41
+msgid "Fa"
+msgstr ""
+
+#: static.php:42
+msgid "Héra"
+msgstr ""
+
+#: static.php:46;109;161;177
+msgid "Nincs"
+msgstr ""
+
+#: static.php:47;76
+msgid "Van"
+msgstr ""
+
+#: static.php:48
+msgid "Dunai"
+msgstr ""
+
+#: static.php:49
+msgid "Utcai"
+msgstr ""
+
+#: static.php:50
+msgid "Udvari"
+msgstr ""
+
+#: static.php:51
+msgid "Kertre néző"
+msgstr ""
+
+#: static.php:52
+msgid "Panoráma"
+msgstr ""
+
+#: static.php:55
+msgid "A++"
+msgstr ""
+
+#: static.php:56
+msgid "A+"
+msgstr ""
+
+#: static.php:57
+msgid "A"
+msgstr ""
+
+#: static.php:58
+msgid "B"
+msgstr ""
+
+#: static.php:59
+msgid "C"
+msgstr ""
+
+#: static.php:60
+msgid "D"
+msgstr ""
+
+#: static.php:61
+msgid "E"
+msgstr ""
+
+#: static.php:62
+msgid "F"
+msgstr ""
+
+#: static.php:63
+msgid "G"
+msgstr ""
+
+#: static.php:64
+msgid "H"
+msgstr ""
+
+#: static.php:65
+msgid "I"
+msgstr ""
+
+#: static.php:66
+msgid "J"
+msgstr ""
+
+#: static.php:69
+msgid "*"
+msgstr ""
+
+#: static.php:70
+msgid "**"
+msgstr ""
+
+#: static.php:71
+msgid "***"
+msgstr ""
+
+#: static.php:72
+msgid "****"
+msgstr ""
+
+#: static.php:73
+msgid "*****"
+msgstr ""
+
+#: static.php:77
+msgid "Beltéri"
+msgstr ""
+
+#: static.php:78
+msgid "Kültéri"
+msgstr ""
+
+#: static.php:81
+msgid "Luxus"
+msgstr ""
+
+#: static.php:82
+msgid "Dupla komfortos"
+msgstr ""
+
+#: static.php:83
+msgid "Összkomfortos"
+msgstr ""
+
+#: static.php:84
+msgid "Komfortos"
+msgstr ""
+
+#: static.php:85
+msgid "Félkomfortos"
+msgstr ""
+
+#: static.php:86
+msgid "Komfort nélküli"
+msgstr ""
+
+#: static.php:89
+msgid "Újszerű"
+msgstr ""
+
+#: static.php:90
+msgid "Jó állapotú"
+msgstr ""
+
+#: static.php:91
+msgid "Felújított"
+msgstr ""
+
+#: static.php:92
+msgid "Közepes állapotú"
+msgstr ""
+
+#: static.php:93
+msgid "Felújítandó"
+msgstr ""
+
+#: static.php:94
+msgid "Építés alatt"
+msgstr ""
+
+#: static.php:95
+msgid "Új"
+msgstr ""
+
+#: static.php:98
+msgid "garázs"
+msgstr ""
+
+#: static.php:99;179
+msgid "2 garázs"
+msgstr ""
+
+#: static.php:100
+msgid "Garázs/teremgarázs benne van az árban"
+msgstr ""
+
+#: static.php:101
+msgid "Közelben parkolóház"
+msgstr ""
+
+#: static.php:102
+msgid "Garázs külön kapható"
+msgstr ""
+
+#: static.php:103
+msgid "Utcán közterületen (fizetős)"
+msgstr ""
+
+#: static.php:104
+msgid "Utcán közterületen (ingyenes)"
+msgstr ""
+
+#: static.php:105
+msgid "Felszíni beálló"
+msgstr ""
+
+#: static.php:106
+msgid "Telken beálló"
+msgstr ""
+
+#: static.php:107
+msgid "Telken garázs"
+msgstr ""
+
+#: static.php:108
+msgid "Teremgarázs beállóhely vásárolható"
+msgstr ""
+
+#: static.php:112
+msgid "HUF"
+msgstr ""
+
+#: static.php:113
+msgid "EUR"
+msgstr ""
+
+#: static.php:114
+msgid "USD"
+msgstr ""
+
+#: static.php:117
+msgid "Bútorozott"
+msgstr ""
+
+#: static.php:118
+msgid "Bútorozatlan"
+msgstr ""
+
+#: static.php:119
+msgid "Üresen/Bútorral"
+msgstr ""
+
+#: static.php:120
+msgid " Bútorral/ üresen"
+msgstr ""
+
+#: static.php:123
+msgid "1 havi"
+msgstr ""
+
+#: static.php:124
+msgid "2 havi"
+msgstr ""
+
+#: static.php:127
+msgid "Nem"
+msgstr ""
+
+#: static.php:128
+msgid "Igen"
+msgstr ""
+
+#: static.php:131
+msgid "Megbízási szerződés"
+msgstr ""
+
+#: static.php:132
+msgid "Alaprajz"
+msgstr ""
+
+#: static.php:133
+msgid "Tulajdoni lap"
+msgstr ""
+
+#: static.php:134
+msgid "Helyszínrajz"
+msgstr ""
+
+#: static.php:138
+msgid "Tulajdonos"
+msgstr ""
+
+#: static.php:139
+msgid "Kapcsolattartó"
+msgstr ""
+
+#: static.php:142
+msgid "Egyedülálló"
+msgstr ""
+
+#: static.php:143
+msgid "Házas"
+msgstr ""
+
+#: static.php:144
+msgid "Párkapcsolat"
+msgstr ""
+
+#: static.php:147
+msgid "Magyar"
+msgstr ""
+
+#: static.php:148
+msgid "Német"
+msgstr ""
+
+#: static.php:149
+msgid "Arab"
+msgstr ""
+
+#: static.php:150
+msgid "Afrika"
+msgstr ""
+
+#: static.php:151
+msgid "Angol"
+msgstr ""
+
+#: static.php:154
+msgid "ifj."
+msgstr ""
+
+#: static.php:155
+msgid "dr."
+msgstr ""
+
+#: static.php:156
+msgid "Mr."
+msgstr ""
+
+#: static.php:157
+msgid "Ms."
+msgstr ""
+
+#: static.php:158
+msgid "Mrs."
+msgstr ""
+
+#: static.php:162
+msgid "Loggia"
+msgstr ""
+
+#: static.php:163
+msgid "Erkély"
+msgstr ""
+
+#: static.php:164
+msgid "Terasz"
+msgstr ""
+
+#: static.php:167
+msgid "Eladó"
+msgstr ""
+
+#: static.php:168
+msgid "Kiadó"
+msgstr ""
+
+#: static.php:171
+msgid "Nettó M.Ft"
+msgstr ""
+
+#: static.php:172
+msgid "Bruttó M.Ft"
+msgstr ""
+
+#: static.php:173
+msgid "Nettó Euró"
+msgstr ""
+
+#: static.php:174
+msgid "Bruttó Euró"
+msgstr ""
+
+#: static.php:178
+msgid "van"
+msgstr ""
+
+#: Model/Entity/PropertiesVariation.php:66;72;74;81;83;108;110;112
+msgid "/hó"
+msgstr ""
+
+#: Model/Entity/PropertiesVariation.php:90;92;99;101
+msgid "/month"
+msgstr ""
+
+#: Model/Validation/PhoneValidator.php:22;34
+msgid "36 -al kezdődjön a szám!"
+msgstr ""
+
+#: Model/Validation/PhoneValidator.php:26
+msgid "Hibás szolgáltató szám (20/30/70)"
+msgstr ""
+
+#: Model/Validation/PhoneValidator.php:30
+msgid "11 hosszúságú számot várok!"
+msgstr ""
+
+#: Model/Validation/PhoneValidator.php:38
+msgid "A 3. számjegy nem 1 -es!"
+msgstr ""
+
+#: Model/Validation/PhoneValidator.php:42
+msgid "10 hosszúságú számot várok!"
+msgstr ""
+
+#: Template/Element/print_1.ctp:19
+#: Template/Element/print_10.ctp:18
+#: Template/Element/print_11.ctp:46
+#: Template/Element/print_12.ctp:51
+#: Template/Element/print_13.ctp:44
+#: Template/Element/print_14.ctp:33
+#: Template/Element/print_15.ctp:33
+#: Template/Element/print_16.ctp:19
+#: Template/Element/print_17.ctp:19
+#: Template/Element/print_18.ctp:35
+#: Template/Element/print_19.ctp:35
+#: Template/Element/print_2.ctp:18
+#: Template/Element/print_3.ctp:19
+#: Template/Element/print_5.ctp:58
+#: Template/Element/print_6.ctp:50
+msgid "Bérleti díj: {0}"
+msgstr ""
+
+#: Template/Element/print_1.ctp:21
+#: Template/Element/print_10.ctp:20
+#: Template/Element/print_11.ctp:48
+#: Template/Element/print_12.ctp:53
+#: Template/Element/print_13.ctp:46
+#: Template/Element/print_14.ctp:35
+#: Template/Element/print_15.ctp:35
+#: Template/Element/print_16.ctp:21
+#: Template/Element/print_17.ctp:21
+#: Template/Element/print_18.ctp:37
+#: Template/Element/print_19.ctp:37
+#: Template/Element/print_2.ctp:20
+#: Template/Element/print_3.ctp:21
+#: Template/Element/print_5.ctp:60
+#: Template/Element/print_6.ctp:52
+msgid "Ingatlan ára: {0}"
+msgstr ""
+
+#: Template/Element/print_11.ctp:27
+#: Template/Element/print_12.ctp:27
+#: Template/Element/print_13.ctp:27
+msgid "Amerikai konyha"
+msgstr ""
+
+#: Template/Element/print_11.ctp:27
+#: Template/Element/print_12.ctp:27
+#: Template/Element/print_13.ctp:27
+msgid "Étkezős konyha"
+msgstr ""
+
+#: Template/Element/print_11.ctp:27
+#: Template/Element/print_12.ctp:27
+#: Template/Element/print_13.ctp:27
+msgid "Szeparált konyha"
+msgstr ""
+

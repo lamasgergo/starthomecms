@@ -1,0 +1,59 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-12-06 00:02+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Lib/ImageProcessor.php:199
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Model/Behavior/ImagineBehavior.php:170
+msgid "You have to pass size in the options!"
+msgstr ""
+
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Lib/ImageProcessor.php:233;248
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Model/Behavior/ImagineBehavior.php:204;219
+msgid "You must pass a size value!"
+msgstr ""
+
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Lib/ImageProcessor.php:262
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Model/Behavior/ImagineBehavior.php:234
+msgid "You have to pass a height, width or size!"
+msgstr ""
+
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Lib/ImageProcessor.php:266
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Model/Behavior/ImagineBehavior.php:238
+msgid "You can only scale by width or height!"
+msgstr ""
+
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Lib/ImageProcessor.php:324
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Model/Behavior/ImagineBehavior.php:295
+msgid "You must pass a factor value!"
+msgstr ""
+
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Lib/ImageProcessor.php:349
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Model/Behavior/ImagineBehavior.php:320
+msgid "Invalid direction, use verticall or horizontall"
+msgstr ""
+
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Lib/ImageProcessor.php:398
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Model/Behavior/ImagineBehavior.php:147;347;368
+msgid "You have to pass height and width in the options!"
+msgstr ""
+
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Model/Behavior/ImagineBehavior.php:259;263
+msgid "You can not scale up!"
+msgstr ""
+
+#: _v2/vendor/burzum/cakephp-imagine-plugin/src/Model/Behavior/ImagineBehavior.php:271;275
+msgid "You can not scale down!"
+msgstr ""
+

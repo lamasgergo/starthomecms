@@ -1,0 +1,661 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-12-06 00:02+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: _v1/plugins/Tools/src/Model/Behavior/ConfirmableBehavior.php:36
+#: _v1/plugins/Tools/tests/TestCase/Model/Behavior/ConfirmableBehaviorTest.php:37;78
+#: _v1/vendor/dereuromark/cakephp-tools/src/Model/Behavior/ConfirmableBehavior.php:36
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/ConfirmableBehaviorTest.php:37;78
+#: _v2/plugins/Tools/src/Model/Behavior/ConfirmableBehavior.php:36
+#: _v2/plugins/Tools/tests/TestCase/Model/Behavior/ConfirmableBehaviorTest.php:37;78
+#: _v2/vendor/dereuromark/cakephp-tools/src/Model/Behavior/ConfirmableBehavior.php:36
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/ConfirmableBehaviorTest.php:37;78
+#: plugins/Tools/src/Model/Behavior/ConfirmableBehavior.php:36
+#: plugins/Tools/tests/TestCase/Model/Behavior/ConfirmableBehaviorTest.php:37;78
+#: vendor/dereuromark/cakephp-tools/src/Model/Behavior/ConfirmableBehavior.php:36
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/ConfirmableBehaviorTest.php:37;78
+msgid "Please confirm the checkbox"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Model/Behavior/PasswordableBehavior.php:182;192
+#: _v1/vendor/dereuromark/cakephp-tools/src/Model/Behavior/PasswordableBehavior.php:182;192
+#: _v2/plugins/Tools/src/Model/Behavior/PasswordableBehavior.php:182;192
+#: _v2/vendor/dereuromark/cakephp-tools/src/Model/Behavior/PasswordableBehavior.php:182;192
+#: plugins/Tools/src/Model/Behavior/PasswordableBehavior.php:182;192
+#: vendor/dereuromark/cakephp-tools/src/Model/Behavior/PasswordableBehavior.php:182;192
+msgid "valErrPwdSameAsBefore"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Template/Element/pagination.ctp:12
+#: _v1/vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:12
+#: _v2/plugins/Tools/src/Template/Element/pagination.ctp:12
+#: _v2/vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:12
+#: plugins/Tools/src/Template/Element/pagination.ctp:12
+#: vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:12
+msgid "first"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Template/Element/pagination.ctp:15
+#: _v1/vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:15
+#: _v2/plugins/Tools/src/Template/Element/pagination.ctp:15
+#: _v2/vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:15
+#: plugins/Tools/src/Template/Element/pagination.ctp:15
+#: vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:15
+msgid "last"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Template/Element/pagination.ctp:18
+#: _v1/vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:18
+#: _v2/plugins/Tools/src/Template/Element/pagination.ctp:18
+#: _v2/vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:18
+#: plugins/Tools/src/Template/Element/pagination.ctp:18
+#: vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:18
+msgid "previous"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Template/Element/pagination.ctp:21
+#: _v1/plugins/Tools/src/View/Helper/FormatHelper.php:159;161
+#: _v1/vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:21
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:159;161
+#: _v2/plugins/Tools/src/Template/Element/pagination.ctp:21
+#: _v2/plugins/Tools/src/View/Helper/FormatHelper.php:159;161
+#: _v2/vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:21
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:159;161
+#: plugins/Tools/src/Template/Element/pagination.ctp:21
+#: plugins/Tools/src/View/Helper/FormatHelper.php:159;161
+#: vendor/dereuromark/cakephp-tools/src/Template/Element/pagination.ctp:21
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:159;161
+msgid "next"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:484;565
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:121;229
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:484;565
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:121;229
+#: _v2/plugins/Tools/src/Utility/Time.php:484;565
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:121;229
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:484;565
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:121;229
+#: plugins/Tools/src/Utility/Time.php:484;565
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:121;229
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:484;565
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:121;229
+msgid "o'clock"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:784;936
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:784;936
+#: _v2/plugins/Tools/src/Utility/Time.php:784;936
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:784;936
+#: plugins/Tools/src/Utility/Time.php:784;936
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:784;936
+msgid "%s ago"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:788
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:788
+#: _v2/plugins/Tools/src/Utility/Time.php:788
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:788
+#: plugins/Tools/src/Utility/Time.php:788
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:788
+msgid "in %s"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:824
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:824
+#: _v2/plugins/Tools/src/Utility/Time.php:824
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:824
+#: plugins/Tools/src/Utility/Time.php:824
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:824
+msgid "Month"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:825
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:825
+#: _v2/plugins/Tools/src/Utility/Time.php:825
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:825
+#: plugins/Tools/src/Utility/Time.php:825
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:825
+msgid "Day"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:826
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:826
+#: _v2/plugins/Tools/src/Utility/Time.php:826
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:826
+#: plugins/Tools/src/Utility/Time.php:826
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:826
+msgid "Hour"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:827
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:827
+#: _v2/plugins/Tools/src/Utility/Time.php:827
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:827
+#: plugins/Tools/src/Utility/Time.php:827
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:827
+msgid "Minute"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:828
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:828
+#: _v2/plugins/Tools/src/Utility/Time.php:828
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:828
+#: plugins/Tools/src/Utility/Time.php:828
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:828
+msgid "Second"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:831
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:831
+#: _v2/plugins/Tools/src/Utility/Time.php:831
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:831
+#: plugins/Tools/src/Utility/Time.php:831
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:831
+msgid "Months"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:832
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:832
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+#: _v2/plugins/Tools/src/Utility/Time.php:832
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:832
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+#: plugins/Tools/src/Utility/Time.php:832
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:832
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+msgid "Days"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:833
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:833
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+#: _v2/plugins/Tools/src/Utility/Time.php:833
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:833
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+#: plugins/Tools/src/Utility/Time.php:833
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:833
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:565;569;678
+msgid "Hours"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:834
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:670;674
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:834
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:670;674
+#: _v2/plugins/Tools/src/Utility/Time.php:834
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:670;674
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:834
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:670;674
+#: plugins/Tools/src/Utility/Time.php:834
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:670;674
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:834
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:670;674
+msgid "Minutes"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:835
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:670
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:835
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:670
+#: _v2/plugins/Tools/src/Utility/Time.php:835
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:670
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:835
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:670
+#: plugins/Tools/src/Utility/Time.php:835
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:670
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:835
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:670
+msgid "Seconds"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:935
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:573
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:935
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:573
+#: _v2/plugins/Tools/src/Utility/Time.php:935
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:573
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:935
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:573
+#: plugins/Tools/src/Utility/Time.php:935
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:573
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:935
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:573
+msgid "justNow"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:936
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:936
+#: _v2/plugins/Tools/src/Utility/Time.php:936
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:936
+#: plugins/Tools/src/Utility/Time.php:936
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:936
+msgid "In %s"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:1039
+#: _v1/plugins/Tools/src/View/Helper/TimeHelper.php:140
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:181;241;270;271;272
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1039
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:140
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:181;241;270;271;272
+#: _v2/plugins/Tools/src/Utility/Time.php:1039
+#: _v2/plugins/Tools/src/View/Helper/TimeHelper.php:140
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:181;241;270;271;272
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1039
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:140
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:181;241;270;271;272
+#: plugins/Tools/src/Utility/Time.php:1039
+#: plugins/Tools/src/View/Helper/TimeHelper.php:140
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:181;241;270;271;272
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1039
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:140
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:181;241;270;271;272
+msgid "Today"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:1040
+#: _v1/plugins/Tools/src/View/Helper/TimeHelper.php:143
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:272;273
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1040
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:143
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:272;273
+#: _v2/plugins/Tools/src/Utility/Time.php:1040
+#: _v2/plugins/Tools/src/View/Helper/TimeHelper.php:143
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:272;273
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1040
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:143
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:272;273
+#: plugins/Tools/src/Utility/Time.php:1040
+#: plugins/Tools/src/View/Helper/TimeHelper.php:143
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:272;273
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1040
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:143
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:272;273
+msgid "Tomorrow"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:1041
+#: _v1/plugins/Tools/src/View/Helper/TimeHelper.php:146
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:271;273
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1041
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:146
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:271;273
+#: _v2/plugins/Tools/src/Utility/Time.php:1041
+#: _v2/plugins/Tools/src/View/Helper/TimeHelper.php:146
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:271;273
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1041
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:146
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:271;273
+#: plugins/Tools/src/Utility/Time.php:1041
+#: plugins/Tools/src/View/Helper/TimeHelper.php:146
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:271;273
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1041
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:146
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:271;273
+msgid "Yesterday"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:1042
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1042
+#: _v2/plugins/Tools/src/Utility/Time.php:1042
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1042
+#: plugins/Tools/src/Utility/Time.php:1042
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1042
+msgid "The day after tomorrow"
+msgstr ""
+
+#: _v1/plugins/Tools/src/Utility/Time.php:1043
+#: _v1/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1043
+#: _v2/plugins/Tools/src/Utility/Time.php:1043
+#: _v2/vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1043
+#: plugins/Tools/src/Utility/Time.php:1043
+#: vendor/dereuromark/cakephp-tools/src/Utility/Time.php:1043
+msgid "The day before yesterday"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/CommonHelper.php:197
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/CommonHelper.php:197
+#: _v2/plugins/Tools/src/View/Helper/CommonHelper.php:197
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/CommonHelper.php:197
+#: plugins/Tools/src/View/Helper/CommonHelper.php:197
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/CommonHelper.php:197
+msgid "Subscribe to this feed"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/FormatHelper.php:61
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:61
+#: _v2/plugins/Tools/src/View/Helper/FormatHelper.php:61
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:61
+#: plugins/Tools/src/View/Helper/FormatHelper.php:61
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:61
+msgid "consentThis"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/FormatHelper.php:62
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:62
+#: _v2/plugins/Tools/src/View/Helper/FormatHelper.php:62
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:62
+#: plugins/Tools/src/View/Helper/FormatHelper.php:62
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:62
+msgid "dissentThis"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/FormatHelper.php:65
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:65
+#: _v2/plugins/Tools/src/View/Helper/FormatHelper.php:65
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:65
+#: plugins/Tools/src/View/Helper/FormatHelper.php:65
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:65
+msgid "alreadyVoted"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/FormatHelper.php:148;150
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:148;150
+#: _v2/plugins/Tools/src/View/Helper/FormatHelper.php:148;150
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:148;150
+#: plugins/Tools/src/View/Helper/FormatHelper.php:148;150
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:148;150
+msgid "prev"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/FormatHelper.php:150
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:150
+#: _v2/plugins/Tools/src/View/Helper/FormatHelper.php:150
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:150
+#: plugins/Tools/src/View/Helper/FormatHelper.php:150
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:150
+msgid "noPrev"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/FormatHelper.php:161
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:161
+#: _v2/plugins/Tools/src/View/Helper/FormatHelper.php:161
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:161
+#: plugins/Tools/src/View/Helper/FormatHelper.php:161
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:161
+msgid "noNext"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/FormatHelper.php:362
+#: _v1/plugins/Tools/tests/TestCase/View/Helper/FormatHelperTest.php:160;172
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:362
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/FormatHelperTest.php:160;172
+#: _v2/plugins/Tools/src/View/Helper/FormatHelper.php:362
+#: _v2/plugins/Tools/tests/TestCase/View/Helper/FormatHelperTest.php:160;172
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:362
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/FormatHelperTest.php:160;172
+#: plugins/Tools/src/View/Helper/FormatHelper.php:362
+#: plugins/Tools/tests/TestCase/View/Helper/FormatHelperTest.php:160;172
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:362
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/FormatHelperTest.php:160;172
+msgid "Yes"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/FormatHelper.php:363
+#: _v1/plugins/Tools/tests/TestCase/View/Helper/FormatHelperTest.php:164;176
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:363
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/FormatHelperTest.php:164;176
+#: _v2/plugins/Tools/src/View/Helper/FormatHelper.php:363
+#: _v2/plugins/Tools/tests/TestCase/View/Helper/FormatHelperTest.php:164;176
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:363
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/FormatHelperTest.php:164;176
+#: plugins/Tools/src/View/Helper/FormatHelper.php:363
+#: plugins/Tools/tests/TestCase/View/Helper/FormatHelperTest.php:164;176
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:363
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/FormatHelperTest.php:164;176
+msgid "No"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/FormatHelper.php:430
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:430
+#: _v2/plugins/Tools/src/View/Helper/FormatHelper.php:430
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:430
+#: plugins/Tools/src/View/Helper/FormatHelper.php:430
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/FormatHelper.php:430
+msgid "notAvailable"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/ObfuscateHelper.php:59
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/ObfuscateHelper.php:59
+#: _v2/plugins/Tools/src/View/Helper/ObfuscateHelper.php:59
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/ObfuscateHelper.php:59
+#: plugins/Tools/src/View/Helper/ObfuscateHelper.php:59
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/ObfuscateHelper.php:59
+msgid "for use in an external mail client"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/TimeHelper.php:124
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:124
+#: _v2/plugins/Tools/src/View/Helper/TimeHelper.php:124
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:124
+#: plugins/Tools/src/View/Helper/TimeHelper.php:124
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:124
+msgid "publishedAlready"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/TimeHelper.php:124
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:124
+#: _v2/plugins/Tools/src/View/Helper/TimeHelper.php:124
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:124
+#: plugins/Tools/src/View/Helper/TimeHelper.php:124
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:124
+msgid "publishedToday"
+msgstr ""
+
+#: _v1/plugins/Tools/src/View/Helper/TimeHelper.php:124
+#: _v1/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:124
+#: _v2/plugins/Tools/src/View/Helper/TimeHelper.php:124
+#: _v2/vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:124
+#: plugins/Tools/src/View/Helper/TimeHelper.php:124
+#: vendor/dereuromark/cakephp-tools/src/View/Helper/TimeHelper.php:124
+msgid "publishedNotYet"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:11
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:11
+#: _v2/plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:11
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:11
+#: plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:11
+#: vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:11
+msgid "Active"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:12
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:12
+#: _v2/plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:12
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:12
+#: plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:12
+#: vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:12
+msgid "Published"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:13
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:13
+#: _v2/plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:13
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:13
+#: plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:13
+#: vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:13
+msgid "Approved"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:14
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:14
+#: _v2/plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:14
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:14
+#: plugins/Tools/tests/TestApp/Model/Entity/BitmaskedComment.php:14
+#: vendor/dereuromark/cakephp-tools/tests/TestApp/Model/Entity/BitmaskedComment.php:14
+msgid "Flagged"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:85
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:85
+#: _v2/plugins/Tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:85
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:85
+#: plugins/Tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:85
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:85
+msgid "valErrPwdNotMatch"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:642
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:642
+#: _v2/plugins/Tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:642
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:642
+#: plugins/Tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:642
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/PasswordableBehaviorTest.php:642
+msgid "valErrBetweenCharacters {0} {1}"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Model/Behavior/SluggedBehaviorTest.php:529
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/SluggedBehaviorTest.php:529
+#: _v2/plugins/Tools/tests/TestCase/Model/Behavior/SluggedBehaviorTest.php:529
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/SluggedBehaviorTest.php:529
+#: plugins/Tools/tests/TestCase/Model/Behavior/SluggedBehaviorTest.php:529
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Model/Behavior/SluggedBehaviorTest.php:529
+msgid "and"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:271;272;273
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:271;272;273
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:271;272;273
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:271;272;273
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:271;272;273
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:271;272;273
+msgid "until"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:486;495;501
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:486;495;501
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:486;495;501
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:486;495;501
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:486;495;501
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:486;495;501
+msgid "Sunday"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:489
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:489
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:489
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:489
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:489
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:489
+msgid "Tue"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:492
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:492
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:492
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:492
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:492
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:492
+msgid "Saturday"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:498
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:498
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:498
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:498
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:498
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:498
+msgid "Tuesday"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:512
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:512
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:512
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:512
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:512
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:512
+msgid "November"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:515
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:515
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:515
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:515
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:515
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:515
+msgid "January"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:518
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:518
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:518
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:518
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:518
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:518
+msgid "Feb"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:521
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:521
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:521
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:521
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:521
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:521
+msgid "May"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:565
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:565
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:565
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:565
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:565
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:565
+msgid "{0} ago"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/Utility/TimeTest.php:569
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:569
+#: _v2/plugins/Tools/tests/TestCase/Utility/TimeTest.php:569
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:569
+#: plugins/Tools/tests/TestCase/Utility/TimeTest.php:569
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/Utility/TimeTest.php:569
+msgid "In {0}"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/View/Helper/CommonHelperTest.php:128;143
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/CommonHelperTest.php:128;143
+#: _v2/plugins/Tools/tests/TestCase/View/Helper/CommonHelperTest.php:128;143
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/CommonHelperTest.php:128;143
+#: plugins/Tools/tests/TestCase/View/Helper/CommonHelperTest.php:128;143
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/CommonHelperTest.php:128;143
+msgid "Houses"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/View/Helper/CommonHelperTest.php:132;150
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/CommonHelperTest.php:132;150
+#: _v2/plugins/Tools/tests/TestCase/View/Helper/CommonHelperTest.php:132;150
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/CommonHelperTest.php:132;150
+#: plugins/Tools/tests/TestCase/View/Helper/CommonHelperTest.php:132;150
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/CommonHelperTest.php:132;150
+msgid "House"
+msgstr ""
+
+#: _v1/plugins/Tools/tests/TestCase/View/Helper/FormatHelperTest.php:66;77;89;101
+#: _v1/vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/FormatHelperTest.php:66;77;89;101
+#: _v2/plugins/Tools/tests/TestCase/View/Helper/FormatHelperTest.php:66;77;89;101
+#: _v2/vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/FormatHelperTest.php:66;77;89;101
+#: plugins/Tools/tests/TestCase/View/Helper/FormatHelperTest.php:66;77;89;101
+#: vendor/dereuromark/cakephp-tools/tests/TestCase/View/Helper/FormatHelperTest.php:66;77;89;101
+msgid "Edit"
+msgstr ""
+
