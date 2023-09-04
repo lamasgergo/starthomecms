@@ -58,7 +58,7 @@ Ext.define('Tscrm.view.sent_properties_contacts.Controller', {
                         vcontroller.fireEvent('toast', 'Sikeres mentés', action.result.message );
                         form.reset();
                         formWindow.close(); 
-                        vcontroller.copyToClipboard('/admin/properties/index?print=1&alldata=1&todo=10&ids='+ids+'&sendemail='+email);
+                        vcontroller.copyToClipboard('/admin/properties/index?print=1&alldata=1&todo=10&ids='+ids+'&sendemail='+email+'&hash='+action.result.data.hash);
                     },
                     failure: function(form, action){
                         vcontroller.setFailureFields(form, action, formPanel);

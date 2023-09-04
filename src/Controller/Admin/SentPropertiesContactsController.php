@@ -147,6 +147,7 @@ class SentPropertiesContactsController extends AppController
      */
     public function add()
     {
+        $data = [];
         if($this->request->is(['patch', 'post', 'put']))
         {
 
@@ -161,13 +162,13 @@ class SentPropertiesContactsController extends AppController
 
                     if(!empty($properties))
                     {
-                        
+                        $hash = md5('Y-m-d H:i:s'.rand(100,999));
                         foreach($properties as $oneprop)
                         {
                             if(!empty($oneprop))
                             {    
                                 $this->SentPropertiesContacts->setUser($this->Auth->user('id'));
-                                $rec_sent=$this->SentPropertiesContacts->newEntity(array('properties_variation_id'=>$oneprop,'contact_id'=>$contact_id));
+                                $rec_sent=$this->SentPropertiesContacts->newEntity(array('properties_variation_id'=>$oneprop,'contact_id'=>$contact_id, 'hash' => $hash));
                                 if ($this->SentPropertiesContacts->save($rec_sent)) {
                                     //do something if faliled?
                                     $this->EventHandler->add(
@@ -186,6 +187,7 @@ class SentPropertiesContactsController extends AppController
                             }
                         }
                         $ret['success']=true;
+                        $data['hash']=$hash;
                         $ret['message']=__('Kiajánlás elmentve');
                         $ret['errors']=false;                       
                     } 
@@ -210,7 +212,7 @@ class SentPropertiesContactsController extends AppController
 
             $this->set([
                 'success'=>$ret['success'],
-                'data'=>false,
+                'data'=>$data,
                 'errors'=>$ret['errors'],
                 'message'=>$ret['message']
                 
