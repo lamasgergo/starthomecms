@@ -1,0 +1,121 @@
+.head {
+  background-color: rgba(237, 243, 246, 0.8);
+}
+.head .logo {
+  padding: 20px 0 20px 10px;
+}
+@media (min-width: 992px) {
+  .head .logo {
+    padding: 20px 20px 20px 20px;
+  }
+}
+.head .company-info {
+  font-size: 14px;
+}
+@media (min-width: 992px) {
+  .head .company-info {
+    font-size: 16px;
+  }
+}
+.head .company-info .company {
+  font-size: 18px;
+  font-weight: bold;
+}
+.head .ident-holder .ident {
+  font-size: 22px;
+}
+
+.parameter-holder {
+  padding-top: 15px;
+}
+.parameter-holder .parameter {
+  font-weight: bold;
+  border: 2px solid rgba(237, 243, 246, 0.8);
+  padding: 5px;
+  margin-top: 15px;
+}
+@media (min-width: 992px) {
+  .parameter-holder .parameter {
+    margin-top: 0px;
+  }
+}
+.parameter-holder .parameter span.title {
+  display: block;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 11px;
+}
+.parameter-holder .parameter .icon {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.image-holder {
+  padding-top: 15px;
+}
+
+.smallimage {
+  display: block;
+  background-color: #d9d9d9;
+}
+.smallimage img {
+  max-height: 312px;
+  object-fit: contain;
+}
+@media (min-width: 992px) {
+  .smallimage img {
+    max-height: 225px;
+  }
+}
+@media (min-width: 1200px) {
+  .smallimage img {
+    max-height: 270px;
+  }
+}
+@media (min-width: 1400px) {
+  .smallimage img {
+    max-height: 312px;
+  }
+}
+
+.mainimage {
+  display: block;
+  background-color: #d9d9d9;
+}
+.mainimage img {
+  max-height: 312px;
+  object-fit: contain;
+}
+@media (min-width: 992px) {
+  .mainimage img {
+    max-height: 225px;
+  }
+}
+@media (min-width: 1200px) {
+  .mainimage img {
+    max-height: 270px;
+  }
+}
+@media (min-width: 1400px) {
+  .mainimage img {
+    max-height: 642px;
+  }
+}
+
+.detail-param .param-title {
+  font-weight: bold;
+}
+
+.agent {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 20px;
+}
+.agent .name {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*# sourceMappingURL=offer.css.map */

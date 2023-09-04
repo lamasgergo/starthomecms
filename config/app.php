@@ -9,7 +9,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => false,
+    'debug' => true,
 
     /**
      * Configure basic information about the application.
@@ -139,7 +139,7 @@ return [
      *   `'skipLog' => ['Cake\Network\Exception\NotFoundException', 'Cake\Network\Exception\UnauthorizedException']`
      */
     'Error' => [
-        'errorLevel' => E_ALL & ~E_DEPRECATED & ~E_WARNING,
+        'errorLevel' => E_ALL & ~E_DEPRECATED & ~E_WARNING & ~E_NOTICE,
         'exceptionRenderer' => 'Cake\Error\ExceptionRenderer',
         'skipLog' => [],
         'log' => true,

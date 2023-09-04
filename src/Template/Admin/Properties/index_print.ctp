@@ -37,6 +37,7 @@
     <?php
     }
 ?>
+    <a href="<?php echo $this->request->query['sendemail'];?>?subject=Ajánlat" class="button">Kiajánlás URL</a>
 </div>
 <?php
 if($this->request->query['todo']!='11' && $this->request->query['todo']!='12' && 

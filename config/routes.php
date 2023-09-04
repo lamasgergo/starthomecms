@@ -51,6 +51,9 @@ Router::scope('/', function ($routes) {
      $routes->connect('/', ['controller' => 'Users', 'action' => 'login', 'prefix' => 'admin']);
      $routes->connect('/kepek/:id', ['controller' => 'PropertiesImages', 'action' => 'index']);
      $routes->connect('/kep/*', ['controller' => 'PropertiesImages', 'action' => 'tn']);
+    $routes->connect('/offer/:hash', ['controller' => 'Properties', 'action' => 'offer'], [
+        'pass' => ['hash']
+    ]);
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
@@ -82,6 +85,8 @@ Router::prefix('admin', function ($routes) {
 //print_r($routes);
     $routes->connect('/', ['controller' => 'Users', 'action' => 'login']);
     $routes->connect('/kepek/:id', ['controller' => 'PropertiesImages', 'action' => 'login']);
+
+
     // All routes here will be prefixed with `/admin`
     // And have the prefix => admin route element added.
     $routes->fallbacks('InflectedRoute');

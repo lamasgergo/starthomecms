@@ -66,8 +66,28 @@ class PropertiesImagesController extends AppController
     
     public function tn($image)
     {
+        ini_set('allow_url_fopen', true);
         $img = base64_decode(str_replace('.jpg','',$image));
-        $imageContent = file_get_contents(WWW_ROOT.$img);
+        if(file_exists(WWW_ROOT . $img)) {
+            $imageContent = file_get_contents(WWW_ROOT . $img);
+        }else{
+            $imageContent = file_get_contents('http://cmr.starthomebudapest.hu/' . $img);
+        }
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, 'http://cmr.starthomebudapest.hu' . str_replace("\\", '/', $img));
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+
+        if(curl_exec($ch) === FALSE) {
+            echo "Error: " . curl_error($ch);
+        } else {
+            echo curl_exec($ch);
+        }
+
+        curl_close($ch);
+
         $this->autoRender = false;
         $this->response->type('jpg');
         $this->response->body($imageContent);
