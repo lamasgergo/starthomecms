@@ -20,7 +20,6 @@
       <path value="$PROJECT_DIR$/vendor/friendsofcake/search" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/vendor/burzum/cakephp-imagine-plugin" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/pgbi/cakephp3-soft-delete" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
