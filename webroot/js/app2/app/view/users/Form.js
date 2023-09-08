@@ -46,7 +46,7 @@ Ext.define('Tscrm.view.users.Form', {
                             name: 'password',
                             xtype:'textfield',
                             fieldLabel: 'Jelszó',
-                            inputType: 'password'
+                           /* inputType: 'password'*/
                         }, {
                             name: 'role_id',
                             xtype: 'combobox',
@@ -116,12 +116,12 @@ Ext.define('Tscrm.view.users.Form', {
                             fieldLabel: 'Telefonszám',
                             name: 'phone',
                             allowBlank: true
-                        }/*,{
-                            xtype:'filefield',
-                            fieldLabel: 'Avatar',
+                        },{
+                            xtype:'textfield',
+                            fieldLabel: 'kÉP',
                             name: 'picture',
                             allowBlank: true
-                        }  */
+                        }
                     ]
                 }
             ]

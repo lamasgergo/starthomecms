@@ -214,10 +214,10 @@ class Property extends Entity
         $address='';
 
 
-  
+
         if(!empty($this->_properties['district']['district']))
         {
-            $address.=$this->_properties['district']['district'].'. ';
+            $address.=$this->_properties['district']['district'].'. district, ';
         }else{
             $address.=$this->_properties['city']['city'].', ';
         }                           

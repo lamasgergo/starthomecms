@@ -109,7 +109,10 @@ class UsersController extends AppController
      */
     public function edit($id = null)
     {
-    
+        if(!$this->request->data('password')){
+            unset($this->request->data['password']);
+        }
+
         $ret=$this->_saveData($id,__('Felhasználó módosítása sikeres volt!'),__('Felhasználó módosítás!'),['action' => 'index'],false,[]);
         
         $this->set([

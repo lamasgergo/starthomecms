@@ -24,27 +24,35 @@
 .head .ident-holder .ident {
   font-size: 22px;
 }
+.head a {
+  color: #177E7F;
+  text-decoration: none;
+}
 
 .parameter-holder {
   padding-top: 15px;
 }
 .parameter-holder .parameter {
   font-weight: bold;
-  border: 2px solid rgba(237, 243, 246, 0.8);
-  padding: 5px;
+  border: 2px solid #177E7F;
+  padding: 10px;
   margin-top: 15px;
+  background-color: #177E7F;
+  color: white;
+  font-size: 22px;
+  height: 100%;
 }
 @media (min-width: 992px) {
   .parameter-holder .parameter {
-    margin-top: 0px;
+    margin-top: 0;
   }
 }
 .parameter-holder .parameter span.title {
   display: block;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 11px;
-  line-height: 11px;
+  font-size: 13px;
+  line-height: 13px;
 }
 .parameter-holder .parameter .icon {
   font-size: 30px;
@@ -108,14 +116,32 @@
 }
 
 .agent {
-  background-color: #000000;
+  background-color: #177E7F;
   color: #FFFFFF;
-  padding: 20px;
+  padding: 30px 20px;
+}
+.agent .avatar img {
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 .agent .name {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
+}
+.agent a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.detail-param {
+  padding-top: 10px;
+}
+
+.price {
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=offer.css.map */

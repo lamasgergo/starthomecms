@@ -13,10 +13,8 @@ foreach ($data as $k => $item) {
                 </div>
                 <div class="col-9 col-lg-5 col-xl-3 align-self-end pb-3 company-info">
                     <div class="company mb-3">Start Home Budapest</div>
-                    <div>Tel: +36 1 240 2767</div>
-                    <div>Mobile: +36-20/935-0018</div>
-                    <div>mail: info@starthomebudapest.hu</div>
-                    <div>WEB: starthomebudapest.hu</div>
+                    <div>mail: <a href="mailto:info@starthomebudapest.hu">info@starthomebudapest.hu</a></div>
+                    <div>web: <a href="https://starthomebudapest.hu" target="_blank">starthomebudapest.hu</a></div>
                 </div>
                 <div class="col-lg-4 col-xl-7  pb-3 text-end">
                     <div class="ident-holder h-100 pe-3 pt-3">
@@ -26,7 +24,7 @@ foreach ($data as $k => $item) {
                             </div>
                             <div class="col-12 align-self-end">
                                 <b>
-                                    <?= $item->property->address_short_with_streetnum ?>
+                                    <?= $item->property->address_short_en ?>
                                 </b>
                                 <div><?= $item->property->citypart->citypart ?></div>
                             </div>
@@ -182,39 +180,96 @@ foreach ($data as $k => $item) {
                 <?= $item->description_en ?>
                 <hr>
                 <div class="row">
+
                     <div class="col-12 col-lg-6">
+                        <?php
+                        if(!empty($item->property->furniture_type)):
+                        ?>
                         <div class="row detail-param">
-                            <div class="col-4 param-title">Type of property</div>
-                            <div class="col-8">??</div>
-                        </div>
-                        <div class="row detail-param">
-                            <div class="col-4 param-title">Type of building</div>
-                            <div class="col-8"><?= $item->property->building_type_name ?></div>
-                        </div>
-                        <div class="row detail-param">
-                            <div class="col-4 param-title">Kitchen</div>
-                            <div class="col-8">??</div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <div class="row detail-param">
-                            <div class="col-4 param-title">Furniture</div>
+                            <div class="col-4 param-title"><?=__d('start', 'Bútorozás')?></div>
                             <div class="col-8"><?= $item->property->furniture_type_name ?></div>
                         </div>
+                        <?php endif;?>
+                        <?php
+                        if(!empty($item->property->outlook)):
+                        ?>
                         <div class="row detail-param">
-                            <div class="col-4 param-title">Panorama</div>
+                            <div class="col-4 param-title"><?=__d('start', 'Kilátás')?></div>
                             <div class="col-8"><?= $item->property->panorama_type_name ?></div>
                         </div>
+                        <?php endif;?>
+                        <?php
+                        if(!empty($item->property->pool_type)):
+                            ?>
+                        <div class="row detail-param">
+                            <div class="col-4 param-title"><?=__d('start', 'Medence')?></div>
+                            <div class="col-8"><?= $item->property->pool_type_name ?></div>
+                        </div>
+                        <?php endif;?>
+
                     </div>
+                    <div class="col-12 col-lg-6">
+                        <?php
+                        if($item->property->newlybuilt):
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-12 param-title"><?=__d('start', 'Újépítésű')?></div>
+                            </div>
+                        <?php endif;?>
+                        <?php
+                        if($item->property->aircondition):
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-12 param-title"><?=__d('start', 'Légkondiconáló')?></div>
+                            </div>
+                        <?php endif;?>
+                        <?php
+                        if($item->property->gardencontact):
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-12 param-title"><?=__d('start', 'Kertkapcsolatos')?></div>
+                            </div>
+                        <?php endif;?>
+                        <?php
+                        if($item->property->shortterm):
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-12 param-title"><?=__d('start', 'Rövidtávra is')?></div>
+                            </div>
+                        <?php endif;?>
+                        <?php
+                        if($item->property->terrace):
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-12 param-title"><?=__d('start', 'Terasz, erkély')?></div>
+                            </div>
+                        <?php endif;?>
+                    </div>
+
+
                 </div>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="agent text-center">
+                    <div class="avatar">
+                        <?= $this->Html->image($item->owner->user->avatar_mini) ?>
+                    </div>
                     <div class="name">
                         <?= $item->owner->user->fullname ?>
-
                     </div>
-                    <?= $item->owner->user->email ?>
+                    <?=$this->Html->link( $item->owner->user->email, 'mailto:'.$item->owner->user->email) ?>
+                    <?= $this->Html->link($item->owner->user->phone, 'tel:'.str_replace([' ', '/', '-'],'', $item->owner->user->phone)) ?>
+                </div>
+                <div class=" price mt-5">
+                    <?php
+
+                    if ($item->type == 1) {
+                        echo $this->Html->tag('b', __d('start', 'Bérleti díj: {0}', $item->price_formatted));
+                    } else {
+                        echo $this->Html->tag('b', __d('start', 'Ingatlan ára: {0}', $item->price_formatted));
+                    }
+
+                    ?>
                 </div>
             </div>
         </div>
