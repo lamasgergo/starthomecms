@@ -1,5 +1,19 @@
 @import "_mixins";
 
+.h1-title{
+  text-transform: uppercase;
+  font-size:20px;
+  font-weight: 300;
+  @include xl{
+    font-size:28px;
+
+  }
+  @include xxl{
+    font-size:30px;
+
+  }
+}
+
 .head{
   background-color:rgba(237, 243, 246, 0.8);
   .logo{
@@ -26,6 +40,7 @@
       font-size:22px;
     }
   }
+
   a{
     color: #177E7F;
     text-decoration: none  ;
@@ -36,21 +51,22 @@
   .parameter{
     font-weight: bold;
     border:2px solid #177E7F;
-    padding:10px;
-    margin-top:15px;
+    padding:7px;
+
     background-color: #177E7F;
     color: white;
-    font-size: 22px;
+    font-size: 16px;
     height: 100%;
-    @include lg{
-      margin-top:0;
-    }
     span.title{
       display: block;
       font-weight: normal;
       text-transform: uppercase;
       font-size: 13px;
       line-height: 13px;
+    }
+    @include md{
+      font-size: 22px;
+      padding:10px;
     }
     .icon{
       font-size: 30px;
@@ -87,10 +103,10 @@
     max-height: 312px;
     object-fit: contain;
     @include lg{
-      max-height: 225px;
+      max-height: 425px;
     }
     @include xl{
-      max-height: 270px;
+      max-height: 496px;
     }
     @include xxl{
       max-height: 642px;

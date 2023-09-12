@@ -1,3 +1,19 @@
+.h1-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+}
+@media (min-width: 1200px) {
+  .h1-title {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1400px) {
+  .h1-title {
+    font-size: 30px;
+  }
+}
+
 .head {
   background-color: rgba(237, 243, 246, 0.8);
 }
@@ -35,17 +51,11 @@
 .parameter-holder .parameter {
   font-weight: bold;
   border: 2px solid #177E7F;
-  padding: 10px;
-  margin-top: 15px;
+  padding: 7px;
   background-color: #177E7F;
   color: white;
-  font-size: 22px;
+  font-size: 16px;
   height: 100%;
-}
-@media (min-width: 992px) {
-  .parameter-holder .parameter {
-    margin-top: 0;
-  }
 }
 .parameter-holder .parameter span.title {
   display: block;
@@ -53,6 +63,12 @@
   text-transform: uppercase;
   font-size: 13px;
   line-height: 13px;
+}
+@media (min-width: 768px) {
+  .parameter-holder .parameter {
+    font-size: 22px;
+    padding: 10px;
+  }
 }
 .parameter-holder .parameter .icon {
   font-size: 30px;
@@ -97,12 +113,12 @@
 }
 @media (min-width: 992px) {
   .mainimage img {
-    max-height: 225px;
+    max-height: 425px;
   }
 }
 @media (min-width: 1200px) {
   .mainimage img {
-    max-height: 270px;
+    max-height: 496px;
   }
 }
 @media (min-width: 1400px) {

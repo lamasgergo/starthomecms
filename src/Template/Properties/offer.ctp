@@ -16,25 +16,35 @@ foreach ($data as $k => $item) {
                     <div>mail: <a href="mailto:info@starthomebudapest.hu">info@starthomebudapest.hu</a></div>
                     <div>web: <a href="https://starthomebudapest.hu" target="_blank">starthomebudapest.hu</a></div>
                 </div>
-                <div class="col-lg-4 col-xl-7  pb-3 text-end">
-                    <div class="ident-holder h-100 pe-3 pt-3">
-                        <div class="row h-100">
-                            <div class="col-12">
-                                <div class="ident"><?= $k + 1 ?>. <strong>ID:<?= $item->id ?> </strong></div>
-                            </div>
-                            <div class="col-12 align-self-end">
-                                <b>
-                                    <?= $item->property->address_short_en ?>
-                                </b>
-                                <div><?= $item->property->citypart->citypart ?></div>
+                <div class="col-lg-12 col-xl-7  pb-3 ">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 text-center text-xl-start pt-4
+">
+                            <div class="h1-title">Your next home in Budapest</div>
+                        </div>
+                        <div class="col-12 col-lg-4 text-end">
+                            <div class="ident-holder h-100 pe-3 pt-3">
+                                <div class="row h-100">
+                                    <div class="col-12">
+                                        <div class="ident"><?= $k + 1 ?>. <strong>ID:<?= $item->id ?> </strong></div>
+                                    </div>
+                                    <div class="col-12 align-self-end">
+                                        <b>
+                                            <?= $item->property->address_short_en ?>
+                                        </b>
+                                        <div><?= $item->property->citypart->citypart ?></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
         <div class="row parameter-holder">
-            <div class="col-6 col-lg-2">
+            <div class="col-6 col-lg-4  col-xl-2 mt-3 mt-lg-0">
                 <div class="parameter">
                     <div class="row">
                         <div class="col-auto icon align-self-center"><span
@@ -45,7 +55,7 @@ foreach ($data as $k => $item) {
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-lg-2">
+            <div class="col-6 col-lg-4  col-xl-2 mt-3 mt-lg-0">
                 <div class="parameter">
                     <div class="row">
                         <div class="col-auto icon align-self-center"><span
@@ -57,7 +67,7 @@ foreach ($data as $k => $item) {
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-lg-2">
+            <div class="col-6 col-lg-4  col-xl-2 mt-3 mt-lg-0">
                 <div class="parameter">
                     <div class="row">
                         <div class="col-auto icon align-self-center"><span class="material-symbols-outlined">bed</span>
@@ -69,18 +79,18 @@ foreach ($data as $k => $item) {
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-lg-2">
+            <div class="col-6 col-lg-4 col-xl-2 mt-3 mt-xl-0">
                 <div class="parameter">
                     <div class="row">
                         <div class="col-auto icon align-self-center"><span
                                     class="material-symbols-outlined">bathtub</span></div>
                         <div class="col align-self-center"><span
-                                    class="title">Bath</span><?= $item->property->properties_layout->bathroom ?> &nbsp;
+                                    class="title">Bath</span><?= $item->property->properties_layout->bathroom ?><?= $item->property->properties_layout->bathroom_toilett ?>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-lg-4">
+            <div class="col-12 col-lg-8 col-xl-4 mt-3 mt-xl-0">
                 <div class="parameter">
                     <div class="row">
                         <div class="col-auto icon align-self-center"><span
@@ -99,7 +109,7 @@ foreach ($data as $k => $item) {
                 <?= $this->Html->link(
                     $this->Html->image($this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->mainimage->image_original)]), ['class' => 'w-100']),
                     $this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->mainimage->image_original)]) . '.jpg',
-                    ['class' => 'fb mainimage', 'rel' => 'gallery', 'escape' => false]
+                    ['class' => 'fb mainimage', 'rel' => 'gallery'.$item->id, 'escape' => false]
                 ); ?>
             </div>
             <div class="col-12 col-lg-4">
@@ -111,7 +121,7 @@ foreach ($data as $k => $item) {
                             $this->Html->link(
                                 $this->Html->image($this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->properties_images[1]->image_original)]), ['class' => 'w-100']),
                                 $this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->properties_images[1]->image_original)]) . '.jpg',
-                                ['class' => 'fb smallimage', 'rel' => 'gallery', 'escape' => false]
+                                ['class' => 'fb smallimage', 'rel' => 'gallery'.$item->id, 'escape' => false]
                             );
                         }
                         ?>
@@ -123,7 +133,7 @@ foreach ($data as $k => $item) {
                             $this->Html->link(
                                 $this->Html->image($this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->properties_images[2]->image_original)]), ['class' => 'w-100']),
                                 $this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->properties_images[2]->image_original)]) . '.jpg',
-                                ['class' => 'fb smallimage', 'rel' => 'gallery', 'escape' => false]
+                                ['class' => 'fb smallimage', 'rel' => 'gallery'.$item->id, 'escape' => false]
                             );
                         }
                         ?>
@@ -141,7 +151,7 @@ foreach ($data as $k => $item) {
                     $this->Html->link(
                         $this->Html->image($this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->properties_images[3]->image_original)]), ['class' => 'w-100']),
                         $this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->properties_images[3]->image_original)]) . '.jpg',
-                        ['class' => 'fb smallimage', 'rel' => 'gallery', 'escape' => false]
+                        ['class' => 'fb smallimage', 'rel' => 'gallery'.$item->id, 'escape' => false]
                     );
                 }
                 ?>
@@ -153,7 +163,7 @@ foreach ($data as $k => $item) {
                     $this->Html->link(
                         $this->Html->image($this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->properties_images[4]->image_original)]), ['class' => 'w-100']),
                         $this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->properties_images[4]->image_original)]) . '.jpg',
-                        ['class' => 'fb smallimage', 'rel' => 'gallery', 'escape' => false]
+                        ['class' => 'fb smallimage', 'rel' => 'gallery'.$item->id, 'escape' => false]
                     );
                 }
                 ?>
@@ -166,7 +176,7 @@ foreach ($data as $k => $item) {
                     $this->Html->link(
                         $this->Html->image($this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->properties_images[5]->image_original)]), ['class' => 'w-100']),
                         $this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->properties_images[5]->image_original)]) . '.jpg',
-                        ['class' => 'fb smallimage', 'rel' => 'gallery', 'escape' => false]
+                        ['class' => 'fb smallimage', 'rel' => 'gallery'.$item->id, 'escape' => false]
                     );
                 }
                 ?>
@@ -182,6 +192,14 @@ foreach ($data as $k => $item) {
                 <div class="row">
 
                     <div class="col-12 col-lg-6">
+                        <?php
+                        if(!empty($item->property->building_type)):
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-4 param-title"><?=__d('start', 'Típus')?></div>
+                                <div class="col-8"><?= $item->property->building_type_name ?></div>
+                            </div>
+                        <?php endif;?>
                         <?php
                         if(!empty($item->property->furniture_type)):
                         ?>
@@ -249,7 +267,7 @@ foreach ($data as $k => $item) {
 
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4 mt-4 mt-lg-0">
                 <div class="agent text-center">
                     <div class="avatar">
                         <?= $this->Html->image($item->owner->user->avatar_mini) ?>
@@ -260,7 +278,7 @@ foreach ($data as $k => $item) {
                     <?=$this->Html->link( $item->owner->user->email, 'mailto:'.$item->owner->user->email) ?>
                     <?= $this->Html->link($item->owner->user->phone, 'tel:'.str_replace([' ', '/', '-'],'', $item->owner->user->phone)) ?>
                 </div>
-                <div class=" price mt-5">
+                <div class=" price mt-2 mt-lg-5">
                     <?php
 
                     if ($item->type == 1) {
