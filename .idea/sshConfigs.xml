@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="totalstudio.dev" id="50ec111c-cf70-4897-bd93-7a7c23795041" port="22" nameFormat="DESCRIPTIVE" username="totalstu" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

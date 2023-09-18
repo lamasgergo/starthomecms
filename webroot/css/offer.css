@@ -40,6 +40,9 @@
 .head .ident-holder .ident {
   font-size: 22px;
 }
+.head .ident-holder .street {
+  font-size: 20px;
+}
 .head a {
   color: #177E7F;
   text-decoration: none;

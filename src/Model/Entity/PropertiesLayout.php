@@ -22,9 +22,23 @@ class PropertiesLayout extends Entity
         {
             $room.=$this->_properties['room'];
         }
-        if(!empty($this->_properties['half_room']))
+        if(!empty($this->_properties['halfroom']))
         {
-            $room.='+'.$this->_properties['half_room'];
+            $room.='+'.$this->_properties['halfroom'];
+        }
+        return $room;
+    }
+
+    protected function _getBathRooms()
+    {
+        $room = 0;
+        if(!empty($this->_properties['bathroom']))
+        {
+            $room+=$this->_properties['bathroom'];
+        }
+        if(!empty($this->_properties['bathroom_toilett']))
+        {
+            $room+=$this->_properties['bathroom_toilett'];
         }
         return $room;
     }

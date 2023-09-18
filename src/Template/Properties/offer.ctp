@@ -28,7 +28,7 @@ foreach ($data as $k => $item) {
                                     <div class="col-12">
                                         <div class="ident"><?= $k + 1 ?>. <strong>ID:<?= $item->id ?> </strong></div>
                                     </div>
-                                    <div class="col-12 align-self-end">
+                                    <div class="col-12 align-self-end street">
                                         <b>
                                             <?= $item->property->address_short_en ?>
                                         </b>
@@ -85,7 +85,7 @@ foreach ($data as $k => $item) {
                         <div class="col-auto icon align-self-center"><span
                                     class="material-symbols-outlined">bathtub</span></div>
                         <div class="col align-self-center"><span
-                                    class="title">Bath</span><?= $item->property->properties_layout->bathroom ?><?= $item->property->properties_layout->bathroom_toilett ?>
+                                    class="title">Bath</span><?= $item->property->properties_layout->bath_rooms ?>
                         </div>
                     </div>
                 </div>
@@ -201,11 +201,12 @@ foreach ($data as $k => $item) {
                             </div>
                         <?php endif;?>
                         <?php
-                        if(!empty($item->property->furniture_type)):
+
+                        if(!empty($item->furniture_type)):
                         ?>
                         <div class="row detail-param">
                             <div class="col-4 param-title"><?=__d('start', 'Bútorozás')?></div>
-                            <div class="col-8"><?= $item->property->furniture_type_name ?></div>
+                            <div class="col-8"><?= $item->furniture_type_name ?></div>
                         </div>
                         <?php endif;?>
                         <?php
@@ -224,7 +225,14 @@ foreach ($data as $k => $item) {
                             <div class="col-8"><?= $item->property->pool_type_name ?></div>
                         </div>
                         <?php endif;?>
-
+                        <?php
+                        if(!empty($item->property->heat_type)):
+                        ?>
+                        <div class="row detail-param">
+                            <div class="col-4 param-title"><?=__d('start', 'Fűtés')?></div>
+                            <div class="col-8"><?= $item->property->heat_type_name ?></div>
+                        </div>
+                        <?php endif;?>
                     </div>
                     <div class="col-12 col-lg-6">
                         <?php
@@ -260,6 +268,13 @@ foreach ($data as $k => $item) {
                             ?>
                             <div class="row detail-param">
                                 <div class="col-12 param-title"><?=__d('start', 'Terasz, erkély')?></div>
+                            </div>
+                        <?php endif;?>
+                        <?php
+                        if($item->property->gardencontact):
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-12 param-title"><?=__d('start', 'Kertkapcsolat')?></div>
                             </div>
                         <?php endif;?>
                     </div>

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2018-10-10 15:37+0200\n"
-"PO-Revision-Date: 2018-12-06 09:50+0100\n"
+"PO-Revision-Date: 2023-09-18 15:24+0200\n"
 "Last-Translator: Tamás Gergely <tamas.gergely@totalstudio.hu>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: static.php:5
 msgid "Villa"
@@ -57,11 +57,11 @@ msgstr "Shop"
 
 #: static.php:15
 msgid "Házrész"
-msgstr ""
+msgstr "House part"
 
 #: static.php:16
 msgid "Panel"
-msgstr ""
+msgstr "Bock of flats"
 
 #: static.php:17
 msgid "Ipari telep"
@@ -89,11 +89,11 @@ msgstr ""
 
 #: static.php:26
 msgid "Központi fűtés"
-msgstr ""
+msgstr "Central heading"
 
 #: static.php:27
 msgid "Távfűtés"
-msgstr ""
+msgstr "District heating"
 
 #: static.php:28
 msgid "Tömbfűtés"
@@ -101,23 +101,23 @@ msgstr ""
 
 #: static.php:29
 msgid "Egyedi gáz"
-msgstr ""
+msgstr "Gas"
 
 #: static.php:30
 msgid "Cirkó"
-msgstr ""
+msgstr "Circulation heating"
 
 #: static.php:31
 msgid "Vegyes"
-msgstr ""
+msgstr "Mixed"
 
 #: static.php:32
 msgid "Villany"
-msgstr ""
+msgstr "Eletric"
 
 #: static.php:33
 msgid "Energia takarékos"
-msgstr ""
+msgstr "Power saving"
 
 #: static.php:34;135
 msgid "Egyéb"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: static.php:38
 msgid "Fan coil"
-msgstr ""
+msgstr "Fan coil"
 
 #: static.php:39
 msgid "Alternatív"
@@ -157,31 +157,31 @@ msgstr ""
 
 #: static.php:46;109;161;177
 msgid "Nincs"
-msgstr ""
+msgstr "Dont have"
 
 #: static.php:47;76
 msgid "Van"
-msgstr ""
+msgstr "Have"
 
 #: static.php:48
 msgid "Dunai"
-msgstr ""
+msgstr "Danube view"
 
 #: static.php:49
 msgid "Utcai"
-msgstr ""
+msgstr "Street"
 
 #: static.php:50
 msgid "Udvari"
-msgstr ""
+msgstr "Courtyard view"
 
 #: static.php:51
 msgid "Kertre néző"
-msgstr ""
+msgstr "Garden view"
 
 #: static.php:52
 msgid "Panoráma"
-msgstr ""
+msgstr "Panorama"
 
 #: static.php:55
 msgid "A++"
@@ -369,19 +369,19 @@ msgstr ""
 
 #: static.php:117
 msgid "Bútorozott"
-msgstr ""
+msgstr "Furnished"
 
 #: static.php:118
 msgid "Bútorozatlan"
-msgstr ""
+msgstr "Unfurnished"
 
 #: static.php:119
 msgid "Üresen/Bútorral"
-msgstr ""
+msgstr "Furnidhed/Unfurnished"
 
 #: static.php:120
 msgid " Bútorral/ üresen"
-msgstr ""
+msgstr "Furnished/Unfurnished"
 
 #: static.php:123
 msgid "1 havi"
@@ -513,7 +513,7 @@ msgstr ""
 
 #: static.php:178
 msgid "van"
-msgstr ""
+msgstr "have"
 
 #: Model/Entity/PropertiesVariation.php:66;72;74;81;83;108;110;112
 msgid "/hó"
