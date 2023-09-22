@@ -61,7 +61,7 @@ foreach ($data as $k => $item) {
                         <div class="col-auto icon align-self-center"><span
                                     class="material-symbols-outlined">chair</span></div>
                         <div class="col align-self-center"><span
-                                    class="title">Livingroom</span><?= $item->property->properties_layout->livingroom ?>
+                                    class="title"><?=__d('start', 'Nappali')?></span><?= $item->property->properties_layout->livingroom ?>
                             &nbsp;
                         </div>
                     </div>
@@ -73,7 +73,7 @@ foreach ($data as $k => $item) {
                         <div class="col-auto icon align-self-center"><span class="material-symbols-outlined">bed</span>
                         </div>
                         <div class="col align-self-center"><span
-                                    class="title">Room</span><?= $item->property->properties_layout->room ?> <?= $item->property->properties_layout->half_room ? ' + ' . $item->property->properties_layout->half_room : '' ?>
+                                    class="title"><?=__d('start', 'Szoba')?></span><?= $item->property->properties_layout->room ?> <?= $item->property->properties_layout->half_room ? ' + ' . $item->property->properties_layout->half_room : '' ?>
                             &nbsp;
                         </div>
                     </div>
@@ -85,7 +85,7 @@ foreach ($data as $k => $item) {
                         <div class="col-auto icon align-self-center"><span
                                     class="material-symbols-outlined">bathtub</span></div>
                         <div class="col align-self-center"><span
-                                    class="title">Bath</span><?= $item->property->properties_layout->bath_rooms ?>
+                                    class="title"><?=__d('start', 'Fürdő')?></span><?= $item->property->properties_layout->bath_rooms ?>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ foreach ($data as $k => $item) {
                         <div class="col-auto icon align-self-center"><span
                                     class="material-symbols-outlined">garage</span></div>
                         <div class="col align-self-center"><span
-                                    class="title">Parking</span><?= $item->property->parking_type_name ?> &nbsp;
+                                    class="title"><?=__d('start', 'Parkolás')?></span><?= $item->property->parking_type_name ?> &nbsp;
                         </div>
                     </div>
                 </div>
@@ -186,7 +186,7 @@ foreach ($data as $k => $item) {
         </div>
         <div class="row description-holder mt-3">
             <div class="col-12 col-lg-8">
-                <h4>Description</h4>
+                <h4><?=__d('start', 'Leírás')?></h4>
                 <?= $item->description_en ?>
                 <hr>
                 <div class="row">
@@ -246,7 +246,7 @@ foreach ($data as $k => $item) {
                         if($item->property->aircondition):
                             ?>
                             <div class="row detail-param">
-                                <div class="col-12 param-title"><?=__d('start', 'Légkondiconáló')?></div>
+                                <div class="col-12 param-title"><?=__d('start', 'Légkondicionáló')?></div>
                             </div>
                         <?php endif;?>
                         <?php
@@ -254,6 +254,13 @@ foreach ($data as $k => $item) {
                             ?>
                             <div class="row detail-param">
                                 <div class="col-12 param-title"><?=__d('start', 'Kertkapcsolatos')?></div>
+                            </div>
+                        <?php endif;?>
+                        <?php
+                        if(!empty($item->property->elevator)):
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-12 param-title"><?= __d('start', 'Lift') ?></div>
                             </div>
                         <?php endif;?>
                         <?php
@@ -267,14 +274,7 @@ foreach ($data as $k => $item) {
                         if($item->property->terrace):
                             ?>
                             <div class="row detail-param">
-                                <div class="col-12 param-title"><?=__d('start', 'Terasz, erkély')?></div>
-                            </div>
-                        <?php endif;?>
-                        <?php
-                        if($item->property->gardencontact):
-                            ?>
-                            <div class="row detail-param">
-                                <div class="col-12 param-title"><?=__d('start', 'Kertkapcsolat')?></div>
+                                <div class="col-12 param-title"><?=$item->property->terrace_name?></div>
                             </div>
                         <?php endif;?>
                     </div>

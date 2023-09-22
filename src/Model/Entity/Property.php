@@ -353,6 +353,16 @@ class Property extends Entity
         }        
 
     }
+    protected function _getTerraceName()
+    {
+        if(!empty($this->_properties['terrace']) and Configure::read('Static.terrace_type.'.$this->_properties['terrace']))
+        {
+            return Configure::read('Static.terrace_type.'.$this->_properties['terrace']);
+        }else{
+            return '';
+        }
+
+    }
     
     protected function _getOwnerPhone()
     {

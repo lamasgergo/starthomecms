@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2018-10-10 15:37+0200\n"
-"PO-Revision-Date: 2023-09-18 15:24+0200\n"
+"PO-Revision-Date: 2023-09-22 17:25+0200\n"
 "Last-Translator: Tamás Gergely <tamas.gergely@totalstudio.hu>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -81,11 +81,11 @@ msgstr ""
 
 #: static.php:21
 msgid "Kastély kúria"
-msgstr ""
+msgstr "Castle"
 
 #: static.php:22
 msgid "Egyéb ingatlan"
-msgstr ""
+msgstr "Other"
 
 #: static.php:26
 msgid "Központi fűtés"
@@ -97,7 +97,7 @@ msgstr "District heating"
 
 #: static.php:28
 msgid "Tömbfűtés"
-msgstr ""
+msgstr "Block heating"
 
 #: static.php:29
 msgid "Egyedi gáz"
@@ -121,19 +121,19 @@ msgstr "Power saving"
 
 #: static.php:34;135
 msgid "Egyéb"
-msgstr ""
+msgstr "Other"
 
 #: static.php:35
 msgid "Központi egyedi mérő"
-msgstr ""
+msgstr "Central heating with individual meter"
 
 #: static.php:36
 msgid "Egyedi kazán"
-msgstr ""
+msgstr "Custom boiler"
 
 #: static.php:37
 msgid "Táv. egyedi mérő"
-msgstr ""
+msgstr "Central heating with individual meter"
 
 #: static.php:38
 msgid "Fan coil"
@@ -477,15 +477,15 @@ msgstr ""
 
 #: static.php:162
 msgid "Loggia"
-msgstr ""
+msgstr "Loggia"
 
 #: static.php:163
 msgid "Erkély"
-msgstr ""
+msgstr "Balcony"
 
 #: static.php:164
 msgid "Terasz"
-msgstr ""
+msgstr "Terrace"
 
 #: static.php:167
 msgid "Eladó"
@@ -579,6 +579,48 @@ msgstr "Eat-in kitchen"
 #: Template/Element/print_13.ctp:27
 msgid "Szeparált konyha"
 msgstr "Sep. kitchen"
+
+msgid "Légkondicionáló"
+msgstr "Air conditioner"
+
+msgid "Kertkapcsolatos"
+msgstr "Garden contact"
+
+msgid "Újépítésű"
+msgstr "Newly built"
+
+msgid "Lift"
+msgstr "Elevator"
+
+msgid "Fűtés"
+msgstr "Heating type"
+
+msgid "Medence"
+msgstr "Pool"
+
+msgid "Kilátás"
+msgstr "View"
+
+msgid "Bútorozás"
+msgstr "Furnitured"
+
+msgid "Típus"
+msgstr "Property type"
+
+msgid "Leírás"
+msgstr "Description"
+
+msgid "Nappali"
+msgstr "Livingroom"
+
+msgid "Szoba"
+msgstr "Room"
+
+msgid "Fürdő"
+msgstr "Bath"
+
+msgid "Parkolás"
+msgstr "Parking"
 
 #~ msgid "Nincs garázs"
 #~ msgstr "No garage"

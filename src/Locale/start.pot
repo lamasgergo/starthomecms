@@ -596,3 +596,45 @@ msgstr ""
 msgid "Szeparált konyha"
 msgstr ""
 
+msgid "Légkondicionáló"
+msgstr ""
+
+msgid "Kertkapcsolatos"
+msgstr ""
+
+msgid "Újépítésű"
+msgstr ""
+
+msgid "Lift"
+msgstr ""
+
+msgid "Fűtés"
+msgstr ""
+
+msgid "Medence"
+msgstr ""
+
+msgid "Kilátás"
+msgstr ""
+
+msgid "Bútorozás"
+msgstr ""
+
+msgid "Típus"
+msgstr ""
+
+msgid "Leírás"
+msgstr ""
+
+msgid "Nappali"
+msgstr ""
+
+msgid "Szoba"
+msgstr ""
+
+msgid "Fürdő"
+msgstr ""
+
+msgid "Parkolás"
+msgstr ""
+
