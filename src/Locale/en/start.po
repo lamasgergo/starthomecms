@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2018-10-10 15:37+0200\n"
-"PO-Revision-Date: 2023-09-22 17:25+0200\n"
+"PO-Revision-Date: 2023-09-22 17:28+0200\n"
 "Last-Translator: Tamás Gergely <tamas.gergely@totalstudio.hu>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -141,19 +141,19 @@ msgstr "Fan coil"
 
 #: static.php:39
 msgid "Alternatív"
-msgstr ""
+msgstr "Alternate"
 
 #: static.php:40
 msgid "Geotermikus"
-msgstr ""
+msgstr "Geotermic"
 
 #: static.php:41
 msgid "Fa"
-msgstr ""
+msgstr "Wood"
 
 #: static.php:42
 msgid "Héra"
-msgstr ""
+msgstr "Hera"
 
 #: static.php:46;109;161;177
 msgid "Nincs"
