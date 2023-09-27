@@ -85,10 +85,12 @@
 .smallimage {
   display: block;
   background-color: #d9d9d9;
+  height: 100%;
 }
 .smallimage img {
   max-height: 312px;
   object-fit: contain;
+  height: 100%;
 }
 @media (min-width: 992px) {
   .smallimage img {
@@ -116,12 +118,12 @@
 }
 @media (min-width: 992px) {
   .mainimage img {
-    max-height: 425px;
+    max-height: 460px;
   }
 }
 @media (min-width: 1200px) {
   .mainimage img {
-    max-height: 496px;
+    max-height: 550px;
   }
 }
 @media (min-width: 1400px) {

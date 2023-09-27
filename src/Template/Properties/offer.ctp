@@ -113,8 +113,8 @@ foreach ($data as $k => $item) {
                 ); ?>
             </div>
             <div class="col-12 col-lg-4">
-                <div class="row">
-                    <div class="h-50 col-6 col-lg-12  mt-3 mt-lg-0">
+                <div class="row h-100">
+                    <div class=" h-lg-50 col-6 col-lg-12  mt-3 mt-lg-0">
                         <?php
                         if (!empty($item->property->properties_images[1])) {
                             echo
@@ -126,7 +126,7 @@ foreach ($data as $k => $item) {
                         }
                         ?>
                     </div>
-                    <div class="h-50 col-6 col-lg-12 mt-3">
+                    <div class=" h-lg-50 col-6 col-lg-12 mt-3">
                         <?php
                         if (!empty($item->property->properties_images[2])) {
                             echo

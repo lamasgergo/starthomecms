@@ -84,9 +84,11 @@
 .smallimage{
   display: block;
   background-color:#d9d9d9;
+  height:100%;
   img {
     max-height: 312px;
     object-fit: contain;
+    height:100%;
     @include lg{
       max-height: 225px;
     }
@@ -106,10 +108,10 @@
     max-height: 312px;
     object-fit: contain;
     @include lg{
-      max-height: 425px;
+      max-height: 460px;
     }
     @include xl{
-      max-height: 496px;
+      max-height: 550px;
     }
     @include xxl{
       max-height: 642px;
