@@ -67,7 +67,6 @@ class PropertiesController extends AppController
      
     public function index()
     {
-
         //Sorter part
         if(!empty($this->request->query['sort']) and is_array(json_decode($this->request->query['sort'])))
         {
@@ -99,7 +98,8 @@ class PropertiesController extends AppController
         if(!empty($this->request->query['ident']))
         {
             $this->request->query['ident']=explode(',',$this->request->query['ident']);    
-        }            
+        }
+
         if(!empty($this->request->query['ids']))
         {
             $this->request->query['ident']=explode(',',$this->request->query['ids']);    
@@ -121,7 +121,12 @@ class PropertiesController extends AppController
         {
             unset($this->request->query['sort']);
             //$this->request->query['variation_id']=explode(',',$this->request->query['variation_id']);
-        }         
+        }
+
+        if(empty($this->request->query['archived']))
+        {
+            $this->request->query['archived']=0;
+        }
 
         if(!empty($this->request->query['selector']))
         {
@@ -268,7 +273,8 @@ class PropertiesController extends AppController
                 'Properties.floor',          
                 'Properties.door',   
                 'Properties.has_key',       
-                'Districts.district', 
+                'Properties.archived',
+                'Districts.district',
                 'Cityparts.citypart', 
                 'Streets.street',
                 'Mainimage.id',

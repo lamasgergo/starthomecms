@@ -401,6 +401,9 @@ class PropertiesTable extends Table
             ->value('cooffice', [
                 'field' =>  $this->alias() .'.cooffice'
             ])
+            ->callback('archived', [
+                'callback' => [$this, 'searchArchived']
+            ])
             ->callback('close_enddate', [
                 'callback' => [$this, 'closeEnddate']
             ])
@@ -568,6 +571,11 @@ class PropertiesTable extends Table
     }
     public function searchTerrace(Query $query, array $args, \Search\Type\Base $search) {
         $query->where(['Properties.terrace > 0']);
+    }
+    public function searchArchived(Query $query, array $args, \Search\Type\Base $search) {
+        if(empty($args['archived'])) {
+            $query->where(['Properties.archived'=> 0]);
+        }
     }
 
     public function searchPanorama(Query $query, array $args, \Search\Type\Base $search) {

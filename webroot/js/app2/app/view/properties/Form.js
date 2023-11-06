@@ -42,7 +42,7 @@ Ext.define('Tscrm.view.properties.Form', {
                     scroll: 'vertical',
                     items: [
                         {
-                            columnWidth: .5,
+                            columnWidth: 0.5,
                             items: [
                                 {
                                     xtype: 'hidden',
@@ -73,11 +73,17 @@ Ext.define('Tscrm.view.properties.Form', {
                                         name: 'rent',
                                         fieldLabel: 'Kiadó',
                                         flex: 1,
-                                        margin: '0 0 0 6',
+                                        margin: '0 20 0 6',
                                         inputValue: '1',
                                         listeners: {
                                             change: 'activateTab'
                                         }
+                                    }, {
+                                        name: 'archived',
+                                        fieldLabel: 'Archívált',
+                                        flex: 1,
+                                        margin: '0 0 0 60',
+                                        inputValue: '1'
                                     }]
 
                                 }, {

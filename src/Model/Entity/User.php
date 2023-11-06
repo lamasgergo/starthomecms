@@ -36,6 +36,7 @@ class User extends Entity
     
     protected function _getAvatarMini()
     {
+
         if(empty($this->_properties['picture'])){
             return '/img/nousericon.png';   
         }

@@ -98,6 +98,15 @@ Ext.define('Tscrm.view.properties.List', {
                     }]
 
                 }, {
+                    fieldLabel: 'Archiváltak is',
+                    name: 'archived',
+                    inputValue: 1,
+                    xtype: 'checkbox',
+                    listeners: {
+                        change: 'onSearchSubmit'
+                    }
+
+                }, {
                     fieldLabel: 'Sorszámok',
                     name: 'ident',
                     reference: 'searchIdents',
@@ -716,7 +725,9 @@ Ext.define('Tscrm.view.properties.List', {
                             dataIndex: 'PropertiesVariations.id',
                             width: 80,
                             renderer: function (value, row, data) {
-                                return value + (data.get('nocontract') == 1 ? '<br><span class="rowWarningIcon" data-qtip="Nincs szerződés!"></span>' : '');
+                                return value + (data.get('nocontract') == 1 ? '<br><span class="rowWarningIcon" data-qtip="Nincs szerződés!"></span>' : '')
+                                    + (data.get('archived') == 1 ? '<br>Archivált' : '')
+                                    ;
                             }
                         }, {
                             text: 'Kép',
@@ -726,6 +737,9 @@ Ext.define('Tscrm.view.properties.List', {
                             renderer: function (value, row, data) {
                                 op = '';
                                 if (data.get('active') == '0') {
+                                    op = 'style="opacity:0.5"';
+                                }
+                                if (data.get('archived') == '1') {
                                     op = 'style="opacity:0.5"';
                                 }
                                 if (Ext.isEmpty(value)) {
