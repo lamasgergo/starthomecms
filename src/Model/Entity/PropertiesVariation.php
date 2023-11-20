@@ -19,6 +19,7 @@ class PropertiesVariation extends Entity
         'price_eur_formatted',
         'price_usd_formatted',
         'description_breaked',
+        'type_name',
     ];
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -130,6 +131,16 @@ class PropertiesVariation extends Entity
         if(!empty($this->_properties['description']))
         {
             return $this->_properties['description'];
+        }else{
+            return NULL;
+        }
+    }
+
+    protected function _getTypeName()
+    {
+        if(!empty($this->_properties['type']))
+        {
+            return Configure::read('Static.advert_type')[$this->_properties['type']];
         }else{
             return NULL;
         }

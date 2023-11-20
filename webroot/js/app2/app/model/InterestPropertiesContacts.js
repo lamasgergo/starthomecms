@@ -24,7 +24,13 @@ Ext.define('Tscrm.model.InterestPropertiesContacts', {
         { name: 'halfroom', type: 'string' , mapping: 'properties_variation.property.properties_layout.halfroom'} ,        
         { name: 'size_net', type: 'string' , mapping: 'properties_variation.property.size_net'} ,        
         { name: 'size_gross', type: 'string' , mapping: 'properties_variation.property.size_gross'} ,  
-        { name: 'rooms', type: 'string' , mapping: 'properties_variation.property.properties_layout.room'}
+        { name: 'rooms', type: 'string' , mapping: 'properties_variation.property.properties_layout.room'},
+        { name: 'search_contactid', type: 'string' , mapping: 'contact.id'},
+        { name: 'search_fullname', type: 'string' , mapping: 'contact.fullname'},
+        { name: 'search_phone1', type: 'string' , mapping: 'contact.phone1'},
+        { name: 'search_email', type: 'string' , mapping: 'contact.email1'},
+        { name: 'proptype', type: 'string' , mapping: 'properties_variation.type'} ,
+        { name: 'creator', type: 'string' , mapping: 'user.fullname'}
         
     ]
 });

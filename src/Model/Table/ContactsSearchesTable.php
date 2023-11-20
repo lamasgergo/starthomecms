@@ -164,8 +164,8 @@ class ContactsSearchesTable extends Table
             'bedroom_from <=' => $porperty->properties_layout->room,
             'bedroom_to >=' => $porperty->properties_layout->room
         ];
-        if($porperty->rent==1)array_push($search,  'FIND_IN_SET("1", type)') ;
-        if($porperty->sell==1)array_push($search,  'FIND_IN_SET("2", type)') ;
+        if($porperty->rent==1)array_push($search,  'FIND_IN_SET("1", ContactsSearches.type)') ;
+        if($porperty->sell==1)array_push($search,  'FIND_IN_SET("2", ContactsSearches.type)') ;
         $query->where($search);
     }
     

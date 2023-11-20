@@ -308,7 +308,7 @@ Ext.define('Tscrm.view.properties.View', {
                             {
                                 xtype: 'gridpanel',
                                 bind: {
-                                    store: '{sentContactsGrid}'
+                                    store: '{sentContactsList}'
                                 },                                               
                                 reference: 'sentContactsGrid',
                                 autoScroll:true,
@@ -316,24 +316,29 @@ Ext.define('Tscrm.view.properties.View', {
                                 flex:1,
                                 columns: [
                                     {
+                                        text: '#',
+                                        dataIndex: 'search_contactid',
+                                        sortable: false,
+                                        flex: 1
+                                    },{
                                         text: 'Név',
-                                        dataIndex: 'Contact.fullname',
+                                        dataIndex: 'search_fullname',
                                         sortable: false,
                                         flex: 1
                                     },{
                                         text: 'Email',
-                                        dataIndex: 'Contact.email1',
+                                        dataIndex: 'search_email',
                                         flex: 1,
                                         renderer: function(v){
                                             return '<a href="'+v+'">'+v+'</a>';
                                         }
                                     },{
                                         text: 'Telefon',
-                                        dataIndex: 'Contact.phone1',
+                                        dataIndex: 'search_phone1',
                                         flex: 1
                                     },{
                                         text: 'Típus',
-                                        dataIndex: 'PropertiesVariations.type',
+                                        dataIndex: 'proptype',
                                         flex: 1,
                                         renderer: function(v){
                                             if(v==1){
@@ -345,7 +350,7 @@ Ext.define('Tscrm.view.properties.View', {
                                         }
                                     },{
                                         text: 'Létrehozó',
-                                        dataIndex: 'Users.fullname',
+                                        dataIndex: 'creator',
                                         flex: 1
                                     }, {
                                         text: 'Érdeklődés dátuma',
@@ -397,24 +402,29 @@ Ext.define('Tscrm.view.properties.View', {
                                 flex:1,
                                 columns: [
                                     {
+                                    text: '#',
+                                    dataIndex: 'search_contactid',
+                                    sortable: false,
+                                    flex: 1
+                                    },{
                                         text: 'Név',
-                                        dataIndex: 'contact.fullname',
+                                        dataIndex: 'search_fullname',
                                         sortable: false,
                                         flex: 1
                                     },{
                                         text: 'Email',
-                                        dataIndex: 'contact.email1',
+                                        dataIndex: 'search_email',
                                         flex: 1,
                                         renderer: function(v){
                                             return '<a href="'+v+'">'+v+'</a>';
                                         }
                                     },{
                                         text: 'Telefon',
-                                        dataIndex: 'contact.phone1',
+                                        dataIndex: 'search_phone1',
                                         flex: 1
                                     },{
                                         text: 'Típus',
-                                        dataIndex: 'PropertiesVariations.type',
+                                        dataIndex: 'proptype',
                                         flex: 1,
                                         renderer: function(v){
                                             if(v==1){
@@ -426,7 +436,7 @@ Ext.define('Tscrm.view.properties.View', {
                                         }
                                     },{
                                         text: 'Létrehozó',
-                                        dataIndex: 'Users.fullname',
+                                        dataIndex: 'creator',
                                         flex: 1
                                     }, {
                                         text: 'Érdeklődés dátuma',
@@ -479,19 +489,19 @@ Ext.define('Tscrm.view.properties.View', {
                                 columns: [
                                     {
                                         text: 'Név',
-                                        dataIndex: 'Contact.fullname',
+                                        dataIndex: 'contact_fullname',
                                         sortable: false,
                                         flex: 1
                                     },{
                                         text: 'Email',
-                                        dataIndex: 'Contact.email1',
+                                        dataIndex: 'contact_email1',
                                         flex: 1,
                                         renderer: function(v){
                                             return '<a href="'+v+'">'+v+'</a>';
                                         }
                                     },{
                                         text: 'Telefon',
-                                        dataIndex: 'Contact.phone1',
+                                        dataIndex: 'contact_phone1',
                                         flex: 1
                                     },{
                                         text: 'Típus',
@@ -499,7 +509,7 @@ Ext.define('Tscrm.view.properties.View', {
                                         flex: 1
                                     },{
                                         text: 'Létrehozó',
-                                        dataIndex: 'Users.fullname',
+                                        dataIndex: 'creator',
                                         flex: 1
                                     }, {
                                         text: 'Érdeklődés dátuma',

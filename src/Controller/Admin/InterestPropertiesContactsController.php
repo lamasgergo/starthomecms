@@ -91,7 +91,7 @@ class InterestPropertiesContactsController extends AppController
                 'Contact.phone1',
                 'Contact.firstname',
                 'Contact.lastname',
-                'Contact.email1'                
+                'Contact.email1'
             ])
 
                 ->join([

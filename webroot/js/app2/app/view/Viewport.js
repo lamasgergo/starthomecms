@@ -63,7 +63,7 @@ Ext.define('Tscrm.view.Viewport', {
                 {
                     iconCls: 'fa fa-search' ,
                     icon: null,
-                    text: 'Keresők',
+                    text: 'Keresések',
                     scale: 'large',
                     cls: 'onemenu',
                     itemId: 'list_searches',

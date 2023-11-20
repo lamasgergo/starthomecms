@@ -10,6 +10,7 @@ Ext.define('Tscrm.model.ContactsSearches', {
         { name: 'contact_email1', type: 'string' , mapping: 'contact.email1'},
         { name: 'contact_phone1', type: 'string' , mapping: 'contact.phone1'},
         { name: 'itnternalcompany', type: 'string' , mapping: 'contact.internal_company.name'},
+        { name: 'creator', type: 'string' , mapping: 'user.fullname'},
 /*
         { name: 'firstname', type: 'string' , mapping: 'contact.firstname'},
         { name: 'lastname', type: 'string' , mapping: 'contact.lastname'},

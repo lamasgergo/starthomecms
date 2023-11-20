@@ -161,6 +161,7 @@ Ext.define('Tscrm.view.contacts.View', {
                                             dataIndex: 'Streets.street',
                                             flex: 5,
                                             renderer: function(value,row,data){
+
                                                 addr='';
                                                 row.tdAttr = 'data-qtip="'+data.get('properties_variation').description+'"';
                                                 
@@ -180,7 +181,7 @@ Ext.define('Tscrm.view.contacts.View', {
                                                 
                                                 if(data.get('properties_variation').enddate){
                                                     retval += '<span class="list-tag">'+data.get('properties_variation').enddate+'</span>' ;
-                                                }                                   
+                                                }
                                                 return retval;
                                             }
                                         }, {
@@ -783,7 +784,7 @@ Ext.define('Tscrm.view.contacts.View', {
                                             } 
                                         },{
                                             text: 'Rögzítette',
-                                            dataIndex: 'fullname',
+                                            dataIndex: 'creator',
                                             flex: 1
                                         },{
                                             text: 'Létrehozva',
