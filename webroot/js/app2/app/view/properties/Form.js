@@ -83,7 +83,8 @@ Ext.define('Tscrm.view.properties.Form', {
                                         fieldLabel: 'Archívált',
                                         flex: 1,
                                         margin: '0 0 0 60',
-                                        inputValue: '1'
+                                        inputValue: '1',
+                                        uncheckedValue: '0'
                                     }]
 
                                 }, {

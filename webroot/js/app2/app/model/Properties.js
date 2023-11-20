@@ -2,7 +2,7 @@ Ext.define('Tscrm.model.Properties', {
     extend: 'Ext.data.Model',
     idProperty: 'properties_variation.id',
     fields: [
-        'id', 'title', 'created',
+        'id', 'title', 'created', 'archived',
         { name: 'mainimagetn', type: 'string' , mapping: 'mainimage.image_tn'},
         { name: 'mainimage', type: 'string' , mapping: 'mainimage.image_mini'},
         { name: 'Cities.city', type: 'string' , mapping: 'city.city'},
@@ -22,6 +22,6 @@ Ext.define('Tscrm.model.Properties', {
         { name: 'enddate', type: 'string' , mapping: 'properties_variation.enddate'} ,
         { name: 'PropertiesLayouts.room', type: 'string' , mapping: 'properties_layout.room'} ,
         { name: 'livingroom', type: 'string' , mapping: 'properties_layout.livingroom'} ,
-        { name: 'halfroom', type: 'string' , mapping: 'properties_layout.halfroom'} ,
+        { name: 'halfroom', type: 'string' , mapping: 'properties_layout.halfroom'}
     ]
 });

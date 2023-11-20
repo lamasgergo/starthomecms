@@ -308,7 +308,7 @@ Ext.define('Tscrm.view.properties.View', {
                             {
                                 xtype: 'gridpanel',
                                 bind: {
-                                    store: '{sentContactsList}'
+                                    store: '{sentContactsGrid}'
                                 },                                               
                                 reference: 'sentContactsGrid',
                                 autoScroll:true,
