@@ -65,6 +65,7 @@ class SentPropertiesContactsController extends AppController
                 'Contacts.phone1type',
                 'Contacts.email1',
                 'PropertiesVariations.id',
+                'PropertiesVariations.property_id',
                 'PropertiesVariations.type',
                 'PropertiesVariations.price',
                 'PropertiesVariations.price_dev',

@@ -65,6 +65,7 @@ class ShowedPropertiesContactsController extends AppController
                 'Contacts.phone1',
                 'Contacts.phone1type',
                 'PropertiesVariations.id',
+                'PropertiesVariations.property_id',
                 'PropertiesVariations.type',
                 'PropertiesVariations.price',
                 'PropertiesVariations.price_dev',

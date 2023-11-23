@@ -675,13 +675,24 @@ Ext.define('Tscrm.view.contacts.Controller', {
         //this.getView().add(win);   //Ha mozgatni akarom együtt az ablakokat akkor hivommeg így
 
         win.show();
-        win.getViewModel().set('currentData',record.data.properties_variation.id); 
-        win.getController().loadViewData(this,record.data.properties_variation.id,win);        
-    },  
-    
-/*
-    load fast events
-*/     
+        win.getViewModel().set('currentData',record.data.properties_variation.property_id);
+        win.getController().loadViewData(this,record.data.properties_variation.property_id,win);
+    },
+
+    showPropertiesById: function (grid, record, index, eOpts) {
+
+        win = new Tscrm.view.properties.View();
+        win.setTitle(record.data.address);
+        //this.getView().add(win);   //Ha mozgatni akarom együtt az ablakokat akkor hivommeg így
+
+        win.show();
+        win.getViewModel().set('currentData',record.data.id);
+        win.getController().loadViewData(this,record.data.id,win);
+    },
+
+    /*
+        load fast events
+    */
     loadFastEvents:function(){   
         eventsList = this.lookupReference('contactsEventsFastView');
         store = eventsList.getViewModel().getStore('events');

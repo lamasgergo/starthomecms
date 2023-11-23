@@ -698,7 +698,7 @@ Ext.define('Tscrm.view.contacts.View', {
                                         }
                                     },
                                     listeners: {
-                                        rowdblclick: 'showProperties',
+                                        rowdblclick: 'showPropertiesById',
 
                                     } 
                                 }

@@ -96,6 +96,11 @@ Ext.define('Tscrm.view.contacts.List', {
                         xtype: 'checkbox',
                         labelAlign: 'left'
                     },{
+                        fieldLabel: 'Csak tulajdonosok',
+                        name: 'onlyowners',
+                        xtype: 'checkbox',
+                        labelAlign: 'left'
+                    },{
                         fieldLabel: 'Felvette',
                         name: 'user_id[]',
                         xtype: 'tagfield',

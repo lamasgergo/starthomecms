@@ -481,6 +481,9 @@ class ContactsTable extends Table
         ->callback('onlysearchers', [ 
             'callback' => [$this, 'onlySearchers']
         ])
+        ->callback('onlyowners', [
+            'callback' => [$this, 'onlyOwners']
+        ])
         ->callback('list', [
             'callback' => [$this, 'searchByFullname']
         ])
@@ -551,9 +554,15 @@ class ContactsTable extends Table
 
     public function onlySearchers(Query $query, array $args, \Search\Type\Base $search)
     {
-        $query->where(['AND' => ['search_count >' => 0]]);
-        
-    } 
+        $query->where(['AND' => ['(SELECT count(contacts_searches.id) FROM contacts_searches WHERE contact_id = Contacts.id) >0']]);
+    }
+
+    public function onlyOwners(Query $query, array $args, \Search\Type\Base $search)
+    {
+        $query->where(['AND' => ['(SELECT count(properties_contacts.property_id) FROM properties_contacts WHERE contact_id = Contacts.id and type=1 ) >0']]);
+
+    }
+
     public function searchByFullname(Query $query, array $args, \Search\Type\Base $search)
     {
         $noPrename = false;
