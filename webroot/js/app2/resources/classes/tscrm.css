@@ -141,6 +141,9 @@ dl br{
 .showed{
     background:url(../icons/showed.png);
 }
+.star{
+    background:url(../icons/star.png);
+}
 .event{
     background:url(../icons/event.png);
 }

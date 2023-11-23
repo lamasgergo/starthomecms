@@ -235,8 +235,21 @@ Ext.define('Tscrm.view.contacts.View', {
                                             renderer: Ext.util.Format.dateRenderer('Y-m-d')                                     
                                         },{
                                             xtype:'actioncolumn',
-                                            width:30,
-                                            items: [{
+                                            width:65,
+                                            items: [
+                                                {
+                                                    iconCls: 'action showed',
+                                                    tooltip: 'Érdeklődik',
+                                                    getClass: function(v, metadata, row) {
+                                                        if(!Ext.isEmpty(row.data.interest_properties_contact.id)){
+                                                            return 'action star disabled';
+                                                        }else{
+                                                            return 'action star';
+                                                        }
+
+                                                    },
+                                                    handler: 'addInterestProperties'
+                                                },{
                                                 iconCls: 'action showed',
                                                 tooltip: 'Mutatott lakás',
                                                 getClass: function(v, metadata, row) {

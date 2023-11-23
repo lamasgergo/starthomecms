@@ -639,10 +639,35 @@ Ext.define('Tscrm.view.contacts.Controller', {
             });        
         }
        
-    }, 
-/*
-    Grid row duble click opens the rows view
-*/      
+    },
+    /*
+    Add Interest porerties
+*/
+    addInterestProperties: function(view, rowIdx, colIdx, item, e, record, row){
+        var vcontroller = this;
+        if(record.data.interest_properties_contact.id)
+        {
+            //already saved
+            return false;
+        }else{
+            Ext.Ajax.request({
+                url: '/admin/interest_properties_contacts/add.json',
+                params:{
+                    'contact_id':vcontroller.getViewModel().get('currentData'),
+                    'properties_variation_id':record.data.properties_variation.id
+                },
+                success: function(ret){
+                    var json = Ext.util.JSON.decode(ret.responseText);
+                    vcontroller.loadSentProperties();
+                    vcontroller.loadInterestProperties();
+                }
+            });
+        }
+
+    },
+    /*
+        Grid row duble click opens the rows view
+    */
     showProperties: function (grid, record, index, eOpts) {
  
         win = new Tscrm.view.properties.View();

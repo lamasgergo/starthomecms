@@ -41,7 +41,7 @@ class SentPropertiesContactsController extends AppController
             ->find('search', $this->request->query)
             ->select([
                 'SentPropertiesContacts.id',
-                'SentPropertiesContacts.created',            
+                'SentPropertiesContacts.created',
                 'Properties.id',
                 'Properties.sell',
                 'Properties.rent',
@@ -80,6 +80,7 @@ class SentPropertiesContactsController extends AppController
                 'Users.firstname',
                 'Cities.city',
                 'showed_properties_contact.id',                
+                'interest_properties_contact.id',
                 'Owner.id',
                 'Owner.phone1type',
                 'Owner.phone1',
@@ -101,6 +102,12 @@ class SentPropertiesContactsController extends AppController
                         'alias' => 'showed_properties_contact',
                         'type' => 'LEFT',
                         'conditions' => '(showed_properties_contact.properties_variation_id = SentPropertiesContacts.properties_variation_id and showed_properties_contact.contact_id = SentPropertiesContacts.contact_id)',
+                    ],
+                    'InterestProperty' => [
+                        'table' => 'interest_properties_contacts',
+                        'alias' => 'interest_properties_contact',
+                        'type' => 'LEFT',
+                        'conditions' => '(interest_properties_contact.properties_variation_id = SentPropertiesContacts.properties_variation_id and interest_properties_contact.contact_id = SentPropertiesContacts.contact_id)',
                     ],
                     'PropVariation' => [
                         'table' => 'properties_variations',

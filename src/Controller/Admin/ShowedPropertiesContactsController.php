@@ -144,7 +144,7 @@ class ShowedPropertiesContactsController extends AppController
             $this->ShowedPropertiesContacts->setUser($this->Auth->user('id'));
             $this->ShowedPropertiesContacts->Contacts->setUser($this->Auth->user('id'));
             
-            $ret=$this->_saveData(null,__('Érdeklődés mentése sikeres volt!'),__('Érdeklődés létrehozása sikertelen volt!'),null,null,['Contacts'],['Contacts']);
+            $ret=$this->_saveData(null,__('Mutatás mentése sikeres volt!'),__('Mutatás létrehozása sikertelen volt!'),null,null,['Contacts'],['Contacts']);
             if($ret and $ret['success'])
             {                  
                 //Event save if Property showed
