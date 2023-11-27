@@ -250,7 +250,12 @@ Ext.define('Tscrm.view.contacts.List', {
                             text: 'Új kapcsolat',
                             handler: 'onAdd',
                             cls:'addbtn'
-                    }]
+                    },
+                        {
+                            xtype: 'button',
+                            text: 'Exportálás',
+                            handler: 'onExport',
+                        }]
                                                              
                 }
             ],

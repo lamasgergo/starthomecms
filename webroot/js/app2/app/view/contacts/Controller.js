@@ -103,6 +103,13 @@ Ext.define('Tscrm.view.contacts.Controller', {
         this.fireViewEvent('addrecord', this);   
     },
 /*
+    Grid tbar export button
+*/
+    onExport: function(){
+
+        window.open('/admin/contacts/export');
+    },
+/*
     Grid row action Edit
 */       
     onEdit: function(view, rowIdx, colIdx, item, e, record, row){

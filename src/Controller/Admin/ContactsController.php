@@ -305,4 +305,9 @@ class ContactsController extends AppController
         $this->set('_serialize', ['data','success','errors', 'message']);        
         
     }
+
+    public function export($id = null)
+    {
+
+    }
 }
