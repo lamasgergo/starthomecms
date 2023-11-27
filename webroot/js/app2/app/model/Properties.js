@@ -19,7 +19,7 @@ Ext.define('Tscrm.model.Properties', {
         { name: 'price_formatted', type: 'string' , mapping: 'properties_variation.price_formatted'},      
         { name: 'nocontract', type: 'string' , mapping: 'properties_variation.nocontract'},      
         { name: 'active', type: 'string' , mapping: 'properties_variation.active'} , 
-        { name: 'enddate', type: 'string' , mapping: 'properties_variation.enddate'} ,
+        { name: 'PropertiesVariations.enddate', type: 'string' , mapping: 'properties_variation.enddate'} ,
         { name: 'PropertiesLayouts.room', type: 'string' , mapping: 'properties_layout.room'} ,
         { name: 'livingroom', type: 'string' , mapping: 'properties_layout.livingroom'}
 

@@ -17,7 +17,10 @@ class PropertiesController extends AppController
 {
     public $paginate = [
         'limit' => 1000,
-        'sortWhitelist' => ['id','district_id', 'size_net','PropertiesLayouts.room','Streets.street','PropertiesVariations.id' ,'PropertiesVariations.price','PropertiesVariations.price_dev', 'date'], //these fields can be paginated
+        'sortWhitelist' => ['id','district_id', 'size_net',
+            'PropertiesLayouts.room','Streets.street','PropertiesVariations.id' ,'PropertiesVariations.price',
+            'PropertiesVariations.price_dev',  'PropertiesVariations.enddate',
+            'date'], //these fields can be paginated
         'order' => ['id' => 'desc']
     ];
 

@@ -810,11 +810,12 @@ Ext.define('Tscrm.view.properties.List', {
                             text: 'Utolsó esemény',
                             dataIndex: 'lastevent',
                             flex: 1,
+                            sortable: false,
                             renderer: Ext.util.Format.dateRenderer('Y-m-d')
 
                         }, {
                             text: 'Bérbead határidő',
-                            dataIndex: 'enddate',
+                            dataIndex: 'PropertiesVariations.enddate',
                             flex: 1,
                             renderer: Ext.util.Format.dateRenderer('Y-m-d'),
                             hidden: true
