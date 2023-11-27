@@ -306,8 +306,22 @@ class ContactsController extends AppController
         
     }
 
-    public function export($id = null)
+    public function export()
     {
 
+        header("Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;  charset=utf-8");
+        header("Content-Disposition: attachment; filename=export.xls");  //File name extension was wrong
+        header("Expires: 0");
+        header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
+        header("Cache-Control: private",false);
+
+
+        $query = $this->Contacts
+            ->find('search', $this->request->query)
+            ->select(['firstname','lastname', 'email1', 'phone1'])
+            ->contain(['Companies','InternalCompany', 'Users', 'Creator', 'InternalCompanyContact']);
+
+        $this->set('datas', $query);
+        $this->layout = 'xls';
     }
 }

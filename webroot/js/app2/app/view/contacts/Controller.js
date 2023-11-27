@@ -106,8 +106,17 @@ Ext.define('Tscrm.view.contacts.Controller', {
     Grid tbar export button
 */
     onExport: function(){
-
-        window.open('/admin/contacts/export');
+        var vcontroller = this;
+        var grid=vcontroller.lookupReference('contactsGrid');
+        search = grid.getStore().getProxy().getExtraParams();
+        params = '';
+        Ext.Object.each(search, function(i, val, c) {
+            if(!Ext.isEmpty(i) && !Ext.isEmpty(val))
+            {
+                params+=i+'='+val;
+            }
+        });
+        window.open('/admin/contacts/export?'+params);
     },
 /*
     Grid row action Edit
