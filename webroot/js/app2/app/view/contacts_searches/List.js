@@ -214,7 +214,7 @@ Ext.define('Tscrm.view.contacts_searches.List', {
                             
                         }, {
                             text: 'Relokációs cég',
-                            dataIndex: 'itnternalcompany',
+                            dataIndex: 'itnternal_company',
                             flex: 1
 
                         },{

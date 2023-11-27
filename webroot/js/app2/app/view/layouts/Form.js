@@ -66,19 +66,12 @@ Ext.define('Tscrm.view.layouts.Form', {
                         fieldLabel: 'Szoba',
                         name: 'room'
                     },{
-                        fieldLabel: 'Félszoba',
-                        name: 'halfroom'
-                    },{
                         fieldLabel: 'WC',
                         name: 'toliett'
                     },{
                         fieldLabel: 'Fürdő',
                         name: 'bathroom'
-                    },{
-                        fieldLabel: 'Fürdő, WC -vel',
-                        name: 'bathroom_toilett'
                     }
-                 
                     ]
                 },{
                     columnWidth: .5,

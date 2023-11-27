@@ -22,8 +22,7 @@ Ext.define('Tscrm.model.ShowedPropertiesContacts', {
         { name: 'enddate', type: 'string' , mapping: 'properties_variation.enddate'} ,
         { name: 'PropertiesLayouts.room', type: 'string' , mapping: 'properties_variation.property.properties_layout.room'} ,
         { name: 'livingroom', type: 'string' , mapping: 'properties_variation.property.properties_layout.livingroom'} ,
-        { name: 'halfroom', type: 'string' , mapping: 'properties_variation.property.properties_layout.halfroom'} ,        
-        { name: 'size_net', type: 'string' , mapping: 'properties_variation.property.size_net'} ,        
+        { name: 'size_net', type: 'string' , mapping: 'properties_variation.property.size_net'} ,
         { name: 'size_gross', type: 'string' , mapping: 'properties_variation.property.size_gross'} ,  
         { name: 'rooms', type: 'string' , mapping: 'properties_variation.property.properties_layout.room'}            
     ]

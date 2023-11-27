@@ -181,7 +181,6 @@
                                     if($lo->american_kitchen> 0) $layouts[] = $lo->american_kitchen.' amerikai konyha';
                                     if($lo->eating_kitchen> 0) $layouts[] = $lo->eating_kitchen.' étkezős konyha';
                                     if($lo->room> 0) $layouts[] = $lo->room.' háló';
-                                    if($lo->half_room> 0) $layouts[] = $lo->half_room.' félszoba';
                                     if($lo->toilett> 0) $layouts[] = $lo->toilett.' wc';
                                     if($lo->bathroom> 0) $layouts[] = $lo->bathroom.' fürdő';
                                     if($lo->bathroom_toliett> 0) $layouts[] = $lo->bathroom_toliett.' wc-s fürdő';

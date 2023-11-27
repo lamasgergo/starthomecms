@@ -87,14 +87,6 @@ class PropertiesController extends AppController
         {
             $this->request->query['active'][]=1;
         }
-        if(empty($this->request->query['cooffice']) && empty($this->request->query['ident']) && empty($this->request->query['ids']))
-        {
-            $this->request->query['cooffice']=0;
-        }
-        if(!empty($this->request->query['cooffice_all']))
-        {
-            unset($this->request->query['cooffice']);
-        }
         if(!empty($this->request->query['ident']))
         {
             $this->request->query['ident']=explode(',',$this->request->query['ident']);    
@@ -142,7 +134,6 @@ class PropertiesController extends AppController
                 'Properties.note',
                 'Properties.heat_type', 
                 'Properties.parking',
-                'Properties.cooffice',
                 'Properties.created',
                 'Properties.modified',
                 'Properties.lastevent',
@@ -181,7 +172,6 @@ class PropertiesController extends AppController
                 'Properties.note',
                 'Properties.heat_type', 
                 'Properties.parking',
-                'Properties.cooffice',
                 'Properties.created',
                 'Properties.modified',
                 'Properties.lastevent',
@@ -266,7 +256,6 @@ class PropertiesController extends AppController
                 'Properties.note',
                 'Properties.heat_type', 
                 'Properties.parking',
-                'Properties.cooffice',
                 'Properties.created',
                 'Properties.modified',
                 'Properties.lastevent',          
@@ -293,7 +282,6 @@ class PropertiesController extends AppController
                 'PropertiesVariations.enddate',
                 'PropertiesLayouts.id',
                 'PropertiesLayouts.room',
-                'PropertiesLayouts.halfroom',
                 'PropertiesLayouts.livingroom',
                 'PropertiesLayouts.american_kitchen',
                 'PropertiesLayouts.eating_kitchen',

@@ -114,18 +114,6 @@ Ext.define('Tscrm.view.contacts.Form', {
                                     }]
                                 
                                 },{
-                                    fieldLabel: 'Cég',
-                                    name: 'company_id',
-                                    xtype: 'combobox',
-                                    allowBlank: true,
-                                    queryMode: 'remote',
-                                    bind: {
-                                        store: '{companiesList}'
-                                    }, 
-                                    typeAhead: false,
-                                    displayField: 'name',
-                                    valueField: 'id'    
-                                },{
                                     fieldLabel: 'Titulus',
                                     name: 'title'    
                                 },{

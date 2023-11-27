@@ -21,7 +21,7 @@ Ext.define('Tscrm.model.Properties', {
         { name: 'active', type: 'string' , mapping: 'properties_variation.active'} , 
         { name: 'enddate', type: 'string' , mapping: 'properties_variation.enddate'} ,
         { name: 'PropertiesLayouts.room', type: 'string' , mapping: 'properties_layout.room'} ,
-        { name: 'livingroom', type: 'string' , mapping: 'properties_layout.livingroom'} ,
-        { name: 'halfroom', type: 'string' , mapping: 'properties_layout.halfroom'}
+        { name: 'livingroom', type: 'string' , mapping: 'properties_layout.livingroom'}
+
     ]
 });

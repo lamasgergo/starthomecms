@@ -75,7 +75,6 @@ class InterestPropertiesContactsController extends AppController
                 'PropertiesVariations.description',
                 'PropertiesLayouts.id',
                 'PropertiesLayouts.room',
-                'PropertiesLayouts.halfroom',
                 'PropertiesLayouts.livingroom',
                 'Users.lastname',
                 'Users.firstname',

@@ -573,30 +573,6 @@ Ext.define('Tscrm.view.properties.List', {
                         specialkey: 'onSearchSubmit'
                     }
                 }, {
-                    xtype: 'fieldset',
-                    layout: 'column',
-                    fieldDefaults: {
-                        labelAlign: 'left',
-                    },
-                    defaultType: 'checkbox',
-                    border: false,
-                    items: [{
-                        columnWidth: .5,
-                        fieldLabel: 'Csak külsős',
-                        name: 'cooffice',
-                        listeners: {
-                            change: 'onSearchSubmit'
-                        }
-                    }, {
-                        columnWidth: .5,
-                        fieldLabel: 'Külsős is',
-                        name: 'cooffice_all',
-                        listeners: {
-                            change: 'onSearchSubmit'
-                        }
-                    }
-                    ]
-                }, {
                     fieldLabel: 'Aktív',
                     name: 'active[]',
                     xtype: 'tagfield',
@@ -817,11 +793,7 @@ Ext.define('Tscrm.view.properties.List', {
                         }, {
                             text: 'Szoba',
                             flex: .5,
-                            dataIndex: 'PropertiesLayouts.room',
-                            renderer: function (value, row, data) {
-                                if (data.get('halfroom') > 0) value = value + '+' + data.get('halfroom');
-                                return value;
-                            }
+                            dataIndex: 'PropertiesLayouts.room'
                         }, {
                             text: 'Bútorozás',
                             dataIndex: 'furniture_type_name',
@@ -885,10 +857,7 @@ Ext.define('Tscrm.view.properties.List', {
                     },
                     viewConfig: {
                         loadMask: true,
-                        loadingHeight: 500,
-                        getRowClass: function (record, rowIndex, rowParams, store) {
-                            return record.get('cooffice') ? "orange-row" : "";
-                        }
+                        loadingHeight: 500
                     },
                     tbar: [
                         {

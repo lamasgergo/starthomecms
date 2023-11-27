@@ -104,7 +104,6 @@ return [
         'lotsize2' => 'Telekméret',
         'builddate' => 'Építési idő',
         'building_levels' => 'Ingatlan szintjei',
-        'rate' => 'Ingatlan minősítése',
         'pool_type' => 'Medence',
         'conveniences' => 'Komfort',
         'building_condition' => 'Állapot',

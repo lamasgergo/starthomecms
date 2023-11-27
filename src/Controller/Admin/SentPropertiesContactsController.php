@@ -75,7 +75,6 @@ class SentPropertiesContactsController extends AppController
                 'PropertiesVariations.nocontract',
                 'PropertiesLayouts.id',
                 'PropertiesLayouts.room',
-                'PropertiesLayouts.halfroom',
                 'PropertiesLayouts.livingroom',
                 'Users.lastname',
                 'Users.firstname',

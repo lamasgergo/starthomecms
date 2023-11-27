@@ -62,7 +62,6 @@ Ext.define('Tscrm.view.contacts.View', {
                                         '<tpl if="!Ext.isEmpty(email4)"><dl><dt>Email:</dt><dd> <a href="mailto:{email4}">{email4}</a></dd></dl></tpl>',
                                         '<tpl if="!Ext.isEmpty(debug_phone)"><dl><dt>Eredeti megjegyzés:</dt><dd> {debug_phone}</dd></dl></tpl>',
                                         '<div class="clearfix"></div><h4>Személyes adatok</h4> ',
-                                        '<tpl if="!Ext.isEmpty(company) && company.name != \'\'"><dl><dt>Cég:</dt><dd> {company.name}</dd></dl></tpl>',
                                         '<tpl if="!Ext.isEmpty(title)"><dl><dt>Titulus:</dt><dd> {title}</dd></dl></tpl>',
                                         '<tpl if="!Ext.isEmpty(job)"><dl><dt>Foglalkozás:</dt><dd> {job}</dd></dl></tpl>',
                                         '<tpl if="!Ext.isEmpty(kids)"><dl><dt>Gyermekek száma:</dt><dd> {kids}</dd></dl></tpl>',
@@ -214,11 +213,7 @@ Ext.define('Tscrm.view.contacts.View', {
                                         },{
                                             text: 'Szoba',
                                             flex: .5,
-                                            dataIndex: 'rooms',
-                                            renderer: function(value,row,data){
-                                                if(data.get('halfroom')>0)value=value+'+'+data.get('halfroom');
-                                                return value;
-                                            }
+                                            dataIndex: 'rooms'
                                         }, {
                                             text: 'Kiajánló',
                                             dataIndex: 'firstname',
@@ -384,11 +379,7 @@ Ext.define('Tscrm.view.contacts.View', {
                                         },{
                                             text: 'Szoba',
                                             flex: .5,
-                                            dataIndex: 'rooms',
-                                            renderer: function(value,row,data){
-                                                if(data.get('halfroom')>0)value=value+'+'+data.get('halfroom');
-                                                return value;
-                                            }
+                                            dataIndex: 'rooms'
                                         }, {
                                             text: 'Létrehozó',
                                             dataIndex: 'firstname',
@@ -534,11 +525,7 @@ Ext.define('Tscrm.view.contacts.View', {
                                         },{
                                             text: 'Szoba',
                                             flex: .5,
-                                            dataIndex: 'rooms',
-                                            renderer: function(value,row,data){
-                                                if(data.get('halfroom')>0)value=value+'+'+data.get('halfroom');
-                                                return value;
-                                            }
+                                            dataIndex: 'rooms'
                                         }, {
                                             text: 'Létrehozva',
                                             dataIndex: 'created',

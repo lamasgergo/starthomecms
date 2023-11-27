@@ -22,10 +22,6 @@ class PropertiesLayout extends Entity
         {
             $room.=$this->_properties['room'];
         }
-        if(!empty($this->_properties['halfroom']))
-        {
-            $room.='+'.$this->_properties['halfroom'];
-        }
         return $room;
     }
 
@@ -35,10 +31,6 @@ class PropertiesLayout extends Entity
         if(!empty($this->_properties['bathroom']))
         {
             $room+=$this->_properties['bathroom'];
-        }
-        if(!empty($this->_properties['bathroom_toilett']))
-        {
-            $room+=$this->_properties['bathroom_toilett'];
         }
         return $room;
     }

@@ -381,25 +381,22 @@ class PropertiesTable extends Table
             ->compare('bedroom_from', [
                 'operator'=>'>=',
                 'includeEmpty' => true,
-                'field' =>  '(COALESCE(PropertiesLayouts.room,0)+COALESCE(PropertiesLayouts.halfroom,0))'
+                'field' =>  '(COALESCE(PropertiesLayouts.room,0))'
             ])
             ->compare('bedroom_to', [
                 'operator'=>'<=',
                 'includeEmpty' => true,
-                'field' =>  '(COALESCE(PropertiesLayouts.room,0)+COALESCE(PropertiesLayouts.halfroom,0))'
+                'field' =>  'COALESCE(PropertiesLayouts.room,0))'
             ])
             ->compare('bathroom_from', [
                 'operator'=>'>=',
                 'includeEmpty' => true,
-                'field' =>  '(COALESCE(`PropertiesLayouts`.`bathroom`,0)+COALESCE(`PropertiesLayouts`.`bathroom_toilett`,0))'
+                'field' =>  'COALESCE(`PropertiesLayouts`.`bathroom`,0)'
             ])
             ->compare('bathroom_to', [
                 'operator'=>'<=',
                 'includeEmpty' => true,
-                'field' =>  '(COALESCE(`PropertiesLayouts`.`bathroom`,0)+COALESCE(`PropertiesLayouts`.`bathroom_toilett`,0))'
-            ])
-            ->value('cooffice', [
-                'field' =>  $this->alias() .'.cooffice'
+                'field' =>  'COALESCE(`PropertiesLayouts`.`bathroom`,0)'
             ])
             ->callback('archived', [
                 'callback' => [$this, 'searchArchived']
@@ -516,6 +513,7 @@ class PropertiesTable extends Table
             ])
             ->distinct()
             ->where(['Contacts.id' => $args['contact_id']]);
+
         $query->where(['Properties.id IN' => $matchingContact]);
     }
 

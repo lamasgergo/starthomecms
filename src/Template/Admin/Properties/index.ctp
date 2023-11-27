@@ -8,6 +8,7 @@
         <table class="table table-striped">
             <thead>
             <?php
+            /** @var bool $isMobile */
             if($isMobile):
             ?>
             <tr>
@@ -71,7 +72,7 @@
                         ?>
                     </td>
                     <td><?= $property->size_net ?></td>
-                    <td><?= (!empty($property->properties_layout)?$property->properties_layout->room . (!empty($property->properties_layout->halfroom)?'+'.$property->properties_layout->halfroom:null):null) ?></td>
+                    <td><?= (!empty($property->properties_layout)?$property->properties_layout->room:null )?></td>
                     <td class="actions">
                         <?= $this->Html->link('<i class="fa fa-eye"></i>', ['action' => 'view', $property->id], ['escape' => false, 'class' => 'btn btn-primary btn-lg waves-effect']) ?>
                     </td>

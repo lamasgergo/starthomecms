@@ -274,7 +274,6 @@ Ext.define('Tscrm.view.showed_properties_contacts.Form', {
                             '<tpl if="lotsize != \'\'"><dl><dt>Telekméret:</dt><dd>{lotsize}</dd></dl></tpl>',
                             '<tpl if="builddate != \'\'"><dl><dt>Építési idő:</dt><dd>{builddate}</dd></dl></tpl>',
                             '<tpl if="building_levels != \'\'"><dl><dt>Ingatlan szintjei:</dt><dd>{building_levels}</dd></dl></tpl>',
-                            '<tpl if="rating_type_name != \'\'"><dl><dt>Ingatlan minősítése:</dt><dd>{rating_type_name}</dd></dl></tpl>',
                             '<tpl if="pool_type_name != \'\'"><dl><dt>Medence:</dt><dd>{pool_type_name}</dd></dl></tpl>',
                             '<tpl if="conveniences_type_name != \'\'"><dl><dt>Komfort:</dt><dd>{conveniences_type_name}</dd></dl></tpl>',
                             '<tpl if="building_condition_type_name != \'\'"><dl><dt>Állapot:</dt><dd>{building_condition_type_name}</dd></dl></tpl>',

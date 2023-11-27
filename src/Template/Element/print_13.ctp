@@ -21,7 +21,7 @@
     </tr>
     <tr>
         <td>
-        Bedrooms: <?=$property->properties_layout->room?> <?=($property->properties_layout->halfroom?$property->properties_layout->halfroom:'')?>
+        Bedrooms: <?=$property->properties_layout->room?>
         </td>
         <td>
         Kitchen: <?=($property->properties_layout->american_kitchen?__d('start','Amerikai konyha'):'')?><?=($property->properties_layout->eating_kitchen?__d('start','Étkezős konyha'):'')?><?=($property->properties_layout->kitchen?__d('start','Szeparált konyha'):'')?>

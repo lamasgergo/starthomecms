@@ -97,18 +97,21 @@ return [
             '8' => __d('start', 'Luxus')       
         ],
         'parking_type' => [
-            '1' => __d('start', 'garázs'),
+            '1' => __d('start', '1 garázs'),
             '2' => __d('start', '2 garázs'),
-            '3' => __d('start', 'Garázs/teremgarázs benne van az árban'),
+            '13' => __d('start', '1 garázs, 1 beálló'),
+            '14' => __d('start', '1 garázs, 2 beálló'),
+            //'3' => __d('start', 'Garázs/teremgarázs benne van az árban'),
             '4' => __d('start', 'Közelben parkolóház'),
-            '5' => __d('start', 'Garázs külön kapható'),
+            //'5' => __d('start', 'Garázs külön kapható'),
             '6' => __d('start', 'Utcán közterületen (fizetős)'),
             '7' => __d('start', 'Utcán közterületen (ingyenes)'),
-            '8' => __d('start', 'Felszíni beálló'),
-            '9' => __d('start', 'Telken beálló'),
-            '10' => __d('start', 'Telken garázs'),
-            '11' => __d('start', 'Teremgarázs beállóhely vásárolható'),
+           // '8' => __d('start', 'Felszíni beálló'),
+           // '9' => __d('start', 'Telken beálló'),
+            //'10' => __d('start', 'Telken garázs'),
+           // '11' => __d('start', 'Teremgarázs beállóhely vásárolható'),
             '12' => __d('start', 'Nincs'),
+
         ],
         'valuta_type' => [
             'HUF' => __d('start', 'HUF'),

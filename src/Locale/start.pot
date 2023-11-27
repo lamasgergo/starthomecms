@@ -638,3 +638,12 @@ msgstr ""
 msgid "Parkolás"
 msgstr ""
 
+msgid "1 garázs"
+msgstr ""
+
+msgid "1 garázs, 1 beálló"
+msgstr ""
+
+msgid "1 garázs, 2 beálló"
+msgstr ""
+

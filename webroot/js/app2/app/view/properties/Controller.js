@@ -899,9 +899,6 @@ Ext.define('Tscrm.view.properties.Controller', {
             if(params['gdn']){
                 params['gdn']=1;
             }
-            if(params['cooffice']){
-                params['cooffice']=1;
-            }
 
             if(params['aircondition']){
                 params['aircondition']=1;

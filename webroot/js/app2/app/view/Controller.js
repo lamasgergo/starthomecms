@@ -32,7 +32,6 @@ Ext.define('Tscrm.view.Controller', {
         data = new Object;
         data.last_enddate =true;
         data.active = '0,1';
-        data.cooffice_all =true;
         win.down('#panelwest').expand();
         win.getController().searchFill(data,win);
     },    

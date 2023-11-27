@@ -407,19 +407,6 @@ Ext.define('Tscrm.view.properties.Form', {
 
                                         }]
                                 }, {
-
-                                    fieldLabel: 'Cég',
-                                    name: 'contacts[0][company_id]',
-                                    xtype: 'combobox',
-                                    allowBlank: true,
-                                    queryMode: 'remote',
-                                    bind: {
-                                        store: '{companiesList}'
-                                    },
-                                    typeAhead: false,
-                                    displayField: 'name',
-                                    valueField: 'id'
-                                }, {
                                     xtype: 'fieldcontainer',
                                     fieldLabel: 'Telefonszám 1',
                                     layout: 'hbox',
@@ -510,9 +497,6 @@ Ext.define('Tscrm.view.properties.Form', {
                                     fieldLabel: 'Megjegyzés',
                                     name: 'contacts[0][note]',
                                     xtype: 'textarea'
-                                }, {
-                                    fieldLabel: 'Régi telefon',
-                                    name: 'contacts[0][debug_phone]'
                                 }]
                             }, {
                                 title: 'Kapcsolattartó',
@@ -575,19 +559,6 @@ Ext.define('Tscrm.view.properties.Form', {
                                             margin: '0 0 0 6'
 
                                         }]
-                                }, {
-
-                                    fieldLabel: 'Cég',
-                                    name: 'contacts[1][company_id]',
-                                    xtype: 'combobox',
-                                    allowBlank: true,
-                                    queryMode: 'remote',
-                                    bind: {
-                                        store: '{companiesList2}'
-                                    },
-                                    typeAhead: false,
-                                    displayField: 'name',
-                                    valueField: 'id'
                                 }, {
                                     xtype: 'fieldcontainer',
                                     fieldLabel: 'Telefonszám 1',
@@ -674,9 +645,6 @@ Ext.define('Tscrm.view.properties.Form', {
                                     fieldLabel: 'Megjegyzés',
                                     name: 'contacts[1][note]',
                                     xtype: 'textarea'
-                                }, {
-                                    fieldLabel: 'Régi telefon',
-                                    name: 'contacts[1][debug_phone]'
                                 }]
                             }, {
                                 xtype: 'fieldset',
@@ -704,13 +672,6 @@ Ext.define('Tscrm.view.properties.Form', {
                                     fieldLabel: 'Megjegyzés',
                                     name: 'note',
                                     xtype: 'textarea'
-                                }, {
-
-                                    fieldLabel: 'Társirodás',
-                                    name: 'cooffice',
-                                    xtype: 'checkbox',
-                                    inputValue: '1',
-                                    uncheckedValue: '0'
                                 }]
                             }
 
@@ -758,9 +719,6 @@ Ext.define('Tscrm.view.properties.Form', {
                                                         }, {
                                                             fieldLabel: 'Szoba',
                                                             name: 'properties_layout[room]'
-                                                        }, {
-                                                            fieldLabel: 'Félszoba',
-                                                            name: 'properties_layout[halfroom]'
                                                         }
 
                                                     ]
@@ -779,9 +737,6 @@ Ext.define('Tscrm.view.properties.Form', {
                                                         }, {
                                                             fieldLabel: 'Fürdő',
                                                             name: 'properties_layout[bathroom]'
-                                                        }, {
-                                                            fieldLabel: 'Fürdő, WC -vel',
-                                                            name: 'properties_layout[bathroom_toilett]'
                                                         }
                                                     ]
                                                 }, {
@@ -1027,17 +982,6 @@ Ext.define('Tscrm.view.properties.Form', {
                                         fieldLabel: 'Ingatlan szintjei',
                                         name: 'building_levels',
                                         xtype: 'numberfield'
-                                    }, {
-                                        fieldLabel: 'Ingatlan minősítése',
-                                        name: 'rate',
-                                        xtype: 'combobox',
-                                        editable: false,
-                                        queryMode: 'remote',
-                                        bind: {
-                                            store: '{staticsRatingType}'
-                                        },
-                                        displayField: 'name',
-                                        valueField: 'val'
                                     }, {
                                         fieldLabel: 'Medence',
                                         name: 'pool_type',

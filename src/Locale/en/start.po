@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2018-10-10 15:37+0200\n"
-"PO-Revision-Date: 2023-09-22 17:28+0200\n"
+"PO-Revision-Date: 2023-11-27 10:10+0100\n"
 "Last-Translator: Tamás Gergely <tamas.gergely@totalstudio.hu>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #: static.php:5
 msgid "Villa"
@@ -621,6 +621,15 @@ msgstr "Bath"
 
 msgid "Parkolás"
 msgstr "Parking"
+
+msgid "1 garázs"
+msgstr "1 garage"
+
+msgid "1 garázs, 1 beálló"
+msgstr "1 garage, 1 place"
+
+msgid "1 garázs, 2 beálló"
+msgstr "1 garage, 2 places"
 
 #~ msgid "Nincs garázs"
 #~ msgstr "No garage"
