@@ -401,23 +401,21 @@ Ext.define('Tscrm.view.contacts.Controller', {
 */    
     onSearchSubmit:function(field, e){  
         var vcontroller = this;
-        if(!e.getKey() || e.getKey()==0 || e.getKey()==13 || e.getKey()==10)
-        {      
-            store = vcontroller.getViewModel().getStore('contactsList');
+        store = vcontroller.getViewModel().getStore('contactsList');
 
-            store.getProxy().setExtraParams(this.lookupReference('searchForm').getForm().getFieldValues(true));
-            store.load({
-                scope: this,
-                callback: function(records, operation, success) {
-                    if(!success){
-                        if(operation.error.status == 403)
-                        {
-                            vcontroller.fireEvent('unauthorized', vcontroller);        
-                        }
+        store.getProxy().setExtraParams(this.lookupReference('searchForm').getForm().getFieldValues(true));
+        store.load({
+            scope: this,
+            callback: function(records, operation, success) {
+                if(!success){
+                    if(operation.error.status == 403)
+                    {
+                        vcontroller.fireEvent('unauthorized', vcontroller);
                     }
                 }
-            });           
-        }
+            }
+        });
+
     },
 /*
     Reset search from list

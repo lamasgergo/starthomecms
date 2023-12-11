@@ -113,6 +113,20 @@ Ext.define('Tscrm.view.contacts.Form', {
                                         margin: '0 0 0 6'
                                     }]
                                 
+                                },
+                                {
+                                    fieldLabel: 'Cég',
+                                    name: 'company_id',
+                                    reference: 'company',
+                                    xtype: 'combobox',
+                                    queryMode: 'remote',
+                                    bind: {
+                                        store: '{companiesList}'
+                                    },
+                                    typeAhead: false,
+                                    displayField: 'name',
+                                    valueField: 'id',
+                                    minChars: 2
                                 },{
                                     fieldLabel: 'Titulus',
                                     name: 'title'    
@@ -130,7 +144,7 @@ Ext.define('Tscrm.view.contacts.Form', {
                                     bind: {
                                         store: '{staticsMarialStatusType}'
                                     },
-                                    typeAhead: true,
+                                    typeAhead: false,
                                     displayField: 'name',
                                     valueField: 'val',
                                     xtype: 'combobox'  
@@ -160,7 +174,20 @@ Ext.define('Tscrm.view.contacts.Form', {
                                 anchor: '100%'
                             },
 
-                            items: [{
+                            items: [
+                                {
+                                    fieldLabel: 'Státusz',
+                                    name: 'contact_status',
+                                    queryMode: 'remote',
+                                    bind: {
+                                        store: '{staticsContactStatus}'
+                                    },
+                                    typeAhead: true,
+                                    displayField: 'name',
+                                    valueField: 'val',
+                                    xtype: 'combobox'
+                                },
+                                {
                                 fieldLabel: 'Belső kapcsolattartó',   
                                 name: 'users[]',                                     
                                 xtype: 'tagfield',

@@ -7,104 +7,112 @@ Ext.define('Tscrm.view.contacts.Model', {
         'Tscrm.store.Contacts'
     ],
     alias: 'viewmodel.contactsModel',
-    data : {
-        rec : null
+    data: {
+        rec: null
     },
-    stores: { 
-      contactsList: {
+    stores: {
+        contactsList: {
             type: 'Contacts'
-      }, 
-      contactsView: {
+        },
+        contactsView: {
             type: 'ContactsView'
-      }, 
-      searchView: {
+        },
+        searchView: {
             type: 'ContactsSearchesView'
-      }, 
-      
-      companiesList: {
+        },
+
+        companiesList: {
             type: 'Companies'
-      },
-      internalCompaniesList: {
+        },
+        internalCompaniesList: {
             type: 'Companies',
-            proxy:{
+            proxy: {
                 extraParams: {
                     type: '2'
                 }
             }
-      },
-      internalContactsList: {
+        },
+        internalContactsList: {
             type: 'Contacts',
-            proxy:{
+            proxy: {
                 extraParams: {
                     company_type: '2'
                 }
             }
-      },       
-      usersList: {
+        },
+        usersList: {
             type: 'Users'
-      },      
-      sentPropertiesList: {
+        },
+        sentPropertiesList: {
             type: 'SentPropertiesContacts'
-      },
-      interestPropertiesList: {
+        },
+        interestPropertiesList: {
             type: 'InterestPropertiesContacts'
-      },
-      showedPropertiesList: {
+        },
+        showedPropertiesList: {
             type: 'ShowedPropertiesContacts'
-      },
-      ownPropertiesList: {
+        },
+        ownPropertiesList: {
             type: 'Properties'
-      },
-      searchesList: {
+        },
+        searchesList: {
             type: 'ContactsSearches'
-      },
-      staticsContactPropertyType: {
+        },
+        staticsContactPropertyType: {
             type: 'Statics',
-            proxy:{
+            proxy: {
                 extraParams: {
                     type: 'contact_property_type'
                 }
             }
-      },
-      staticsMarialStatusType: {
+        },
+        staticsMarialStatusType: {
             type: 'Statics',
-            proxy:{
+            proxy: {
                 extraParams: {
                     type: 'marial_status_type'
                 }
             }
-      },    
-      staticsNationalityType: {
+        },
+        staticsNationalityType: {
             type: 'Statics',
-            proxy:{
+            proxy: {
                 extraParams: {
                     type: 'nationality_type'
                 }
             }
-      },
-      staticsPrenameType: {
+        },
+        staticsPrenameType: {
             type: 'Statics',
-            proxy:{
+            proxy: {
                 extraParams: {
                     type: 'prename_type'
                 }
             }
-      },                
-      selectPropertiesList: {
+        },
+        staticsContactStatus: {
+            type: 'Statics',
+            proxy: {
+                extraParams: {
+                    type: 'contact_status'
+                }
+            }
+        },
+        selectPropertiesList: {
             type: 'Properties',
-            proxy:{
+            proxy: {
                 extraParams: {
                     selector: true
                 }
-            } 
-      },
-      events: {
+            }
+        },
+        events: {
             type: 'Events'
-      } ,
-      eventsView: {
+        },
+        eventsView: {
             type: 'Events'
-      }      
-        
-    } 
+        }
+
+    }
     //TODO - add data, formulas and/or methods to support your view
 });

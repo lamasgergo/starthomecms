@@ -435,6 +435,9 @@ class ContactsTable extends Table
         ->value('id', [
             'field' => $this->alias() . '.id'
         ])
+        ->value('contact_status', [
+            'field' => $this->alias() . '.contact_status'
+        ])
         ->like('query', [
             'before' => true,
             'after' => true,
@@ -492,9 +495,18 @@ class ContactsTable extends Table
         ])           
         ->callback('seen_user_id', [
             'callback' => [$this, 'searchBySeenUserId']
-        ])        
-                
-        
+        ])
+        ->like('company', [
+            'before' => true,
+            'after' => true,
+            'mode' => 'or',
+            'field' => [
+                'Companies.name'
+            ]
+        ])
+
+
+
         ;
         return $search;
     }

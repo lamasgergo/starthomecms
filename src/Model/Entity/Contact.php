@@ -10,7 +10,7 @@ use Cake\Core\Configure;
 class Contact extends Entity
 {
     protected $_virtual = ['fullname','marial_status_name','nationality_name', 'variations',
-    'phone1_formatted','phone2_formatted','phone3_formatted','phone4_formatted', 'user_list'
+    'phone1_formatted','phone2_formatted','phone3_formatted','phone4_formatted', 'user_list','contact_status_name'
     ];
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -42,7 +42,16 @@ class Contact extends Entity
         }else{
             return '';
         }          
-    }   
+    }
+    protected function _getContactStatusName()
+    {
+        if(!empty($this->_properties['contact_status']) and Configure::read('Static.contact_status.'.$this->_properties['contact_status']))
+        {
+            return Configure::read('Static.contact_status.'.$this->_properties['contact_status']);
+        }else{
+            return '';
+        }
+    }
     protected function _getNationalityName()
     {
         if(!empty($this->_properties['nationality']) and Configure::read('Static.nationality_type.'.$this->_properties['nationality']))

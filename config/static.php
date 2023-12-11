@@ -178,6 +178,12 @@ return [
             '3' => __d('start', 'Nettó Euró'),
             '4' => __d('start', 'Bruttó Euró')
         ],
+        'contact_status' => [
+            'offer' => __d('start', 'Ajánlat'),
+            'visit' => __d('start', 'Vizit alatt'),
+            'contract' => __d('start', 'Szerződés'),
+            'transfer' => __d('start', 'Átadás előtt'),
+        ],
         'parking_type_search' => [
             '' => __d('start', 'Nincs'),
             '1' => __d('start', 'van'),

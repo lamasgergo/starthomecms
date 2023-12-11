@@ -28,6 +28,7 @@ class ContactsController extends AppController
             'Contacts.phone2',
             'Contacts.note',
             'Contacts.lastevent',
+            'Contacts.contact_status',
             'InternalCompany.name',
             'InternalCompanyContact.fullname',
             'Creator.id',
@@ -37,8 +38,7 @@ class ContactsController extends AppController
             ],
         'limit' => 70,
         'order' => [
-            'Contacts.firstname' => 'asc',
-            'Contacts.lastname' => 'asc',
+            'Contacts.id' => 'desc',
         ],
         'contains' => ['Companies','InternalCompany', 'Creator']
     ];    
@@ -318,7 +318,6 @@ class ContactsController extends AppController
 
         $query = $this->Contacts
             ->find('search', $this->request->query)
-            ->select(['firstname','lastname', 'email1', 'phone1'])
             ->contain(['Companies','InternalCompany', 'Users', 'Creator', 'InternalCompanyContact']);
 
         $this->set('datas', $query);

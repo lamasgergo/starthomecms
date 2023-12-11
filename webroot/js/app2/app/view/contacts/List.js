@@ -69,7 +69,7 @@ Ext.define('Tscrm.view.contacts.List', {
                     items: [{
                         fieldLabel: 'Sorszám',
                         name: 'id',
-                        xtype: 'textfield'
+                        xtype: 'textfield',
                     }, {
                         fieldLabel: 'Név',
                         name: 'name',
@@ -138,6 +138,28 @@ Ext.define('Tscrm.view.contacts.List', {
                                 this.labelEl.dom.removeAttribute('for')
                             }
                         }
+                    },{
+                        fieldLabel: 'Státusz',
+                        name: 'contact_status',
+                        xtype: 'combobox',
+                        queryMode: 'remote',
+                        bind: {
+                            store: '{staticsContactStatus}'
+                        },
+                        typeAhead: false,
+                        displayField: 'name',
+                        valueField: 'val',
+                        maxWidth:200,
+                        listeners: {
+                            collapse: 'onSearchSubmit',
+                            render: function() {
+                                this.labelEl.dom.removeAttribute('for')
+                            }
+                        }
+                    },{
+                        fieldLabel: 'Cég',
+                        name: 'company',
+                        xtype: 'textfield'
                     }]
             }],
             bbar:[{
@@ -196,6 +218,12 @@ Ext.define('Tscrm.view.contacts.List', {
                                 return ret;
 
                             }
+                        },
+                        {
+                            text: 'Státusz',
+                            dataIndex: 'contact_status_name',
+                            flex: 2,
+                            sortable:false
                         },{
                             text: 'Telefonszám',
                             dataIndex: 'phone1_formatted',
