@@ -621,12 +621,18 @@ Ext.define('Tscrm.view.properties.List', {
                     valueField: 'id',
                     publishes: 'id',
                     valueParam: 'ids',
-                    maxWidth: 200,
                     listeners: {
                         collapse: 'onSearchSubmit',
                         render: function () {
                             this.labelEl.dom.removeAttribute('for')
                         }
+                    }
+                },{
+                    fieldLabel: 'Kiemelt',
+                    name: 'offer',
+                    xtype: 'checkbox',
+                    listeners: {
+                        change: 'onSearchSubmit'
                     }
                 }, {
                     name: 'disablesubmit',

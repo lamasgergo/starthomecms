@@ -904,6 +904,10 @@ Ext.define('Tscrm.view.properties.Controller', {
                 params['aircondition']=1;
             }
 
+            if(params['offer']){
+                params['offer']=1;
+            }
+
             store=vcontroller.getViewModel().getStore('propertiesList');
             store.getProxy().setExtraParams(params);
 

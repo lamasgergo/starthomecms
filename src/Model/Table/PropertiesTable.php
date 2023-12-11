@@ -222,6 +222,9 @@ class PropertiesTable extends Table
                 'mode' => 'or',
                 'field' =>  $this->alias() .'.city_id'
             ])
+            ->value('offer', [
+                'field' =>  'PropertiesVariations.offer'
+            ])
             /*
             ->value('district_id', [
                 'mode' => 'or',
