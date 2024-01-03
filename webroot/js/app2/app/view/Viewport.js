@@ -34,7 +34,7 @@ Ext.define('Tscrm.view.Viewport', {
             items: [
                 {
                     xtype:'panel',
-                    html:'StartHome CRM',
+                    html:'<img src="img/logo.png" style="filter: invert(1); height:80px; width:80px;">',
                     height:100,
                     width:228,
                     cls: 'logo'    
