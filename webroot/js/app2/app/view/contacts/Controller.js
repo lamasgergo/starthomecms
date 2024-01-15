@@ -552,7 +552,7 @@ Ext.define('Tscrm.view.contacts.Controller', {
 *     
 */
     onNewPropertyInterest: function(){
-        win = Ext.widget('interestPropertiesContactsFormWindow').show();
+        win = Ext.widget('interestPropertiesContactsForm').show();
         win.show(); 
         win.addListener('close', function(){
             win.down('form').reset();
@@ -679,6 +679,20 @@ Ext.define('Tscrm.view.contacts.Controller', {
         }
 
     },
+    /*
+Add closing a rental or seller
+*/
+    addCloseProperties: function(view, rowIdx, colIdx, item, e, record, row){
+        var win = Ext.widget('rentedPropertiesContactsForm').show();
+        win.show();
+        var datapanel=win.lookupReference('maindata')
+        datapanel.update({'name':record.data.contact.fullname, 'property': record.data.properties_variation.property.address, 'property_id': record.data.properties_variation.id});
+        win.lookupReference('rentedPropertiesContactsForm').getForm().findField('contact_id').setValue(record.data.contact.id);
+        win.lookupReference('rentedPropertiesContactsForm').getForm().findField('property_id').setValue(record.data.properties_variation.id);
+
+
+    },
+
     /*
         Grid row duble click opens the rows view
     */

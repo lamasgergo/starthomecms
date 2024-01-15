@@ -237,9 +237,9 @@ Ext.define('Tscrm.view.contacts.View', {
                                                     tooltip: 'Érdeklődik',
                                                     getClass: function(v, metadata, row) {
                                                         if(!Ext.isEmpty(row.data.interest_properties_contact.id)){
-                                                            return 'action star disabled';
-                                                        }else{
                                                             return 'action star';
+                                                        }else{
+                                                            return 'action star disabled';
                                                         }
 
                                                     },
@@ -249,9 +249,9 @@ Ext.define('Tscrm.view.contacts.View', {
                                                 tooltip: 'Mutatott lakás',
                                                 getClass: function(v, metadata, row) {
                                                     if(!Ext.isEmpty(row.data.showed_properties_contact.id)){
-                                                        return 'action showed disabled';
+                                                        return 'action showed ';
                                                     }else{
-                                                        return 'action showed';
+                                                        return 'action showed disabled';
                                                     }
 
                                                 },
@@ -402,9 +402,9 @@ Ext.define('Tscrm.view.contacts.View', {
                                                 tooltip: 'Mutatott lakás',
                                                 getClass: function(v, metadata, row) {
                                                     if(!Ext.isEmpty(row.data.showed_properties_contact.id)){
-                                                        return 'action showed disabled';
+                                                        return 'action showed ';
                                                     }else{
-                                                        return 'action showed';
+                                                        return 'action showed disabled';
                                                     }
 
                                                 },
@@ -532,6 +532,22 @@ Ext.define('Tscrm.view.contacts.View', {
                                             flex: 1,
                                             renderer: Ext.util.Format.dateRenderer('Y-m-d')
                                             
+                                        },{
+                                            xtype:'actioncolumn',
+                                            width:30,
+                                            items: [{
+                                                iconCls: 'action showed',
+                                                tooltip: 'Kiadott/megvett lakás',
+                                                getClass: function(v, metadata, row) {
+                                                    if(!Ext.isEmpty(row.data.PropertiesRenter.property_id)){
+                                                        return 'action check ';
+                                                    }else{
+                                                        return 'action check disabled';
+                                                    }
+
+                                                },
+                                                handler: 'addCloseProperties'
+                                            }]
                                         }
                                     ],
                                     viewConfig: {

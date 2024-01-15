@@ -4,6 +4,8 @@ namespace App\Controller\Admin;
 use App\Controller\AppController;
 use Cake\Core\Configure;
 use Cake\Event\Event;
+use Cake\I18n\Time;
+use DateTime;
 
 /**
  * InterestPropertiesContacts Controller
@@ -89,7 +91,8 @@ class ShowedPropertiesContactsController extends AppController
                 'Contact.phone1',
                 'Contact.firstname',
                 'Contact.lastname',
-                'Contact.email1'                
+                'Contact.email1' ,
+                'PropertiesRenter.property_id'
             ])
                 ->join([
 
@@ -113,6 +116,11 @@ class ShowedPropertiesContactsController extends AppController
                         'table' => 'properties_contacts',
                         'type' => 'LEFT',
                         'conditions' => ['PropertiesContactsContact.property_id = PropVariation.property_id', 'PropertiesContactsContact.main =1 ', 'PropertiesContactsContact.type = 2 ' ],
+                    ],
+                    'PropertiesRenter' => [
+                        'table' => 'properties_contacts',
+                        'type' => 'LEFT',
+                        'conditions' => ['PropertiesRenter.property_id = PropVariation.property_id',  'ShowedPropertiesContacts.contact_id = PropertiesRenter.contact_id', 'PropertiesRenter.type IN (1,3)'  ],
                     ],
                     'Contact' => [
                         'table' => 'contacts',
@@ -174,5 +182,77 @@ class ShowedPropertiesContactsController extends AppController
         $this->set('_serialize', ['data','success','errors', 'message']);
     }
 
+    /**
+     * Add method
+     *
+     * @return void Redirects on successful add, renders view otherwise.
+     */
+    public function rental()
+    {
+        if($this->request->is(['patch', 'post', 'put']))
+        {
+            $ret['success'] = true;
+
+            $contact = $this->ShowedPropertiesContacts->Contacts->get($this->request->data['contact_id']);
+            if($contact) {
+                $contact->contact_status = $this->request->data['contact_status'];
+                $this->ShowedPropertiesContacts->Contacts->save($contact);
+            }
+
+            $this->loadModel('PropertiesVariations');
+            $property = $this->PropertiesVariations->get($this->request->data['property_id']);
+            if($property) {
+                $property->enddate = new Time($this->request->data['enddate']);
+
+                try {
+                    $this->PropertiesVariations->save($property);
+                }catch (\Exception $e){
+                    $ret['success'] = false;
+                }
+            }
+
+
+            $this->loadModel('PropertiesContacts');
+
+            $contactProperty = $this->PropertiesContacts->newEntity([
+                'contact_id' => $this->request->data['contact_id'],
+                'property_id' => $property->property_id,
+                'type' => 3
+            ]);
+
+            $this->PropertiesContacts->save($contactProperty);
+
+
+            $ret['message'] = 'Sikeres mentés';
+
+            if($ret and $ret['success'])
+            {
+                //Event save if Property showed
+                $this->EventHandler->add(
+                    array(
+                        'user_id'=>$this->Auth->user('id'),
+                        'controller' => 'RentedPropertiesContacts',
+                        'link_model'=>'Contacts',
+                        'link_model_id'=> $this->request->data['contact_id'],
+                        'referer_model'=>'Properties',
+                        'referer_model_id'=> $property->property_id,
+                        'note'=> $this->request->data['note']
+                    )
+                );
+                $this->set([
+                    'success'=>$ret['success'],
+                    'data'=>$ret['data'],
+                    'errors'=>$ret['errors'],
+                    'message'=>$ret['message']
+
+                ]);
+            }
+
+
+       }
+
+
+        $this->set('_serialize', ['data','success','errors', 'message']);
+    }
 
 }

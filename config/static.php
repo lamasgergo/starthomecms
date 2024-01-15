@@ -141,7 +141,8 @@ return [
         ],
         'contact_property_type' => [
             '1' => __d('start', 'Tulajdonos'),
-            '2' => __d('start', 'Kapcsolattartó')
+            '2' => __d('start', 'Kapcsolattartó'),
+            '3' => __d('start', 'Bérlő')
         ], 
         'marial_status_type' => [
             '1' => __d('start', 'Egyedülálló'),

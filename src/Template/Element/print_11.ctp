@@ -21,7 +21,7 @@
     </tr>
     <tr>
         <td>
-            Hálószobák: <?=$property->properties_layout->room?>?>
+            Hálószobák: <?=$property->properties_layout->room?>
         </td>
         <td>
         Konyha: <?=($property->properties_layout->american_kitchen?__d('start','Amerikai konyha'):'')?><?=($property->properties_layout->eating_kitchen?__d('start','Étkezős konyha'):'')?><?=($property->properties_layout->kitchen?__d('start','Szeparált konyha'):'')?>

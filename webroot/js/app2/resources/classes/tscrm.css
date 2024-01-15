@@ -144,6 +144,10 @@ dl br{
 .star{
     background:url(../icons/star.png);
 }
+.check{
+    background:url(../icons/check.png);
+    background-size: 16px 16px;
+}
 .event{
     background:url(../icons/event.png);
 }

@@ -87,7 +87,8 @@ Ext.application({
         'ContactsSearches',
         'SentPropertiesContacts',
         'InterestPropertiesContacts',
-        'ShowedPropertiesContacts'
+        'ShowedPropertiesContacts',
+        'RentedPropertiesContacts',
     ],
     
     stores : [
@@ -114,6 +115,7 @@ Ext.application({
            }else{
                $(e.skin[0]).css('background-color', 'white');   
            }
+
             
         }
     });
@@ -127,6 +129,7 @@ Ext.application({
         splashscreen.fadeOut({
             duration: 500,
             remove: true
-        });      
-    } 
+        });
+        
+    }
 });

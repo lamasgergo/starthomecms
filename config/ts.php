@@ -72,6 +72,9 @@ return [
         ],
         'PropertiesImages'=>[
             'add'=>'Képek hozzáadva'
+        ],
+        'RentedPropertiesContacts'=>[
+            'rental'=>'Bérbe/Eladás történt'
         ]
     ],
     'FieldNames' => [
