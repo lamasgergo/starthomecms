@@ -384,12 +384,12 @@ class PropertiesTable extends Table
             ->compare('bedroom_from', [
                 'operator'=>'>=',
                 'includeEmpty' => true,
-                'field' =>  '(COALESCE(PropertiesLayouts.room,0))'
+                'field' =>  'COALESCE(PropertiesLayouts.room,0)'
             ])
             ->compare('bedroom_to', [
                 'operator'=>'<=',
                 'includeEmpty' => true,
-                'field' =>  'COALESCE(PropertiesLayouts.room,0))'
+                'field' =>  'COALESCE(PropertiesLayouts.room,0)'
             ])
             ->compare('bathroom_from', [
                 'operator'=>'>=',
@@ -515,7 +515,7 @@ class PropertiesTable extends Table
                 'conditions' => 'PropertiesContacts.contact_id = Contacts.id',
             ])
             ->distinct()
-            ->where(['Contacts.id' => $args['contact_id']]);
+            ->where(['Contacts.id' => $args['contact_id'], 'type IN (1,2)']);
 
         $query->where(['Properties.id IN' => $matchingContact]);
     }
