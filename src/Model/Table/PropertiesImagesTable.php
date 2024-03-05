@@ -84,5 +84,9 @@ class PropertiesImagesTable extends Table
             'field' => $this->alias() . '.property_id'
         ]);
         return $search;
-    }     
+    }
+
+    public function afterSave($event, $entity, $options){
+        $this->Properties->updateAll(['modified' => date('Y-m-d H:i:s')], ['id' => $entity->property_id]);
+    }
 }
