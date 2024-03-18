@@ -283,6 +283,15 @@ foreach ($data as $k => $item) {
                 </div>
             </div>
             <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+                <a href="https://starthomebudapest.hu/<?=$this->request->query('lng')??'hu'?>/properties/property/data/<?=$item->id?>" target="_blank" class="show-details">
+                <?php
+                if($this->request->query('lng') == 'en'){
+                    echo 'Check the property details!';
+                }else{
+                    echo 'Tekintse meg az ingatlant!';
+                }
+                ?>
+                </a>
                 <div class="agent text-center">
                     <div class="avatar">
                         <?= $this->Html->image($item->owner->user->avatar_mini) ?>
