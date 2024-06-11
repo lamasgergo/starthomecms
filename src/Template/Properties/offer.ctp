@@ -283,7 +283,7 @@ foreach ($data as $k => $item) {
                 </div>
             </div>
             <div class="col-12 col-lg-4 mt-4 mt-lg-0">
-                <a href="https://starthomebudapest.hu/<?=$this->request->query('lng')??'hu'?>/properties/property/data/<?=$item->id?>" target="_blank" class="show-details">
+                <a href="https://starthomebudapest.hu/<?=$this->request->query('lng')??'hu'?>/properties/property/data/<?=$item->id?>?agent=<?=$item->owner->user->id?>" target="<?=$isMobile?'':'_blank'?>" class="show-details">
                     <?php
                     if($this->request->query('lng') == 'en'){
                         echo 'Please  click for more photos!';

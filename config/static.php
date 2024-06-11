@@ -106,7 +106,7 @@ return [
             //'5' => __d('start', 'Garázs külön kapható'),
             '6' => __d('start', 'Utcán közterületen (fizetős)'),
             '7' => __d('start', 'Utcán közterületen (ingyenes)'),
-           // '8' => __d('start', 'Felszíni beálló'),
+            '8' => __d('start', 'Zárt kocsibeálló'),
            // '9' => __d('start', 'Telken beálló'),
             //'10' => __d('start', 'Telken garázs'),
            // '11' => __d('start', 'Teremgarázs beállóhely vásárolható'),

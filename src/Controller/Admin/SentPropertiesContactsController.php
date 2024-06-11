@@ -170,7 +170,7 @@ class SentPropertiesContactsController extends AppController
 
                     if(!empty($properties))
                     {
-                        $hash = md5('Y-m-d H:i:s'.rand(100,999));
+                        $hash = md5(date('Y-m-d H:i:s').rand(100,999));
                         foreach($properties as $oneprop)
                         {
                             if(!empty($oneprop))

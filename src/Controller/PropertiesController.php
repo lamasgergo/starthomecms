@@ -52,7 +52,7 @@ class PropertiesController extends AppController
                     'Properties.PropertiesLayouts',
                     'Owner.Users'])
                 ->where(['PropertiesVariations.id IN' => $subquery]);
-            $this->set(compact('data', 'subquery'));
+            $this->set(compact('data', 'subquery', 'user'));
         }else{
 
         }

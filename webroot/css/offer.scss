@@ -86,17 +86,16 @@
   background-color:#d9d9d9;
   height:100%;
   img {
-    max-height: 312px;
-    object-fit: contain;
+    object-fit: cover;
     height:100%;
     @include lg{
-      max-height: 225px;
+      height: 225px;
     }
     @include xl{
-      max-height: 270px;
+      height: 270px;
     }
     @include xxl{
-      max-height: 312px;
+      height: 312px;
     }
   }
 }
@@ -105,16 +104,16 @@
   display: block;
   background-color: #d9d9d9;
   img {
-    max-height: 312px;
-    object-fit: contain;
+    height: 312px;
+    object-fit: cover;
     @include lg{
-      max-height: 460px;
+      height: 460px;
     }
     @include xl{
-      max-height: 550px;
+      height: 550px;
     }
     @include xxl{
-      max-height: 642px;
+      height: 642px;
     }
   }
 }
