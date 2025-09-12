@@ -2,3 +2,4 @@
 /logs/*
 /webroot/uploads/
 .idea/*
+/vendor/*
