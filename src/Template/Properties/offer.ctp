@@ -104,13 +104,33 @@ foreach ($data as $k => $item) {
 
         </div>
         <div class="row image-holder">
-            <div class="col-12 col-lg-8">
+            <div class="col-12 col-lg-8 position-relative">
 
                 <?= $this->Html->link(
                     $this->Html->image($this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->mainimage->image_original)]), ['class' => 'w-100']),
                     $this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->mainimage->image_original)]) . '.jpg',
                     ['class' => 'fb mainimage', 'rel' => 'gallery'.$item->id, 'escape' => false]
                 ); ?>
+                <?php
+                if(!empty($item->property->videourl)){
+                    // YouTube URL konvertálása embed formátumra
+                    $videoUrl = $item->property->videourl;
+                    if (strpos($videoUrl, 'youtube.com/watch?v=') !== false) {
+                        $videoId = substr($videoUrl, strpos($videoUrl, 'v=') + 2);
+                        $videoUrl = 'https://www.youtube.com/embed/' . $videoId;
+                    } elseif (strpos($videoUrl, 'youtu.be/') !== false) {
+                        $videoId = substr($videoUrl, strpos($videoUrl, 'youtu.be/') + 9);
+                        $videoUrl = 'https://www.youtube.com/embed/' . $videoId;
+                    }
+                    
+                    echo '<div class="video-link mt-2">';
+                    echo $this->Html->link(
+                        '<span class="material-symbols-outlined">play_circle</span> '.(__d('start', 'Nézze meg a videót')),
+                        $videoUrl,
+                        ['class' => 'fb', 'rel' => 'gallery'.$item->id, 'data-fancybox-type' => 'iframe', 'escape' => false]);
+                    echo '</div>';
+                }
+                ?>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="row h-100">

@@ -1516,6 +1516,23 @@ Ext.define('Tscrm.view.properties.Form', {
                             layout: 'fit',
                             items: [
                                 {
+                                    columnWidth: 1,
+                                    defaultType: 'textfield',
+                                    defaults: {
+                                        width: '90%',
+                                        labelWidth: '300px',
+                                        labelAlign: 'top'
+                                    },
+                                    items: [
+                                        {
+                                            fieldLabel: 'Videó url',
+                                            name: 'videourl',
+                                            defaultType: 'textfield',
+                                            allowBlank: true
+                                        }
+                                    ]
+                                },
+                                {
                                     reference: 'publicImages',
                                     autoHeight: true,
                                     bind: {

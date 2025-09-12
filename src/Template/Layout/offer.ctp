@@ -26,7 +26,7 @@ $cakeDescription = 'Offer';
     </title>
 
     <?php
-    echo $this->Html->css(['offer.css','../js/lib/fancybox/2.1.5/jquery.fancybox.css']);
+    echo $this->Html->css(['offer.css?v=2','../js/lib/fancybox/2.1.5/jquery.fancybox.css']);
     echo $this->Html->script(['https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js', 'lib/fancybox/2.1.5/jquery.fancybox.pack.js']);
     echo $this->Html->scriptBlock("
     $(document).ready(function ()
