@@ -102,15 +102,15 @@ if($property->properties_variation->type == 1)
 Alulírott...............................................................
 lakcím:...................................................tel.sz:....................................................................
 ezúton írásban igazolom, hogy az fenti címe/ken található eladó/kiadó ingatlant a mai napon a
-Start Home Budapest Kft. 1025. Budapest, Fajd utca 2. (adószám: 27854479-2-41)  közvetítésével ismertem meg.
+Start Home Budapest Kft. 1025 Budapest, Szeréna út 63. (adószám: 27854479-2-41)  közvetítésével ismertem meg.
 Az ingatlant ezt megelőzően sem hirdetés, sem más irodán keresztül vagy más forrásból nem
 ismertem. Kijelentem, hogy a megkapott ingatlan címe üzleti titkot képez, harmadik személynek
 tovább közvetítésre nem adom át. Tudomásul veszem, hogy a fenti ingatlanra vonatkozó
 vásárlási vagy bérbevételi szándék bejelentése, adásvételi, foglalói, ill. bárminemű előszerződés
-kezdeményezése csak Start Home Budapest Kft. 1025. Budapest, Fajd utca 2. (adószám: 27854479-2-41)  közreműködésével, annak tudtával történhet.
+kezdeményezése csak Start Home Budapest Kft. 1025 Budapest, Szeréna út 63. (adószám: 27854479-2-41)  közreműködésével, annak tudtával történhet.
 Hozzájárulok, hogy az iroda adataimat megtekintse, azt nyilvántartásba rögzítse. Az adatokat
 harmadik fél részére tovább nem adhatja.
-Igazolom, hogy a fenti ingatlan/ok Start Home Budapest Kft. 1025. Budapest, Fajd utca 2. (adószám: 27854479-2-41) által kiközvetítettnek minősül nemcsak
+Igazolom, hogy a fenti ingatlan/ok Start Home Budapest Kft. 1025 Budapest, Szeréna út 63. (adószám: 27854479-2-41) által kiközvetítettnek minősül nemcsak
 részemre, hanem minden olyan jogi és természetes személy részére, aki az ingatlanról általam
 szerzett tudomást.     <br><br><br><br>
 ........................................................<br>
