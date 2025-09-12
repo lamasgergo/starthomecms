@@ -647,3 +647,6 @@ msgstr ""
 msgid "1 garázs, 2 beálló"
 msgstr ""
 
+msgid "Nézze meg a videót"
+msgstr ""
+
