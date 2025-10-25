@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2018-10-10 15:37+0200\n"
-"PO-Revision-Date: 2025-09-12 15:14+0200\n"
+"PO-Revision-Date: 2024-06-11 11:34+0200\n"
 "Last-Translator: Tamás Gergely <tamas.gergely@totalstudio.hu>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -636,6 +636,18 @@ msgstr "Watch the video"
 
 #~ msgid "Zárt kocsibeálló"
 #~ msgstr "Indoor parking place"
+
+msgid "Földszinti"
+msgstr "Ground floor"
+
+msgid "Részben bútorozott"
+msgstr "Partially furnished"
+
+msgid "Hőszivattyús fűtés"
+msgstr "Heat pump heating"
+
+msgid "Fal hűtés-fűtés"
+msgstr "Wall cooling-heating"
 
 #~ msgid "Nincs garázs"
 #~ msgstr "No garage"

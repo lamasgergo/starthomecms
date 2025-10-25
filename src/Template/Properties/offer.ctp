@@ -297,6 +297,13 @@ foreach ($data as $k => $item) {
                                 <div class="col-12 param-title"><?=$item->property->terrace_name?></div>
                             </div>
                         <?php endif;?>
+                        <?php
+                        if($item->property->lowerlevel):
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-12 param-title"><?=__d('start', 'Földszinti')?></div>
+                            </div>
+                        <?php endif;?>
                     </div>
 
 

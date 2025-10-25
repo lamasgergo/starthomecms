@@ -40,6 +40,8 @@ return [
             '15' => __d('start', 'Geotermikus'),
             '16' => __d('start', 'Fa'),
             '17' => __d('start', 'Héra'),
+            '18' => __d('start', 'Hőszivattyús fűtés'),
+            '19' => __d('start', 'Fal hűtés-fűtés'),
         ],
 
         'panorama_type' => [
@@ -122,7 +124,8 @@ return [
             '1' => __d('start', 'Bútorozott'),
             '2' => __d('start', 'Bútorozatlan'),
             '3' => __d('start', 'Üresen/Bútorral'),
-            '4' => __d('start', ' Bútorral/ üresen')
+            '4' => __d('start', ' Bútorral/ üresen'),
+            '5' => __d('start', ' Részben bútorozott'),
         ],   
         'caution_type' => [
             '1' => __d('start', '1 havi'),

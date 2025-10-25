@@ -40,7 +40,8 @@
     <?php
     if(!empty($this->request->query['hash'])){
         ?>
-        <a href="/offer/<?=$this->request->query['hash']?>?lng=en" class="button" target="blank">Kiajánlás URL</a>
+        <a href="/offer/<?=$this->request->query['hash']?>?lng=en" class="button" target="blank">Kiajánlás URL (Angol)</a>
+        <a href="/offer/<?=$this->request->query['hash']?>?lng=hu" class="button" target="blank">Kiajánlás URL (Magyar)</a>
 
         <?php
     }
