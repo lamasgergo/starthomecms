@@ -30,7 +30,12 @@ foreach ($data as $k => $item) {
                                     </div>
                                     <div class="col-12 align-self-end street">
                                         <b>
-                                            <?= $item->property->address_short_en ?>
+                                            <?php
+                                            if($this->request->query('lng') == 'en') {
+                                                echo $item->property->address_short_en;
+                                            }else{
+                                                echo $item->property->address_short;
+                                            }?>
                                         </b>
                                         <div><?= $item->property->citypart->citypart ?></div>
                                     </div>
@@ -50,7 +55,7 @@ foreach ($data as $k => $item) {
                         <div class="col-auto icon align-self-center"><span
                                     class="material-symbols-outlined">villa</span></div>
                         <div class="col align-self-center"><span
-                                    class="title">Size</span><?= $item->property->size_net ?> m2
+                                    class="title"><?=__d('start', 'Méret')?></span><?= $item->property->size_net ?> m2
                         </div>
                     </div>
                 </div>
@@ -104,33 +109,13 @@ foreach ($data as $k => $item) {
 
         </div>
         <div class="row image-holder">
-            <div class="col-12 col-lg-8 position-relative">
+            <div class="col-12 col-lg-8">
 
                 <?= $this->Html->link(
                     $this->Html->image($this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->mainimage->image_original)]), ['class' => 'w-100']),
                     $this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->mainimage->image_original)]) . '.jpg',
                     ['class' => 'fb mainimage', 'rel' => 'gallery'.$item->id, 'escape' => false]
                 ); ?>
-                <?php
-                if(!empty($item->property->videourl)){
-                    // YouTube URL konvertálása embed formátumra
-                    $videoUrl = $item->property->videourl;
-                    if (strpos($videoUrl, 'youtube.com/watch?v=') !== false) {
-                        $videoId = substr($videoUrl, strpos($videoUrl, 'v=') + 2);
-                        $videoUrl = 'https://www.youtube.com/embed/' . $videoId;
-                    } elseif (strpos($videoUrl, 'youtu.be/') !== false) {
-                        $videoId = substr($videoUrl, strpos($videoUrl, 'youtu.be/') + 9);
-                        $videoUrl = 'https://www.youtube.com/embed/' . $videoId;
-                    }
-                    
-                    echo '<div class="video-link mt-2">';
-                    echo $this->Html->link(
-                        '<span class="material-symbols-outlined">play_circle</span> '.(__d('start', 'Nézze meg a videót')),
-                        $videoUrl,
-                        ['class' => 'fb', 'rel' => 'gallery'.$item->id, 'data-fancybox-type' => 'iframe', 'escape' => false]);
-                    echo '</div>';
-                }
-                ?>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="row h-100">
@@ -207,7 +192,13 @@ foreach ($data as $k => $item) {
         <div class="row description-holder mt-3">
             <div class="col-12 col-lg-8">
                 <h4><?=__d('start', 'Leírás')?></h4>
-                <?= $item->description_en ?>
+                <?php
+                if($this->request->query('lng') == 'en') {
+                    echo $item->description_en;
+                }else {
+                    echo $item->description;
+                }
+                ?>
                 <hr>
                 <div class="row">
 
@@ -223,35 +214,35 @@ foreach ($data as $k => $item) {
                         <?php
 
                         if(!empty($item->furniture_type)):
-                        ?>
-                        <div class="row detail-param">
-                            <div class="col-4 param-title"><?=__d('start', 'Bútorozás')?></div>
-                            <div class="col-8"><?= $item->furniture_type_name ?></div>
-                        </div>
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-4 param-title"><?=__d('start', 'Bútorozás')?></div>
+                                <div class="col-8"><?= $item->furniture_type_name ?></div>
+                            </div>
                         <?php endif;?>
                         <?php
                         if(!empty($item->property->outlook)):
-                        ?>
-                        <div class="row detail-param">
-                            <div class="col-4 param-title"><?=__d('start', 'Kilátás')?></div>
-                            <div class="col-8"><?= $item->property->panorama_type_name ?></div>
-                        </div>
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-4 param-title"><?=__d('start', 'Kilátás')?></div>
+                                <div class="col-8"><?= $item->property->panorama_type_name ?></div>
+                            </div>
                         <?php endif;?>
                         <?php
                         if(!empty($item->property->pool_type)):
                             ?>
-                        <div class="row detail-param">
-                            <div class="col-4 param-title"><?=__d('start', 'Medence')?></div>
-                            <div class="col-8"><?= $item->property->pool_type_name ?></div>
-                        </div>
+                            <div class="row detail-param">
+                                <div class="col-4 param-title"><?=__d('start', 'Medence')?></div>
+                                <div class="col-8"><?= $item->property->pool_type_name ?></div>
+                            </div>
                         <?php endif;?>
                         <?php
                         if(!empty($item->property->heat_type)):
-                        ?>
-                        <div class="row detail-param">
-                            <div class="col-4 param-title"><?=__d('start', 'Fűtés')?></div>
-                            <div class="col-8"><?= $item->property->heat_type_name ?></div>
-                        </div>
+                            ?>
+                            <div class="row detail-param">
+                                <div class="col-4 param-title"><?=__d('start', 'Fűtés')?></div>
+                                <div class="col-8"><?= $item->property->heat_type_name ?></div>
+                            </div>
                         <?php endif;?>
                     </div>
                     <div class="col-12 col-lg-6">
