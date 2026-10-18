@@ -124,8 +124,8 @@ return [
             '1' => __d('start', 'Bútorozott'),
             '2' => __d('start', 'Bútorozatlan'),
             '3' => __d('start', 'Üresen/Bútorral'),
-            '4' => __d('start', ' Bútorral/ üresen'),
-            '5' => __d('start', ' Részben bútorozott'),
+            '4' => __d('start', 'Bútorral/ üresen'),
+            '5' => __d('start', 'Részben bútorozott'),
         ],   
         'caution_type' => [
             '1' => __d('start', '1 havi'),
