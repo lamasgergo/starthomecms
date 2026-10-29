@@ -247,54 +247,31 @@ foreach ($data as $k => $item) {
                     </div>
                     <div class="col-12 col-lg-6">
                         <?php
-                        if($item->property->newlybuilt):
+                        $terraceType = (int)$item->property->terrace;
+                        $yesNo = function ($value) {
+                            return $value ? __d('start', 'Igen') : __d('start', 'Nem');
+                        };
+                        $hasNot = function ($value) {
+                            return $value ? __d('start', 'Van') : __d('start', 'Nincs');
+                        };
+                        $featureRows = [
+                            [__d('start', 'Újépítésű'), $yesNo(!empty($item->property->newlybuilt))],
+                            [__d('start', 'Légkondicionáló'), $hasNot(!empty($item->property->aircondition))],
+                            [__d('start', 'Kertkapcsolatos'), $yesNo(!empty($item->property->gardencontact))],
+                            [__d('start', 'Lift'), $hasNot(!empty($item->property->elevator))],
+                            [__d('start', 'Rövidtávra is'), $yesNo(!empty($item->shortterm))],
+                            [__d('start', 'Terasz'), $hasNot($terraceType === 3)],
+                            [__d('start', 'Erkély'), $hasNot($terraceType === 2)],
+                            [__d('start', 'Loggia'), $hasNot($terraceType === 1)],
+                            [__d('start', 'Földszinti'), $yesNo(!empty($item->property->lowerlevel))],
+                        ];
+                        foreach ($featureRows as $featureRow):
                             ?>
                             <div class="row detail-param">
-                                <div class="col-12 param-title"><?=__d('start', 'Újépítésű')?></div>
+                                <div class="col-8 param-title"><?= $featureRow[0] ?></div>
+                                <div class="col-4"><?= $featureRow[1] ?></div>
                             </div>
-                        <?php endif;?>
-                        <?php
-                        if($item->property->aircondition):
-                            ?>
-                            <div class="row detail-param">
-                                <div class="col-12 param-title"><?=__d('start', 'Légkondicionáló')?></div>
-                            </div>
-                        <?php endif;?>
-                        <?php
-                        if($item->property->gardencontact):
-                            ?>
-                            <div class="row detail-param">
-                                <div class="col-12 param-title"><?=__d('start', 'Kertkapcsolatos')?></div>
-                            </div>
-                        <?php endif;?>
-                        <?php
-                        if(!empty($item->property->elevator)):
-                            ?>
-                            <div class="row detail-param">
-                                <div class="col-12 param-title"><?= __d('start', 'Lift') ?></div>
-                            </div>
-                        <?php endif;?>
-                        <?php
-                        if($item->property->shortterm):
-                            ?>
-                            <div class="row detail-param">
-                                <div class="col-12 param-title"><?=__d('start', 'Rövidtávra is')?></div>
-                            </div>
-                        <?php endif;?>
-                        <?php
-                        if($item->property->terrace):
-                            ?>
-                            <div class="row detail-param">
-                                <div class="col-12 param-title"><?=$item->property->terrace_name?></div>
-                            </div>
-                        <?php endif;?>
-                        <?php
-                        if($item->property->lowerlevel):
-                            ?>
-                            <div class="row detail-param">
-                                <div class="col-12 param-title"><?=__d('start', 'Földszinti')?></div>
-                            </div>
-                        <?php endif;?>
+                        <?php endforeach; ?>
                     </div>
 
 

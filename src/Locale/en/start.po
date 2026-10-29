@@ -65,19 +65,19 @@ msgstr "Bock of flats"
 
 #: static.php:17
 msgid "Ipari telep"
-msgstr ""
+msgstr "Industrial site"
 
 #: static.php:18
 msgid "Vendéglő"
-msgstr ""
+msgstr "Restaurant"
 
 #: static.php:19
 msgid "Hotel stb.."
-msgstr ""
+msgstr "Hotel etc."
 
 #: static.php:20
 msgid "Ker. obj"
-msgstr ""
+msgstr "Commercial property"
 
 #: static.php:21
 msgid "Kastély kúria"
@@ -253,11 +253,11 @@ msgstr ""
 
 #: static.php:77
 msgid "Beltéri"
-msgstr ""
+msgstr "Indoor"
 
 #: static.php:78
 msgid "Kültéri"
-msgstr ""
+msgstr "Outdoor"
 
 #: static.php:81
 msgid "Luxus"
@@ -380,7 +380,7 @@ msgid "Üresen/Bútorral"
 msgstr "Furnidhed/Unfurnished"
 
 #: static.php:120
-msgid " Bútorral/ üresen"
+msgid "Bútorral/ üresen"
 msgstr "Furnished/Unfurnished"
 
 #: static.php:123
@@ -393,11 +393,11 @@ msgstr ""
 
 #: static.php:127
 msgid "Nem"
-msgstr ""
+msgstr "No"
 
 #: static.php:128
 msgid "Igen"
-msgstr ""
+msgstr "Yes"
 
 #: static.php:131
 msgid "Megbízási szerződés"
@@ -610,6 +610,9 @@ msgstr "Property type"
 msgid "Leírás"
 msgstr "Description"
 
+msgid "Méret"
+msgstr "Size"
+
 msgid "Nappali"
 msgstr "Livingroom"
 
@@ -634,11 +637,14 @@ msgstr "1 garage, 2 places"
 msgid "Nézze meg a videót"
 msgstr "Watch the video"
 
-#~ msgid "Zárt kocsibeálló"
-#~ msgstr "Indoor parking place"
+msgid "Zárt kocsibeálló"
+msgstr "Indoor parking place"
 
 msgid "Földszinti"
 msgstr "Ground floor"
+
+msgid "Rövidtávra is"
+msgstr "Also short term"
 
 msgid "Részben bútorozott"
 msgstr "Partially furnished"
