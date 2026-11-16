@@ -109,13 +109,24 @@ foreach ($data as $k => $item) {
 
         </div>
         <div class="row image-holder">
-            <div class="col-12 col-lg-8">
+            <div class="col-12 col-lg-8 position-relative">
 
                 <?= $this->Html->link(
                     $this->Html->image($this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->mainimage->image_original)]), ['class' => 'w-100']),
                     $this->Url->build(['controller' => 'PropertiesImages', 'action' => 'tn', base64_encode($item->property->mainimage->image_original)]) . '.jpg',
                     ['class' => 'fb mainimage', 'rel' => 'gallery'.$item->id, 'escape' => false]
                 ); ?>
+                <?php if (!empty($item->property->videourl)): ?>
+                    <div class="video-holder">
+                        <div class="video-link">
+                            <?= $this->Html->link(
+                                '<span class="material-symbols-outlined">play_circle</span>' . __d('start', 'Nézze meg a videót'),
+                                $item->property->videourl,
+                                ['class' => 'fb', 'escape' => false]
+                            ) ?>
+                        </div>
+                    </div>
+                <?php endif; ?>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="row h-100">

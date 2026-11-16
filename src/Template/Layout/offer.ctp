@@ -26,13 +26,20 @@ $cakeDescription = 'Offer';
     </title>
 
     <?php
-    echo $this->Html->css(['offer.css?v=2','../js/lib/fancybox/2.1.5/jquery.fancybox.css']);
-    echo $this->Html->script(['https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js', 'lib/fancybox/2.1.5/jquery.fancybox.pack.js']);
+    echo $this->Html->css(['offer.css?v=4','../js/lib/fancybox/2.1.5/jquery.fancybox.css']);
+    echo $this->Html->script([
+        'https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js',
+        'lib/fancybox/2.1.5/jquery.fancybox.pack.js',
+        'lib/fancybox/2.1.5/helpers/jquery.fancybox-media.js'
+    ]);
     echo $this->Html->scriptBlock("
     $(document).ready(function ()
-        {          
-                $('.fb').fancybox();
-                
+        {
+                $('.fb').fancybox({
+                    helpers: {
+                        media: true
+                    }
+                });
         });
     ",['block' => 'script']);
     echo $this->Html->meta(
